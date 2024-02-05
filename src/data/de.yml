@@ -59,7 +59,7 @@ home:
   p4xp1: 'Es gibt viele Wege, zu p5.js beizutragen:'
   p4xp2: Beteiligungsoptionen
   p4xp3: Teile etwas, das du erstellt hast!
-  p4xp4: Lehre einen Workshop oder Kurs.
+  p4xp4: Unterrichte einen Workshop oder Kurs.
   p4xp5: Organisiere ein Treffen.
   p4xp6: Trage zur Codebasis bei.
   sketch_credits: Skizzen-Credits
@@ -2080,9 +2080,9 @@ showcase:
   project-a-5-1-moon: 'Schau Dir das '
   project-a-5-2-moon: ' in Mailand, Italien an.'
 teach:
-  teach-title2: Lehre
+  teach-title2: Unterrichten
   teach-intro1: >-
-    Jede Lehre hat ihre eigenen einzigartigen Ziele, Botschaften, Bedingungen und
+    Jeder Unterricht hat seine eigenen einzigartigen Ziele, Botschaften, Bedingungen und
     Umgebungen.
   teach-intro2: >-
     Durch das Dokumentieren und Teilen von p5-Workshops, Klassen und Materialien hoffen wir,
