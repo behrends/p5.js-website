@@ -1,0 +1,2446 @@
+Skip-To-Content: Zum Inhalt springen
+Language-Settings: Spracheinstellungen
+Sidebar-Title: Seitennavigation
+Home: Startseite
+Editor: Editor
+Download: Herunterladen
+Donate: Spenden
+Start: Loslegen
+Reference: Referenz
+Libraries: Bibliotheken
+Learn: Lernen
+Teach: Lehren
+Examples: Beispiele
+Books: Bücher
+Community: Community
+Contribute: Mitwirken
+Forum: Forum
+Showcase: Showcase
+footerxh1: Danksagung
+footer1: 'p5.js wird derzeit geleitet von '
+footer3: ' und wurde erstellt von '
+footer4: '. p5.js wird von einer Gemeinschaft von Mitwirkenden entwickelt, mit Unterstützung von der '
+footer5: ' und '
+footer6: '. Identität und Grafikdesign von '
+footer7: '. '
+footer8: 'Infos'
+footer9: '.'
+tagline1: Processing Spaß mal JavaScript Eigenheiten
+tagline2: Processing Einfachheit mal JavaScript Flexibilität
+tagline3: Processing Intuition mal JavaScript Leistung
+tagline4: Processing Kreativität mal JavaScript Dynamik
+tagline5: Processing Community mal JavaScript Community
+tagline6: die Kraft von Processing mal die Reichweite von JavaScript
+tagline7: Die p5.js-Community steht in Solidarität mit Black Lives Matter.
+home:
+  start-creating: Werde kreativ mit dem p5 Editor!
+  p1xh1: Hallo!
+  p1x1: >-
+    p5.js ist eine JavaScript-Bibliothek für kreatives Programmieren, mit dem Schwerpunkt, das Programmieren zugänglich und inklusiv für Kunstschaffende, Designer/Designerinnen, Lehrende, Anfänger/Anfängerinnen und jeden anderen zu machen! p5.js ist frei und Open-Source, weil wir glauben, dass Software und die Werkzeuge, sie zu lernen, für alle zugänglich sein sollten.
+  p1x2: >-
+    Mit der Metapher einer Skizze bietet p5.js eine vollständige Reihe von Zeichenfunktionen. Du bist jedoch nicht auf deine Zeichenfläche beschränkt. Du kannst deine gesamte Browserseite als deine Skizze betrachten, einschließlich HTML5-Objekten für Text, Eingabe, Video, Webcam und Sound.
+  p2xh2: Community
+  p2x1: >-
+    Wir sind eine Gemeinschaft von und in Solidarität mit Menschen jeder Geschlechtsidentität und -ausdrucksweise, sexuellen Orientierung, Rasse, Ethnizität, Sprache, Neurotyp, Größe, Behinderung, Klasse, Religion, Kultur, Subkultur, politischen Meinung, Alter, Fähigkeitsniveau, Beruf und Hintergrund. Wir erkennen an, dass nicht jeder die Zeit, die finanziellen Mittel oder die Kapazität hat, aktiv teilzunehmen, aber wir erkennen und ermutigen die Beteiligung aller Arten. Wir erleichtern und fördern Zugang und Ermächtigung. Wir sind alle Lernende.
+  p2x2: 'p5.js ist eine Interpretation von '
+  p2x3: ' für das heutige Web. Wir veranstalten Events und operieren mit Unterstützung von der '
+  p2x4: .
+  p2x5: 'Erfahre mehr über '
+  p2x6: unsere Community
+  p2x7: .
+  p3xh2: Loslegen
+  p3xp1: 'Mache deine erste Skizze im '
+  p3xp2: '. Erfahre mehr über das Skizzieren mit p5.js auf der '
+  p3xp3: Loslegen-Seite
+  p3xp4: ' und alles, was du mit der '
+  p3xp5: Referenz
+  p3xp6: ' machen kannst.'
+  p4xh2: Mitwirken
+  p4xp1: 'Es gibt viele Wege, zu p5.js beizutragen:'
+  p4xp2: Beteiligungsoptionen
+  p4xp3: Teile etwas, das du erstellt hast!
+  p4xp4: Lehre einen Workshop oder Kurs.
+  p4xp5: Organisiere ein Treffen.
+  p4xp6: Trage zur Codebasis bei.
+  sketch_credits: Skizzen-Credits
+  sketch_info: Hunminjeongeum2020 erstellt von Seonghyeon Kim
+copyright:
+  copyright-title: Urheberrechtsinformationen
+  copyright1:
+    'Die p5.js-Bibliothek ist freie Software; du kannst sie weitergeben und/oder modifizieren
+    unter den Bedingungen der '
+  copyright2: ' wie von der Free Software Foundation veröffentlicht, Version 2.1.'
+  copyright3: 'Die Referenz für die Sprache steht unter einer '
+  copyright4: ' Lizenz, die es ermöglicht, diesen Inhalt für nicht-kommerzielle Zwecke zu nutzen, wenn er zitiert wird.'
+get started:
+  get-started-title: Loslegen
+  get-started1: >-
+    Diese Seite führt dich durch die Einrichtung eines p5.js-Projekts und die Erstellung deiner ersten Skizze.
+  get-started2: 'Der einfachste Weg zu starten ist die Verwendung des '
+  get-started3: p5.js-Editors
+  get-started4: ', du kannst den Web-Editor öffnen und nach unten scrollen zu '
+  get-started5: Deine erste Skizze
+  get-started6: >-
+    . Wenn du auf der Desktop-Version von p5.js arbeiten möchtest, kannst du nach unten scrollen zu den    
+  get-started7: Download-Anweisungen
+  get-started-button: 'Kopieren'
+  settingUp-title: Einrichten von p5.js mit einem Editor auf deinem eigenen Computer
+  download-title: Herunterladen einer Kopie der p5.js-Bibliothek
+  hosted-title: Verwenden einer gehosteten Version der p5.js-Bibliothek
+  download1: 'Der einfachste Weg zu starten, ist mit dem leeren Beispiel, das beim '
+  download2: p5.js Komplettpaket
+  download3: ' Download enthalten ist.'
+  download8: 'Nach dem Download musst du einen lokalen Server einrichten. Siehe Anweisungen '
+  download9: hier
+  download10: '. Führe deinen lokalen Server innerhalb des heruntergeladenen Ordners aus und gehe in deinem Browser zu'
+  download11: 'http://localhost:{dein-port-num}/empty-example'
+  download4: >-
+    Wenn du in index.html schaust, wirst du bemerken, dass es auf die Datei p5.js verlinkt. Wenn
+    du die minifizierte Version verwenden möchtest (komprimiert für schnelleres Seitenladen), ändere den Link zu p5.min.js.
+  download5: >-
+    Alternativ kannst du auf eine online gehostete p5.js-Datei verlinken. Alle Versionen von
+    p5.js werden in einem CDN (Content Delivery Network) gespeichert. Du kannst eine Historie
+    dieser Versionen in der
+  download6: ' finden. In diesem Fall kannst du den Link ändern zu:'
+  download7: 'Eine Beispiel-HTML-Seite könnte so aussehen:'
+  environment-title: Umgebung
+  environment1: 'Um p5.js auf deinem Computer auszuführen benötigst du einen Texteditor. Du kannst den '
+  environmentlink: 'http://en.wikipedia.org/wiki/Source_code_editor'
+  environment2: ' Code-Editor '
+  environment3: 'deiner Wahl verwenden. Anweisungen zur Einrichtung mit '
+  environment4: ' sind unten enthalten, andere gute Editor-Optionen sind '
+  environment5: ' und '
+  environment6: >-
+    Wenn du ein Screenreader-Benutzer bist und nicht den p5-Web-Editor verwendest, möchtest du vielleicht
+  environment7: ' oder '
+  environment8: >-
+    Öffne Sublime. Gehe zum Dateimenü und wähle Öffnen... und wähle den Ordner
+    aus, in dem sich deine HTML- und js-Dateien befinden. In der linken Seitenleiste solltest
+    du den Ordnernamen oben finden, mit einer Liste der Dateien, die sich im Ordner direkt darunter befinden.
+  environment9: >-
+    Klicke auf deine sketch.js-Datei und sie wird rechts geöffnet, wo du sie
+    bearbeiten kannst.
+  environment10: p5-Starter-Code geöffnet im Sublime-Editor.
+  environment11: >-
+    Öffne die index.html-Datei in deinem Browser, indem du darauf in deinem
+    Dateimanager doppelklickst oder tippe:
+  environment12: 'file:///der/dateipfad/zu/deinem/html'
+  environment14: ' (oder '
+  environment15: 'http://localhost:{dein-port-num}/empty-example'
+  environment16: ' wenn du einen lokalen Server verwendest)'
+  environment13: ' in der Adresszeile, um deine Skizze anzusehen.'
+  your-first-sketch-title: Deine erste Skizze
+  your-first-sketch-intro1: 'Im '
+  your-first-sketch-intro2: 'https://editor.p5js.org/'
+  your-first-sketch-intro3: p5.js Web-Editor
+  your-first-sketch-intro4: ' findest du folgenden Code:'
+  your-first-sketch1: 'Nach '
+  your-first-sketch2: ' füge diese Codezeile hinzu: '
+  your-first-sketch3: 'Nun sollte dein Code so aussehen: '
+  your-first-sketch4: >-
+    Die Zeile, die du gerade hinzugefügt hast, zeichnet eine Ellipse, deren Zentrum 50 Pixel vom linken Rand und 50 Pixel vom oberen Rand entfernt ist, mit einer Breite und Höhe von 80 Pixeln.
+  your-first-sketch5: Drücke im Editor auf Abspielen, um deinen Code in Aktion zu sehen!
+  your-first-sketch6: >-
+    Wenn du einen Screenreader verwendest, musst du die zugänglichen Ausgaben im p5 Online-Editor aktivieren, außerhalb des Editors musst du die Accessibility-Bibliothek in dein HTML hinzufügen. Um mehr zu erfahren besuche&#32;
+  your-first-sketch7: 'den p5 mit Screenreader-Tutorial verwenden'
+  your-first-sketch8: >-
+    Wenn du alles richtig eingegeben hast, erscheint dies im Anzeigefenster:
+  your-first-sketch9: die Leinwand hat einen Kreis mit Breite und Höhe 50 an Position 80 x und 80 y
+  your-first-sketch10: >-
+    Wenn nichts erscheint, hat der Editor möglicherweise Schwierigkeiten zu verstehen, was
+    du eingegeben hast. Wenn dies passiert, stelle sicher, dass du den Beispielcode genau kopiert hast: die Zahlen sollten in Klammern und mit Kommas zwischen jedem von ihnen stehen, die Zeile sollte mit einem Semikolon enden und Ellipse muss korrekt geschrieben sein.
+  your-first-sketch11: >-
+    Eines der schwierigsten Dinge beim Einstieg in die Programmierung ist,
+    dass du sehr spezifisch bezüglich der Syntax sein musst. Der Browser ist nicht immer
+    klug genug, um zu wissen, was du meinst, und kann recht pingelig bezüglich
+    der Platzierung der Interpunktion sein. Du gewöhnst dich mit ein bisschen Übung daran. In der unteren linken Ecke des Editors findest du den Konsolenbereich. Hier kannst du Nachrichten vom Editor mit Details zu Fehlern finden, auf die er stößt.
+  your-first-sketch12: >-
+    Als Nächstes überspringen wir zu einer Skizze, die etwas spannender ist. Modifiziere das
+    letzte Beispiel, um dies zu versuchen:
+  your-first-sketch13: >-
+    Dieses Programm erstellt eine Leinwand, die 400 Pixel breit und 400 Pixel hoch ist,
+    und beginnt dann, weiße Kreise an der Position der Maus zu zeichnen. Wenn eine
+    Maustaste gedrückt wird, ändert sich die Kreisfarbe zu Schwarz. Führe den Code aus,
+    bewege die Maus und klicke, um es zu erleben.
+  your-first-sketch14: die Leinwand hat mehrere Kreise, die auf ihr gezeichnet sind, folgend dem Pfad der Maus
+  first-sketch-heading1: Code-Snippet mit Ellipse
+  first-sketch-heading2: Hinweis für Screenreader-Benutzer
+  first-sketch-heading3: Code-Snippet mit Interaktion
+  what-next-title: Was nun?
+  learn1: 'Sieh dir die '
+  learn2: Lernseite
+  learn3: ' und '
+  learn4: Beispielseite
+  learn5: ' für mehr.'
+  learn6: 'Schaue '
+  learn7: Der Coding Train
+  learn8: ' und '
+  learn9: Kadenze
+  learn10: ' Video-Tutorials an.'
+  reference1: 'Siehe das '
+  reference2: ' Referenz'
+  reference3: ' zur vollständigen Dokumentation.'
+  learn11: 'Wenn Du p5 mit einem Screenreader verwenden möchtest, schau Dir das '
+  learn12: p5 mit einem Screenreader Tutorial
+  processing-transition1: 'Wenn Du in der Vergangenheit Processing verwendet hast, lies '
+  processing-transition2: 'https://github.com/processing/p5.js/wiki/Processing-Übergang'
+  processing-transition3: Processing-Übergangs-Tutorial
+  processing-transition4: ' um zu lernen, wie man von Processing zu p5.js konvertiert und die Hauptunterschiede zwischen ihnen zu verstehen.'
+  book1: >-
+    Teile dieses Tutorials wurden aus dem Buch "Getting Started with
+    p5.js" von Lauren McCarthy, Casey Reas und Ben Fry, O'Reilly / Make 2015,
+    adaptiert. Urheberrecht © 2015. Alle Rechte vorbehalten. Zuletzt geändert bei der p5.js 2019
+    Contributors-Konferenz.
+download:
+  Download: Download
+  download-intro: >-
+    Willkommen! Obwohl als "Download" betitelt, enthält diese Seite tatsächlich eine Sammlung von
+    Links, um die Bibliothek herunterzuladen oder sofort online damit zu arbeiten. Wir haben
+    versucht, die Inhalte so zu ordnen, wie ein Anfänger sie vermutlich zuerst benötigen würde, bis hin zu
+    Ressourcen, die erfahrene Programmierer suchen könnten.
+  editor-title: Editor
+  p5.js-editor: p5.js Editor
+  p5.js-editor-intro: >-
+    Dieser Link leitet Dich zum online p5.js Editor um, sodass Du sofort mit
+    p5.js loslegen kannst.
+  editor-includes: 'Beginne sofort zu coden mit dem p5.js Editor, keine Einrichtung notwendig!'
+  complete-library-title: Vollständige Bibliothek
+  complete-library-intro1: >-
+    Dieser Download enthält die p5.js-Bibliothek, das p5.sound-Addon
+    und ein Beispielprojekt. Er enthält keinen Editor. Besuche
+  complete-library-intro2: Erste Schritte
+  complete-library-intro3: ' um zu lernen, wie Du ein p5.js Projekt einrichtest.'
+  p5.js-complete: p5.js komplett
+  includes-1: 'Enthält:'
+  includes-2: 'p5.js, p5.sound.js und ein Beispielprojekt'
+  includes-3: 'Version '
+  single-files-title: Einzelne Dateien
+  single-files-intro: >-
+    Diese Downloads oder Links zur p5.js Bibliotheksdatei. Kein weiterer
+    Inhalt enthalten.
+  single-file: 'Einzelne Datei: '
+  p5.js-uncompressed: Vollständige unkomprimierte Version
+  compressed: Komprimierte Version
+  link: 'Link: '
+  statically-hosted-file: Statisch gehostete Datei
+  etc-title: Github-Ressourcen
+  older-releases: Vorherige Versionen (ältere Releases und Changelog)
+  github-repository: Code-Repository (GitHub)
+  report-bugs: 'Fehler, Bugs und Probleme melden'
+  supported-browsers: 'Unterstützte Browser '
+  support-title: Unterstütze p5.js!
+  support-options: Unterstützungsoptionen
+  support-1:
+    'Wir benötigen Deine Hilfe! p5.js ist freie, Open-Source-Software. Wir möchten unsere Community so offen
+    und inklusiv wie möglich gestalten. Du kannst diese Arbeit unterstützen, indem Du eine Spende an die '
+  support-2: >-
+    , die Organisation, die p5.js unterstützt,
+    machst. Deine Spende unterstützt die Softwareentwicklung für p5.js, Bildungsressourcen
+    wie Code-Beispiele und Tutorials,
+  support-3: Stipendien
+  support-4: ', und '
+  support-5: Community-Veranstaltungen.
+  support-17: >-
+    p5.js Contributors-Konferenz am CMU STUDIO für Creative Inquiry in
+    Pittsburgh (Bildnachweis: Taeyoon Choi)
+  support-18: >-
+    Processing Fellow Saskia Freeke organisiert Code Liberation x Processing
+    Workshops in London (Bildnachweis: Code Liberation Foundation)
+  support-19: >-
+    Lernen zu Lehren, Lehren zu Lernen Konferenz mit SFPC (Bildnachweis:
+    Kira Simon-Kennedy)
+  support-20: >-
+    Processing Foundation Fellow Cassie Tarakajians Workshop bei Code Art Miami
+    (Bildnachweis: Christian Arévalo Fotografie)
+  support-21: >-
+    Taeyoon Choi und ASL Dolmetscher beim Signing Coders p5.js Workshop (Bild
+    credit: Taeyoon Choi)
+  support-22: 'Google Summer of Code Kickoff (Bildnachweis: Taeyoon Choi)'
+  support-23: >-
+    Processing Foundation Fellow Cassie Tarakajians Workshop bei Code Art Miami
+    (Bildnachweis: Christian Arévalo Fotografie)
+  support-24: >-
+    Luisa Pereira und Yeseul Song helfen, einen auf Gebärdensprache basierenden p5.js
+    Workshop, geleitet von Taeyoon Choi, zu ermöglichen (Bildnachweis: Taeyoon Choi)
+  support-25: >-
+    p5.js Contributors-Konferenz am CMU STUDIO für Creative Inquiry in
+    Pittsburgh (Bildnachweis: Taeyoon Choi)
+  support-26: >-
+    Processing Fellow Digital Citizens Lab hostet eine Diskussionsrunde zum Thema STEM-Unterricht im
+    International Center of Photography (Bild credit: International Center of Photography)
+  support-27: >-
+    Teilnehmer beim p5.js Workshop in Santiago, Chile, geleitet von Aarón
+    Montoya-Moraga (Bildnachweis: Aarón Montoya-Moraga.)
+  support-28: >-
+    Claire Kearney-Volpe hilft, einen auf Gebärdensprache basierenden p5.js Workshop
+    zu erleichtern, geleitet von Taeyoon Choi (Bildnachweis: Taeyoon Choi)
+  support-29: >-
+    Processing Foundation Fellow DIY Girls leiten ein kreatives Coding-Programm in Los
+    Angeles (Bildnachweis: DIY Girls)
+  support-30: Processing Fellow Digital Citizens Lab
+  support-31: Bicoastal p5.js Treffen an der UCLA DMA und NYU ITP
+  support-32: The Processing Foundation
+  support-33: ' wurde 2012 gegründet, nach mehr als einem Jahrzehnt Arbeit mit der ursprünglichen Processing-Software. Die Mission der Stiftung ist es, Softwarekompetenz innerhalb der visuellen Künste zu fördern, und visuelle Kompetenz in technologiebezogenen Feldern — und diese Felder für diverse Gemeinschaften zugänglich zu machen. Unser Ziel ist es, Menschen aller Interessen und Hintergründe zu befähigen, programmieren zu lernen und kreative Arbeit mit Code zu erstellen, insbesondere jene, die sonst keinen Zugang zu diesen Werkzeugen und Ressourcen hätten.'
+  support-17-alt: ''
+  support-18-alt: ''
+  support-19-alt: ''
+  support-20-alt: ''
+  support-21-alt: ''
+  support-22-alt: ''
+  support-23-alt: ''
+  support-24-alt: ''
+  support-25-alt: ''
+  support-26-alt: ''
+  support-27-alt: ''
+  support-28-alt: ''
+  support-29-alt: ''
+  support-30-alt: ''
+  support-31-alt: ''
+learn:
+  learn-title: Lernen
+  teach-title2: Unterrichten
+  learn1: >-
+    Diese Tutorials bieten detailliertere oder schrittweise Übersichten über
+    bestimmte Themen. Schaue auf die
+  learn2: Beispielseite
+  learn3: um kurze Demonstrationen verschiedener p5.js Themen zu erkunden.
+  introduction-to-p5js-title: Einführung in p5.js
+  hello-p5js-title: Hallo p5.js
+  hello-p5js: >-
+    Dieses kurze Video führt Dich in die Bibliothek ein und zeigt Dir, was Du damit machen kannst.
+  getting-started-title: Erste Schritte
+  getting-started: >-
+    Willkommen bei p5.js! <br> Diese Einführung behandelt die Grundlagen der Einrichtung eines
+    p5.js-Projekts.
+  p5js-overview-title: Übersicht über p5.js
+  p5js-overview: Eine Übersicht der Hauptfunktionen von p5.js.
+  p5js-processing-title: p5.js und Processing
+  p5js-processing: >-
+    Die wichtigsten Unterschiede zwischen den beiden und wie man von einem zum anderen konvertiert.
+  p5-screen-reader-title: p5 mit einem Bildschirmleser
+  p5-screen-reader: Die Einrichtung von p5, sodass es einfach mit einem Bildschirmleser verwendet werden kann.
+  using-local-server-title: Einen lokalen Server verwenden
+  accessible-labels-title: Zugängliche Canvas-Beschreibungen schreiben
+  accessible-labels: Das Verwenden von Beschriftungen, um Deinen Code für Bildschirmleser zugänglich zu machen.
+  accessible-labels-intro: Einführung
+  accessible-labels-intro-1: >-
+    In diesem Tutorial lernst Du, wie man <a class = "code" href = "https://p5js.org/reference/#/p5/describe">describe()</a>,
+    <a class = "code" href = "https://p5js.org/reference/#/p5/describeElement">describeElement()</a>, 
+    <a class = "code" href = "https://p5js.org/reference/#/p5/gridOutput">gridOutput()</a>, 
+    und <a class = "code" href = "https://p5js.org/reference/#/p5/textOutput">textOutput()</a> verwendet. Diese Funktionen fügen Deiner 
+    Leinwand Beschriftungen hinzu, sodass sie für Bildschirmleser und andere assistive Technologien lesbar ist.
+  accessible-labels-what-is-labeling: Was ist Beschriftung?
+  accessible-labels-what-is-labeling-1: >-
+    Wenn Du die Funktion <a class = "code" href = "https://p5js.org/reference/#/p5/createCanvas">createCanvas()</a> verwendest, erstellst Du 
+    ein Canvas-HTML-Element. Dieses Canvas-Element zeigt das durch Deinen Code erzeugte Bild als Bitmap (eine Rastergrafik, die aus Pixeln besteht). 
+    Im Gegensatz zu den meisten HTML-Elementen liefert das Canvas keine Beschreibung seines Inhalts für Bildschirmleser. 
+    Deshalb haben wir die Funktionen <a class = "code" href = "https://p5js.org/reference/#/p5/describe">describe()</a>, 
+    <a class = "code" href = "https://p5js.org/reference/#/p5/describeElement">describeElement()</a>, 
+    <a class = "code" href = "https://p5js.org/reference/#/p5/gridOutput">gridOutput()</a>, und 
+    <a class = "code" href = "https://p5js.org/reference/#/p5/textOutput">textOutput()</a> erstellt. 
+    Diese Funktionen fügen Deinem Canvas Beschriftungen hinzu, die den Bildschirmlesern erklären, wie es beschrieben werden soll.
+  accessible-labels-why-labeling-matters: Warum Beschriftung wichtig ist
+  accessible-labels-why-labeling-matters-1: >-
+    Bildschirmleser (und Text-zu-Sprache-Software) sind für viele Menschen hilfreich, <a href = "https://www.w3.org/WAI/perspective-videos/speech/" target="_blank" rel="noopener noreferrer">
+    unabhängig von Fähigkeiten oder Kontext</a>. Ein sehbehinderter Mensch, der im Internet sucht, könnte zum Beispiel einen Bildschirmleser verwenden, um 
+    den Inhalt einer Seite zu verstehen. Wenn der Code einer Site nicht korrekt für assistive Technologien beschriftet ist, 
+    kann die Text-zu-Sprache-Software dem Benutzer nicht kommunizieren, was auf der Site steht. Jemand anderes 
+    könnte eine Text-zu-Sprache-Software verwenden, weil er Dyslexie hat und es einfacher findet, sich den Inhalt der Site anzuhören, anstatt ihn zu lesen. Es gibt auch Menschen, die diese assistiven Software 
+    nutzen, um Multitasking zu betreiben, sodass sie sich einen Artikel im Web anhören und gleichzeitig Geschirr spülen oder andere Hausarbeiten erledigen können.
+  accessible-labels-why-labeling-matters-2: >-
+    Unabhängig vom Zweck oder der Person, stellt das Sicherstellen, dass Dein Code von diesen assistiven Software gelesen werden kann,
+    mehr Menschen die Möglichkeit, sich auf sinnvolle Weise mit Deiner Arbeit auseinanderzusetzen.
+  accessible-labels-available-labels: Verfügbarer Funktionen zur Beschriftung
+  accessible-labels-available-labels-1: p5.js bietet vier unterschiedliche Funktionen zur Beschriftung Deines Canvas
+  accessible-labels-available-labels-li-1: >-
+    <a class = "code" href = "https://p5js.org/reference/#/p5/describe">describe()</a> bietet eine Beschreibung des Canvas-Inhalts. 
+    Die Parameter dieser Funktion beinhalten: <span class = "code">text</span>, die Beschriftung selbst; und <span class = "code">display</span>, 
+    ein optionaler Parameter, um die Sichtbarkeit der Beschriftung einzustellen.
+  accessible-labels-available-labels-li-2: >-
+    <a class = "code" href = "https://p5js.org/reference/#/p5/describeElement">describeElement()</a> beschreibt ein spezifisches Element oder eine 
+    spezifische Gruppierung von Elementen im Canvas. Die Parameter dieser Funktion beinhalten: <span class = "code">name</span>, den Titel für die Beschriftung; 
+    <span class = "code">text</span>, die Beschriftung selbst; und <span class = "code">display</span>, ein optionaler Parameter, um die Sichtbarkeit der Beschriftung einzustellen.
+  accessible-labels-available-labels-li-3: >-
+    <a class = "code" href = "https://p5js.org/reference/#/p5/textOutput">textOutput()</a> generiert eine Liste, die die Größe des Canvas, die Farbe, 
+    sowie die Farbe, Position und den Bereich jedes visuellen Elements innerhalb des Canvas beschreibt. Der einzige Parameter dieser Funktion ist 
+    <span class = "code">display</span>, ein optionaler Parameter, um die Sichtbarkeit der Beschriftung einzustellen.
+  accessible-labels-available-labels-li-4: >-
+    <a class = "code" href = "https://p5js.org/reference/#/p5/gridOutput">gridOutput()</a>, ähnlich wie <a class = "code" href = "https://p5js.org/reference/#/p5/textOutput">textOutput()</a>, 
+    generiert eine Liste der Eigenschaften und Elemente des Canvas. Zusätzlich zu dieser Liste erstellt diese Funktion auch eine HTML-Tabelle, die die 
+    räumliche Position jeder Form innerhalb des Canvas aufzeichnet. Der einzige Parameter dieser Funktion ist <span class = "code">display</span>, ein optionaler Parameter 
+    zur Einstellung der Sichtbarkeit der Beschriftung.
+  accessible-labels-prerequisites: Voraussetzungen
+  accessible-labels-prerequisites-1: >-
+    Der Code Deines Projekts sollte fast fertig sein, bevor Du mit der Beschriftung beginnst. Um klare und effektive 
+    Beschriftungen zu schreiben, solltest Du ein klares Verständnis darüber haben, welche visuellen Elemente Dein Code innerhalb des Canvas 
+    erstellt.
+  accessible-labels-prerequisites-2: >-
+    Wenn Du zum Beispiel mit dem Schreiben Deiner Beschriftungen beginnst, bevor Du ein klares Verständnis des resultierenden 
+    visuellen Inhalts Deines Canvas hast, könnten Deine Beschriftungen und Deine visuellen Inhalte unterschiedliche Nachrichten kommunizieren, wie im folgenden 
+    Codebeispiel:
+  accessible-labels-steps-for-labeling: Schritte für die Beschriftung Deines p5.js-Codes
+  accessible-labels-steps-for-labeling-step-1: 1. Plane Deine Beschriftungsstrategie
+  accessible-labels-steps-for-labeling-step-1-1: >-
+    Deine Beschriftungsstrategie wird sich je nach Komplexität und Zweck Deines Projekts ändern.
+  accessible-labels-steps-for-labeling-step-1-2: >-
+    Unabhängig davon, wie kompliziert Dein Projekt sein mag, biete immer eine kurze Beschreibung Deines Canvas in 
+    <a class = "code" href = "https://p5js.org/reference/#/p5/setup">setup()</a> mithilfe der 
+    <a class = "code" href = "https://p5js.org/reference/#/p5/describe">describe()</a>-Funktion an. Wenn Du keine Beschriftungen in Deinem Code anbietest, 
+    werden Bildschirmleser Dein Canvas als leeres HTML-Element beschreiben.
+  accessible-labels-steps-for-labeling-step-1-3: >-
+    Platziere diese Beschriftung im <a class = "code" href = "https://p5js.org/reference/#/p5/setup">setup()</a>-Teil Deines Codes, 
+    und gib eine 1-3 Sätze lange Beschreibung Deines Canvas im <span class = "code">text</span>-Parameter an. Diese Beschreibung sollte nur Details über 
+    die visuellen Elemente Deines Canvas liefern.
+  accessible-labels-steps-for-labeling-step-1-4: >-
+    Wie zuvor erwähnt, musst Du Deine Beschreibung nicht mit „Ein p5-Canvas-Element...“ oder Ähnlichem beginnen, da der 
+    Bildschirmleser den Elementtyp vor dem Lesen Deiner Beschriftung deklarieren wird.
+  accessible-labels-steps-for-labeling-step-1-5: >-
+    Zusammen mit der <a class = "code" href = "https://p5js.org/reference/#/p5/describe">describe()</a>-Beschriftung nutze entweder die 
+    <a class = "code" href = "https://p5js.org/reference/#/p5/describeElement">describeElement()</a>, 
+    <a class = "code" href = "https://p5js.org/reference/#/p5/textOutput">textOutput()</a>, 
+    oder <a class = "code" href = "https://p5js.org/reference/#/p5/gridOutput">gridOutput()</a> 
+    Funktion, um detailliertere Beschriftungen innerhalb Deines Codes hinzuzufügen.
+  accessible-labels-steps-for-labeling-step-1-6: >-
+    Die <a class = "code" href = "https://p5js.org/reference/#/p5/textOutput">textOutput()</a>- und 
+    <a class = "code" href = "https://p5js.org/reference/#/p5/gridOutput">gridOutput()</a>-Funktionen können 
+    die Formen auf Deinem Canvas beschreiben, aber sie können Deine Absicht bei der Verwendung der Formen nicht interpretieren. Behalte den Kontext im Kopf, wenn Du auswählst,
+    welche Funktion(en) zu nutzen. Ist es besser, die Blume als „acht Kreise und ein Rechteck“ zu beschreiben, oder als „eine Blume mit roten 
+    Blütenblättern und einem grünen Stiel“? Welche Art von Beschriftung bietet die beste Beschreibung Deines Canvas? Wenn 
+    Du größere visuelle Elemente mit vielen Formen erstellst, nutze <a class = "code" href = "https://p5js.org/reference/#/p5/describeElement">describeElement()</a>, 
+    um jede Gruppe von Formen zu beschriften.
+  accessible-labels-steps-for-labeling-step-1-7: >-
+    Verwende nicht sowohl die <a class = "code" href = "https://p5js.org/reference/#/p5/textOutput">textOutput()</a>- als auch die 
+    <a class = "code" href = "https://p5js.org/reference/#/p5/gridOutput">gridOutput()</a>-Funktion, um das gleiche Canvas zu beschreiben. Die Verwendung beider wird 
+    dazu führen, dass ähnliche Beschreibungen zweimal erscheinen, was für Bildschirmleser verwirrend ist. Das Gleiche gilt für 
+    die Verwendung von <a class = "code" href = "https://p5js.org/reference/#/p5/textOutput">textOutput()</a> oder 
+    <a class = "code" href = "https://p5js.org/reference/#/p5/gridOutput">gridOutput()</a> mit 
+    <a class = "code" href = "https://p5js.org/reference/#/p5/describeElement">describeElement()</a>-Beschriftungen. Es ist am besten, eine Funktion zu wählen, um 
+    Deine <a class = "code" href = "https://p5js.org/reference/#/p5/describe">describe()</a>-Beschriftung zu ergänzen.
+  accessible-labels-steps-for-labeling-step-1-complex: Komplexe Projekte
+  accessible-labels-steps-for-labeling-step-1-complex-1: >-
+    Verwende vanilla ARIA-Beschriftungen und maßgeschneiderte Fallback-Beschriftungen anstelle von p5's Beschriftungsfunktionen, wenn Dein Canvas:
+  accessible-labels-steps-for-labeling-step-1-complex-li-1: >-
+    Inhalte hat, die sich umfangreich über externe interaktive Elemente (Elemente außerhalb des Canvas) ändern
+  accessible-labels-steps-for-labeling-step-1-complex-li-2: >-
+    Mit DOM-Elementen interagiert, die außerhalb des Canvas-Codes geschrieben wurden
+  accessible-labels-steps-for-labeling-step-1-complex-li-3: >-
+    Die Aufmerksamkeit des Benutzers erfordert, wenn sich der visuelle Inhalt des Canvas ändert
+  accessible-labels-steps-for-labeling-step-1-complex-li-4: >-
+    Komplexe Elementlayouts hat, die nicht genau mit den Funktionen <a class = "code" href = "https://p5js.org/reference/#/p5/describe">describe()</a>, 
+    <a class = "code" href = "https://p5js.org/reference/#/p5/describeElement">describeElement()</a>, 
+    <a class = "code" href = "https://p5js.org/reference/#/p5/textOutput">textOutput()</a>, oder 
+    <a class = "code" href = "https://p5js.org/reference/#/p5/gridOutput">gridOutput()</a> genau beschriftet werden können
+  accessible-labels-steps-for-labeling-step-1-complex-2: >-
+    Für weitere Informationen über Fallback-Inhalte, besuche <a href = "https://www.w3.org/html/wg/wiki/DefinitionFallBackContent" target="_blank" rel="noopener noreferrer">W3C’s Wiki</a>. 
+    Für weitere Informationen über komplexe ARIA-Beschriftungen, besuche <a href = "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes" target="_blank" rel="noopener noreferrer">Mozilla’s "ARIA states and properties"</a> 
+    und <a href = "https://www.w3.org/TR/using-aria/" target="_blank" rel="noopener noreferrer">W3C’s "Using ARIA"</a>.
+  accessible-labels-steps-for-labeling-step-2: 2. Schreibe Deine Haupt- und unterstützenden Beschriftung(en)
+  accessible-labels-steps-for-labeling-step-2-1: >-
+    Beginne mit der Beschriftung Deines Canvas unter Verwendung der Funktion(en), die Deine Nutzer am besten unterstützen.
+    accessible-labels-steps-for-labeling-step-2-2: >-
+    Beim Beschriften sollst Du nur Beschreibungen der visuellen Aspekte Deiner Leinwand angeben. Du brauchst nicht zu beschreiben, wie oder welche Funktionen die auf der Leinwand vorhandenen Visualisierungen erzeugen, sondern nur, wie die Ergebnisvisualisierungen innerhalb der Leinwand erscheinen.
+  accessible-labels-steps-for-labeling-step-2-using-de: Mit <a class = "code" href = "https://p5js.org/reference/#/p5/describeElement">describeElement()</a>
+  accessible-labels-steps-for-labeling-step-2-using-de-1: >-
+    Wenn Du die Funktion <a class = "code" href = "https://p5js.org/reference/#/p5/describeElement">describeElement()</a> verwendest, um Deinen Code zu beschriften, gib einen einzigartigen Titel und eine Beschreibung, die nicht länger als 1-2 Sätze ist, an. Beschrifte nur die Teile Deines Codes, die die wichtigsten visuellen Aspekte Deiner Leinwand darstellen.
+  accessible-labels-steps-for-labeling-step-2-using-de-2: >-
+    In jedem <a class = "code" href = "https://p5js.org/reference/#/p5/describeElement">describeElement()</a>-Label solltest Du die wichtigen Eigenschaften dieses Elements besprechen. Ist das Element animiert? Ist das Element interaktiv? Welche Bedeutung trägt das Element zum Projekt bei?
+  accessible-labels-steps-for-labeling-step-2-using-de-3: >-
+    Wenn Deine Leinwand wichtige <a class = "code" href = "https://p5js.org/reference/#/p5/text">Text</a>-Elemente enthält, die für das allgemeine Verständnis des Bildes wichtig sind, mache ein separates Label dafür. Beschrifte jeden lesbaren Text mit Anführungszeichen um ihn herum im Label, wie in <span class = "code">describeElement("Text", "Die Wörter 'hallo, welt' in grün in der Mitte eines schwarzen Canvas angezeigt.")</span>.
+  accessible-labels-steps-for-labeling-step-2-using-de-4: >-
+    Du brauchst nicht jedes Label mit "Ein p5-Canvas…" oder Ähnlichem zu beginnen. Der Screenreader wird den Elementtyp vorlesen, bevor Deine Labels verlesen werden:
+  accessible-labels-steps-for-labeling-step-2-using-de-5: >-
+    Beschränke die Anzahl der <a class = "code" href = "https://p5js.org/reference/#/p5/describeElement">describeElement()</a>-Funktionen innerhalb Deines Codes so weit wie möglich. Wenn Du mehr als 10 <a class = "code" href = "https://p5js.org/reference/#/p5/describeElement">describeElement()</a>-Funktionen verwenden musst, um Deine Leinwand zu beschreiben, erwäge die Verwendung einer Beschriftungsstrategie, die mehr Komplexität zulässt (wie etwa natives ARIA-Labeling).
+  accessible-labels-steps-for-labeling-step-2-using-go-to: Mit <a class = "code" href = "https://p5js.org/reference/#/p5/gridOutput">gridOutput()</a> oder <a class = "code" href = "https://p5js.org/reference/#/p5/textOutput">textOutput()</a>
+  accessible-labels-steps-for-labeling-step-2-using-go-to-1: >-
+    <a class = "code" href = "https://p5js.org/reference/#/p5/gridOutput">gridOutput()</a> und <a class = "code" href = "https://p5js.org/reference/#/p5/textOutput">textOutput()</a> generieren ihre Informationen basierend auf dem Code des visuellen Elements, wie dessen Größe, Farbe und Form. Im Gegensatz zu <a class = "code" href = "https://p5js.org/reference/#/p5/describeElement">describeElement()</a> musst Du nur ein Label verwenden, um alle visuellen Elemente Deines Canvas zu beschreiben.
+  accessible-labels-steps-for-labeling-step-2-animated: Projekte mit animierten oder interaktiven Elementen
+  accessible-labels-steps-for-labeling-step-2-animated-1: >-
+    Einzelne interaktive Elemente, wie HTML-Buttons, Dropdowns oder Eingabefelder, benötigen keine Beschriftungen. Diese Elemente werden außerhalb des p5.js-Canvas erstellt und von Screenreadern interpretiert. Das bedeutet jedoch, dass die Funktionen <a class = "code" href = "https://p5js.org/reference/#/p5/gridOutput">gridOutput()</a> und <a class = "code" href = "https://p5js.org/reference/#/p5/textOutput">textOutput()</a> keine Informationen über diese interaktiven Eingaben liefern.
+  accessible-labels-steps-for-labeling-step-2-animated-2: >-
+    Wenn ein Canvas-Element animiert und/oder interaktiv ist, repräsentiere seinen aktuellen Zustand oder Eigenschaften im Label. Solange Du die Funktionen innerhalb der <a class = "code" href = "https://p5js.org/reference/#/p5/draw">draw()</a>-Funktion platzierst, werden sie automatisch mit den neuen Informationen des Shapes aktualisiert (ausgenommen <a class = "code" href = "https://p5js.org/reference/#/p5/textOutput">textOutput()</a> und <a class = "code" href = "https://p5js.org/reference/#/p5/gridOutput">gridOutput()</a>, die auch aktualisiert werden, wenn sie in <a class = "code" href = "https://p5js.org/reference/#/p5/setup">setup()</a> aufgeführt sind). Wenn Du <a class = "code" href = "https://p5js.org/reference/#/p5/describeElement">describeElement()</a> verwendest, nutze Template-Strings, um die Beschreibung des Elements zu aktualisieren:
+  accessible-labels-steps-for-labeling-step-2-do-donts: Beschriftungen, was man tun und lassen sollte
+  accessible-labels-steps-for-labeling-step-2-do-donts-1: >-
+    <i>Verwende</i> Screenreader-Beschriftungen nicht als Möglichkeit, Deinen Code zu kommentieren. Beschriftungen sollten nur die resultierenden visuellen Elemente innerhalb eines Canvas zusammenfassen. Wenn Du Screenreader-Beschriftungen übermäßig verwendest, könntest Du eher die Interpretation des Canvas durch den Screenreader erschweren, als ihm zu helfen.
+  accessible-labels-steps-for-labeling-step-2-do-donts-2: >-
+    <i>Stelle sicher</i>, dass Deine Beschriftungsbeschreibungen kurz und genau sind. Verwende vollständige Sätze für Deine Beschriftungen und schreibe im Präsens, wenn Du Elemente beschreibst.
+  accessible-labels-steps-for-labeling-step-3: 3. Teste Deine Beschriftungen
+  accessible-labels-steps-for-labeling-step-3-1: >-
+    Stelle sicher, dass Du Deine Beschriftungen vor der Veröffentlichung Deiner Skizze testest. Beschriftungen sind standardmäßig nur für Screenreader verfügbar. Um die Ausgabe während der Entwicklung zu sehen, gib <span class = "code">LABEL</span> als letzten Parameter an die Funktion.
+  accessible-labels-steps-for-labeling-step-3-2: >-
+    Wenn Du Deine Beschriftungen testest, beachte die folgenden Fragen:
+  accessible-labels-steps-for-labeling-step-3-2-li-1: >-
+    Geben Deine Canvas-Beschriftungen genügend Informationen, damit jemand den Zweck der Skizze verstehen kann?
+  accessible-labels-steps-for-labeling-step-3-2-li-2: >-
+    Wenn sich dieses Canvas auf einer Webseite neben anderen Inhalten befindet, hätte jemand dann ein gutes Verständnis davon, wie das Canvas in seinen umgebenden Kontext passt?
+  accessible-labels-steps-for-labeling-step-3-3: >-
+    Stelle sicher, dass Du das <span class = "code">LABEL</span>-Argument entfernst, sobald Du die Ausgabe getestet hast. Mit aktivem <span class = "code">LABEL</span> sind Screenreader gezwungen, sowohl den Fallback-Text als auch den sichtbaren Beschriftungstext zu lesen, wenn der Fokus auf dem Canvas liegt. Dies kann für sie verwirrend sein.
+  accessible-labels-steps-for-labeling-step-3-4: >-
+    Du kannst auch einen Screenreader herunterladen und diesen verwenden, um Deinen Code zu testen. Für weitere Informationen zur Verwendung von Screenreadern besuche <a href = "https://www.w3schools.com/accessibility/accessibility_screen_readers.php" target="_blank" rel="noopener noreferrer">W3 Schools "Accessibility Screen Readers"</a>.
+  accessible-labels-conclusion: Schlussfolgerung
+  accessible-labels-conclusion-1: >-
+    Sobald Du Deine Beschriftungen getestet hast, sollte Dein Canvas für Screenreader-Technologie zugänglich sein!
+  accessible-labels-conclusion-2: >-
+    Wenn Du mehr Informationen über ARIA-Beschriftung möchtest, besuche <a href = "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA" target="_blank" rel="noopener noreferrer">MDNs ARIA</a>.
+  accessible-labels-conclusion-3: >-
+    <i>Fehler oder Tippfehler bemerkt? Bitte lass es uns wissen. Wenn Du zu diesem Tutorial beitragen möchtest, zögere nicht, einen <a href = "https://github.com/processing/p5.js-website" target="_blank" rel="noopener noreferrer">Pull Request</a> zu stellen!</i>
+  using-local-server: 'Wie man einen lokalen Server auf Mac OSX, Windows oder Linux einrichtet.'
+  p5js-wiki-title: p5.js Wiki
+  p5js-wiki: Zusätzliche Dokumentationen und Tutorials von der Gemeinschaft beigetragen
+  connecting-p5js-title: p5.js verbinden
+  creating-libraries-title: Bibliotheken erstellen
+  creating-libraries: p5.js-Addon-Bibliotheken erstellen.
+  nodejs-and-socketio-title: node.js und socket.io
+  nodejs-and-socketio: 'Einen node.js Server mit p5.js verwenden, Kommunikation über socket.io.'
+  programming-topics-title: Programmierthemen
+  beyond-the-canvas-title: Jenseits des Canvas
+  beyond-the-canvas: Elemente auf der Seite jenseits des Canvas erstellen und manipulieren.
+  getting-started-in-webgl-other-tutorials-title: Weitere Tutorials
+  getting-started-in-webgl-other-tutorials-p: >-
+    Dieses Tutorial ist Teil einer Reihe über die Grundlagen der Verwendung von WebGL in p5.js. Schau dir jedes dieser anderen Tutorials unten an.
+  getting-started-in-webgl-other-tutorials-tut1: Koordinaten und Transformationen
+  getting-started-in-webgl-other-tutorials-tut2: Erstellen benutzerdefinierter Geometrien in WebGL
+  getting-started-in-webgl-other-tutorials-tut3: Stil und Erscheinung
+  getting-started-in-webgl-other-tutorials-tut4: Einführung in Shaders
+  getting-started-in-webgl-other-tutorials-you-are-here: (du bist hier)
+  getting-started-in-webgl-title: Einstieg in WebGL
+  getting-started-in-webgl-glossary-title: Glossar
+  getting-started-in-webgl-coords-and-transform-title: Koordinaten und Transformationen
+  getting-started-in-webgl-coords-and-transform: Grundlagen des 3D-Setups, Koordinaten und Transformationen
+  getting-started-in-webgl-coords-and-transform-p1x1: >-
+    p5.js ist ein leistungsstarkes Werkzeug für die Erstellung von 2D-Grafiken, aber es ist auch fähig, 3D-Grafiken zu erstellen. Dieses Tutorial führt in neue Konzepte für die Erstellung von 3D-Skizzen mit p5.js ein.
+  getting-started-in-webgl-coords-and-transform-toc-title: Inhaltsverzeichnis
+  getting-started-in-webgl-coords-and-transform-heading1: Was ist WebGL?
+  getting-started-in-webgl-coords-and-transform-p2x1: >-
+    WebGL ist eine Bibliothek, die uns die Werkzeuge gibt, um 3D-Grafiken innerhalb eines Webbrowsers zu erstellen. Einfach ausgedrückt, ermöglicht es uns, alle möglichen Mathematiken durchzuführen, um Objekte in 3D anzuordnen und anzuzeigen. p5.js erleichtert die Arbeit mit WebGL durch seinen speziellen WebGL-Modus.
+  getting-started-in-webgl-coords-and-transform-p3x1: >-
+    Die Arbeit in 3D führt eine Menge Komplexität ein, besonders wenn eine Skizze Bewegung, Textur, Beleuchtung und mehr beinhaltet. Glücklicherweise haben Computer spezielle Hardware, die besonders gut für diese Berechnungen geeignet ist, die Grafikverarbeitungseinheit (GPU). Die GPU ist in der Lage, viele Dinge gleichzeitig zu verarbeiten, was besonders wichtig ist, wenn wir es mit Pixeln und vielen Formen im Raum zu tun haben.
+  getting-started-in-webgl-coords-and-transform-p4x1: >-
+    Lass uns beginnen, indem wir p5.js einrichten, um WebGL zu nutzen, indem wir WEBGL als dritten Parameter in <a class="code">createCanvas()</a> übergeben.
+  getting-started-in-webgl-coords-and-transform-heading2: >-
+    3D-Koordinatenraum: Positionierung in 3D
+  getting-started-in-webgl-coords-and-transform-info1x1: >-
+    Wenn Koordinatensysteme keinen Sinn ergeben, könnte es hilfreich sein, das Tutorial mit dem Titel
+  getting-started-in-webgl-coords-and-transform-info1x2: >-
+    Koordinatensystem und Formen
+  getting-started-in-webgl-coords-and-transform-p5x1: >-
+    Einer der grundlegendsten Unterschiede zwischen der Arbeit in 2D und der Arbeit in 3D ist das Offensichtlichste: es gibt eine Dimension mehr, mit der man arbeiten kann. Zusätzlich zur horizontalen und vertikalen Position (x- und y-Achsen) eines Elements in unserer Zeichnung fügt 3D Tiefe, die z-Achse, hinzu.
+  getting-started-in-webgl-coords-and-transform-p6x1: >-
+    Beim Zeichnen in 2D befindet sich der Punkt (0,0) in der oberen linken Ecke des Bildschirms. Im WebGL-Modus befindet sich der Ursprung der Skizze (0,0,0) in der Mitte des Bildschirms. Standardmäßig verläuft die x-Achse von links nach rechts, die y-Achse von oben nach unten und die z-Achse von weiter weg zu näher.
+  getting-started-in-webgl-coords-and-transform-heading3: >-
+    Transformationen: Position und Größe von 3D-Formen
+  getting-started-in-webgl-coords-and-transform-p7x1: >-
+    p5.js hat einige Methoden,
+  getting-started-in-webgl-coords-and-transform-p7x2: >-
+    und
+  getting-started-in-webgl-coords-and-transform-p7x3: >-
+    die wir nutzen können, um Objekte im Raum zu positionieren und zu orientieren. Jede dieser Methoden beeinflusst das, was als <em>Modelmatrix</em> bekannt ist. Gemeinsam werden diese als <em>Transformation</em> eines Objekts bezeichnet. Diese Methoden stehen sowohl für 2D- als auch für 3D-Zeichnungen zur Verfügung.
+  getting-started-in-webgl-coords-and-transform-subheading1: >-
+    translate(): Objekte im Raum verschieben
+  getting-started-in-webgl-coords-and-transform-p8x1: >-
+    verschiebt den Ursprung in eine
+    gegebene Richtung. Alles, was nach dem Aufruf von <a class="code">translate()</a> gezeichnet wird, wird relativ zu diesem Punkt positioniert. <a class="code">translate()</a> akzeptiert Argumente für x-, y- und z-Werte. Verwende die Schieberegler im obigen Sketch, um die Verschiebung des Blocks zu ändern und zu sehen, wie er sich entlang
+    jeder Achse bewegt. Der folgende Code demonstriert eine einfache Verschiebung an einem <a class="code">box()</a>-Form.
+  getting-started-in-webgl-coords-and-transform-subheading2: >-
+    rotate(): Objekte im Raum orientieren
+  getting-started-in-webgl-coords-and-transform-p9x1: >-
+    reorientiert, was auch immer
+    danach gezeichnet wird.
+  getting-started-in-webgl-coords-and-transform-p10x1: >-
+    Es gibt einige Methoden, die verwendet werden können, um ein Objekt in 3D zu rotieren. Meistens ist es am einfachsten, 
+    Methoden wie
+  getting-started-in-webgl-coords-and-transform-p10x2: >-
+    und
+  getting-started-in-webgl-coords-and-transform-p10x3: >-
+    zu verwenden, die jeweils eine Drehung um eine spezifische Achse ermöglichen.
+    Jede dieser Methoden akzeptiert ein einzelnes Argument, das den Drehwinkel angibt. Versuche, die Schieberegler im 
+    Beispiel oben zu bewegen, um zu sehen, wie die Drehung auf jeder Achse ausgeführt wird. Der untenstehende Code zeigt jede dieser Methoden
+    im Einsatz.
+    getting-started-in-webgl-coords-and-transform-p11x1: >-
+    Standardmäßig erwartet p5.js, dass Winkel in Radiant angegeben werden. Radiant verwendet Zahlen von 0 - <a class="code">TWO_PI</a>, um einen
+    Winkel zu spezifizieren. Um Grad zu verwenden, konvertiere entweder Grad in Radiant mit <a class="code">radians()</a> oder verwende
+    <a class="code">angleMode(DEGREES)</a>.
+  getting-started-in-webgl-coords-and-transform-info2x1: >-
+    Du kannst auch
+  getting-started-in-webgl-coords-and-transform-info2x2: >-
+    , verwenden, was
+    es Dir ermöglicht anzugeben, um welche Achse Du drehen möchtest, indem Du einen Vektor als zweites Argument verwendest.
+  getting-started-in-webgl-coords-and-transform-subheading3: >-
+    scale(): Größe im Raum
+  getting-started-in-webgl-coords-and-transform-p12x1: >-
+    ändert die Größe von allem, was danach gezeichnet wird. Wie die anderen bisher beschriebenen Methoden akzeptiert es Argumente für X-, Y- und Z-Werte.
+  getting-started-in-webgl-coords-and-transform-heading4: >-
+    Die Reihenfolge der Transformationen ist wichtig!
+  getting-started-in-webgl-coords-and-transform-p13x1: >-
+    Was anfangs unvorhersehbar erscheinen kann, ist die Reihenfolge der Transformationen. Jede Transformation beeinflusst die nächste. Wenn zum Beispiel <a class="code">rotate()</a> aufgerufen wird, gefolgt von <a class="code">translate()</a>, wird die Richtung dieser Translation von der Rotation beeinflusst. Das gesamte Koordinatensystem rotiert und bewegt sich, nicht nur die Form selbst.
+  getting-started-in-webgl-coords-and-transform-p14x1: >-
+    Transformationen können in beliebiger Reihenfolge ausgeführt werden, aber die Verwendung von <strong>translate</strong>, <strong>rotate</strong> und dann <strong>scale</strong> wird am intuitivsten sein.
+    Eine Translation, gefolgt von einer Rotation, erzeugt den Effekt, dass die Form <em>und dann</em> um diese neue Position rotiert wird.
+  getting-started-in-webgl-coords-and-transform-p15x1: >-
+    Im folgenden Beispiel versuche, die Reihenfolge von <a class="code">translate()</a> und <a
+    class="code">rotateY()</a> zu ändern und beobachte, wie es beeinflusst, wo das Objekt
+    gezeichnet wird.
+  getting-started-in-webgl-coords-and-transform-p16x1: >-
+    p5.js hat auch einige Methoden, die steuern können, wann Transformationen angewendet werden:
+  getting-started-in-webgl-coords-and-transform-p16x2: >-
+    und
+  getting-started-in-webgl-coords-and-transform-p16x3: >-
+    . <a class="code">push()</a> und <a
+    class="code">pop()</a> erleichtern das individuelle Verschieben von Objekten. Die <a class="code">push()</a>-Methode speichert die aktuellen Transformationen und 
+    Stileinstellungen. Danach, nachdem neue Transformationen durchgeführt wurden, wird die <a class="code">pop()</a>-Methode verwendet, um uns zu den ursprünglichen Transformationen zurückzukehren. Das Ergebnis ist, dass 
+    jegliche Transformationen oder Stiländerungen, die zwischen <a class="code">push()
+    </a> und <a class="code">pop()</a> gemacht werden, auf diesen Teil des Codes beschränkt sind. Wenn Du <a class="code">push()</a> und
+    <a class="code">pop()</a> nicht verwendest, musst Du den Überblick über alle bereits stattgefundenen Transformationen behalten, was
+    kompliziert werden kann.
+  getting-started-in-webgl-coords-and-transform-p17x1: >-
+    Jetzt, versuchen wir denselben Code mit <a class="code">push()</a> und <a class="code">pop()</a>. Nun können wir das Objekt einfach dahin verschieben, wo wir es haben wollen, ohne
+    uns daran erinnern zu müssen, wo unser Koordinatensystem liegt.
+  getting-started-in-webgl-coords-and-transform-info3x1: >-
+    <p>Obwohl dies ein fortgeschrittenes Thema ist, beeinflusst jede dieser Transformationen, was als das Modellmatrix bezeichnet wird.
+    Die
+    Transformationsmatrix wird mit der Ansichtsmatrix und der Projektionsmatrix kombiniert, die beide dazu dienen, die Ansicht einer Kamera zu simulieren, und diese Kombination ergibt unsere 3D-Szene! </p>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/WebGL_model_view_projection">
+    Erfahre mehr über Modellansichtsprojektion
+    </a>
+  getting-started-in-webgl-coords-and-transform-p18x1: >-
+    Im untenstehenden Beispiel versuche, <a class="code">push()</a> und <a class="code">pop()</a> zu entfernen, um zu sehen, wie die
+    Transformationen das zweite Objekt beeinflussen,
+    das gezeichnet wird.
+  getting-started-in-webgl-coords-and-transform-heading5: >-
+    Grundformen in 3D
+  getting-started-in-webgl-coords-and-transform-p19x1: >-
+    Bisher haben wir nur <a class="code">box()</a> verwendet, aber p5.js hat sieben verschiedene vordefinierte Geometrien,
+    die Du in Deinem Sketch verwenden kannst. Diese grundlegenden vordefinierten Geometrien werden oft als 'Primitive' bezeichnet.
+  getting-started-in-webgl-coords-and-transform-p20x1: >-
+    Diese primitiven Formmethoden sind:
+  getting-started-in-webgl-coords-and-transform-p20x2: >-
+    und
+  getting-started-in-webgl-coords-and-transform-p21x1: >-
+    Es ist auch möglich, benutzerdefinierte Geometrien zu erstellen, entweder von Grund auf oder aus 3D-Modellen, die in einem anderen
+    Programm erstellt wurden.
+    Weitere Informationen zu benutzerdefinierten Geometrien findest Du im
+  getting-started-in-webgl-coords-and-transform-p21x2: >-
+    Tutorial für benutzerdefinierte Geometrien
+  getting-started-in-webgl-coords-and-transform-heading6: >-
+    Fazit
+  getting-started-in-webgl-coords-and-transform-p22x1: >-
+    Indem Du grundlegende Kontrolle über einen 3D-Koordinatenraum, Transformationen, 
+    und Grundformen hast, solltest Du in der Lage sein, einfache Szenen
+    in 3D zu erstellen. Die auf dieses folgenden Tutorials in der Einführung in WebGL-Reihe
+    werden benutzerdefinierte Geometrien einführen, es Dir ermöglichen, das Aussehen der 
+    Szene zu verändern und Dich in etwas grundlegende Shader-Programmierung einführen, um
+    Deine Skizzen weiter zu verfeinern.
+  getting-started-in-webgl-coords-and-transform-glossary-term1-title: GPU
+  getting-started-in-webgl-coords-and-transform-glossary-term1-definition:
+    >-
+    Die GPU (Graphics Processing Unit) ist ein Hardwarebaustein, der besonders gut
+    geeignet ist, um viele Berechnungen parallel durchzuführen, was ihn leistungsstark für 3D-Grafiken macht.
+  getting-started-in-webgl-coords-and-transform-glossary-term2-title: Modell
+  getting-started-in-webgl-coords-and-transform-glossary-term2-definition: Eine benutzerdefinierte 3D-Geometrie, die gespeichert und aus einer Datei geladen werden kann.
+  getting-started-in-webgl-coords-and-transform-glossary-term3-title: Matrix
+  getting-started-in-webgl-coords-and-transform-glossary-term3-definition: Ein spezielles Array, das Informationen über die Transformation einer Geometrie halten kann.
+  getting-started-in-webgl-coords-and-transform-glossary-term4-title: Kamera
+  getting-started-in-webgl-coords-and-transform-glossary-term4-definition: Der Blickpunkt einer 3D-Szene.
+  getting-started-in-webgl-coords-and-transform-glossary-term5-title: Transform
+  getting-started-in-webgl-coords-and-transform-glossary-term5-definition: Auch als <em>Transformation</em> bezeichnet, bezieht sich dies auf die kombinierte Skalierung, Rotation und Verschiebung einer Geometrie.
+  getting-started-in-webgl-coords-and-transform-glossary-term6-title: Vertex
+  getting-started-in-webgl-coords-and-transform-glossary-term6-definition: Ein Punkt im 3D-Raum, mit einer X-, Y-, Z-Position.
+  getting-started-in-webgl-coords-and-transform-glossary-term7-title: Face
+  getting-started-in-webgl-coords-and-transform-glossary-term7-definition: Eine Sammlung von drei Punkten, die eine feste Oberfläche erzeugen.
+  getting-started-in-webgl-custom-geometry-title: Erstellen von benutzerdefinierten Geometrien in WebGL
+  getting-started-in-webgl-custom-geometry: Erstellen von benutzerdefinierten Geometrien in WebGL
+  getting-started-in-webgl-custom-geometry-p1x1: >-
+    p5.js hat eine Reihe von Grundformen, wie <a class="code">box()</a> oder <a class="code">sphere()</a>, aber p5.js
+    ist auch fähig, komplexe benutzerdefinierte Geometrien zu rendern, sowohl aus 3D-Modelldateien als auch aus Code. Dieses Tutorial führt durch, wie man 3D-Modelle in p5.js importiert und wie
+    man Geometrie von Grund auf erstellt.
+  getting-started-in-webgl-custom-geometry-info1x1: 'Wenn Du neu in 3D bist, schaue Dir das '
+  getting-started-in-webgl-custom-geometry-info1x2: ' Tutorial an.'
+  getting-started-in-webgl-custom-geometry-toc-title: Inhaltsverzeichnis
+  getting-started-in-webgl-custom-geometry-heading1: Laden von 3D-Modellen aus Dateien
+  getting-started-in-webgl-custom-geometry-p2x1: >-
+    Benutzerdefinierte Geometrie kann in p5.js entweder als OBJ- oder STL-Dateien importiert werden. Diese Dateien werden normalerweise in
+    einem 3D-Modellierungstool wie Blender generiert, das viel mehr Kontrolle bietet, wenn eine 3D-Szene konstruiert wird. Dies geschieht unter Verwendung der
+  getting-started-in-webgl-custom-geometry-p2x2: >-
+    Methode, die innerhalb von <a class="code">preload()</a> verwendet werden sollte. Dann kannst Du die
+  getting-started-in-webgl-custom-geometry-p2x3: >-
+    Funktion verwenden, um das Modell zu zeichnen, wie im folgenden Beispiel gezeigt.
+  getting-started-in-webgl-custom-geometry-p3x1: >-
+    Ein häufiges Problem, das bei benutzerdefinierten Modellen auftreten kann, ist die Skalierung. Abhängig davon, wie das Modell konstruiert ist, könnte es eine viel andere Größe haben, wenn es in p5.js gezeichnet wird, oder sogar zu klein sein, um überhaupt gezeichnet zu werden. Die
+    <a class="code">loadModel()</a>-Methode beinhaltet einen normalize-Parameter, der das Modell auf eine für p5.js besser geeignete Größe skaliert.
+  getting-started-in-webgl-custom-geometry-info2x1: >-
+    Beachte, dass derzeit keine Unterstützung für STL-Dateien mit Farbe vorhanden ist, obwohl Du
+    Farbe mithilfe von Materialien oder Texturen hinzufügen kannst, über die Du im
+  getting-started-in-webgl-custom-geometry-info2x2: >-
+    Styling und Erscheinungsbild
+  getting-started-in-webgl-custom-geometry-info2x3: >-
+    Tutorial mehr erfahren kannst.
+  getting-started-in-webgl-custom-geometry-heading2: Erstellen von grundlegenden prozeduralen Geometrien
+  getting-started-in-webgl-custom-geometry-p4x1: >-
+    Geometrie kann auch prozedural mit Code definiert werden. Dies ist eine großartige Möglichkeit, Geometrie zu erstellen, die sich bewegt oder nach Deinem eigenen Regelwerk geformt wird. Es gibt eine Reihe von Methoden, die verwendet werden können, um 3D-Geometrie auf eine Weise zu erstellen, die der 2D-Zeichnung in p5.js ähnlich ist. Beispielsweise haben Methoden wie <a class="code">quad()</a>, <a class="code">triangle()</a>, <a class="code">rect()</a> und <a class="code">circle()</a> zusätzliche Parameter, die es möglich machen, sie in 3D zu verwenden.
+  getting-started-in-webgl-custom-geometry-p5x1: >-
+    Es gibt andere Methoden, die eine größere Kontrolle über die Geometrie bieten. Eine Form kann Punkt für Punkt definiert werden unter Verwendung von
+  getting-started-in-webgl-custom-geometry-p5x2: >-
+    und
+  getting-started-in-webgl-custom-geometry-p5x3: >-
+    Das folgende Beispiel zeigt, wie
+    diese Methoden verwendet werden können, um eine 3D-Form mathematisch zu konstruieren.
+  getting-started-in-webgl-custom-geometry-p6x1: >-
+    Es gibt auch eine leistungsstarke Klasse,
+  getting-started-in-webgl-custom-geometry-p6x1_: >-
+    , die p5.js intern für <a class="code">loadModel()</a> verwendet, aber auch genutzt werden kann, um
+    benutzerdefinierte Geometrien zu definieren, wobei Werkzeuge bereitgestellt werden, die bei der Berechnung von Flächen und Normalen hilfreich sein können.
+  getting-started-in-webgl-custom-geometry-p6x2: >-
+    In 3D bezieht sich eine Fläche auf eine Sammlung von drei oder vier Punkten, die eine Oberfläche bilden und unserer
+    Geometrie das Aussehen geben, solide zu sein. Eine Normale ist die Richtung, die senkrecht zur Fläche steht, was p5.js hilft, die Beleuchtung über die Oberfläche zu berechnen.
+  getting-started-in-webgl-custom-geometry-p6x3: >-
+    Im folgenden Beispiel wird <a class="code">p5.Geometry</a> verwendet, um ein Gitter von Punkten für die Geometrie zu plotten. Dann wird <a class="code">computeFaces()</a> verwendet, um der Geometrie
+    ein solides Aussehen zu geben, und <a class="code">computeNormals()</a> ermöglicht unserer Geometrie, eine angemessene Beleuchtung zu haben.
+  getting-started-in-webgl-custom-geometry-heading3: Fazit
+  getting-started-in-webgl-custom-geometry-p7x1: >-
+    Jetzt solltest Du in der Lage sein, benutzerdefinierte Geometrien zu erstellen, was es möglich macht,
+    einzigartige Formen zu erstellen, sowohl aus anderen Werkzeugen als auch aus Code. Verbringe etwas Zeit damit, mit einer Vielzahl von 3D-Modellierungswerkzeugen zu arbeiten, damit Du dasjenige findest, das am besten für Dich funktioniert.
+  getting-started-in-webgl-custom-geometry-glossary-term1-title: Prozedural
+  getting-started-in-webgl-custom-geometry-glossary-term1-definition: Bedeutet, dass etwas mathematisch definiert wird, anstatt aus gespeicherten Daten, wie einer Datei.
+  getting-started-in-webgl-custom-geometry-glossary-term2-title: Modell
+  getting-started-in-webgl-custom-geometry-glossary-term2-definition: Eine Darstellung der Geometrie.
+  getting-started-in-webgl-custom-geometry-glossary-term3-title: STL
+  getting-started-in-webgl-custom-geometry-glossary-term3-definition: >-
+    STL (steht meist für "standard tessellation language") ist ein Dateiformat für 3D-Modelle.
+    Es speichert lediglich Informationen über die Geometrie.
+  getting-started-in-webgl-custom-geometry-glossary-term4-title: OBJ
+  getting-started-in-webgl-custom-geometry-glossary-term4-definition: >-
+    OBJ ist ein offenes Dateiformat, das Geometriedaten sowie einige Material- und Texturdaten speichert. In p5.js
+    sind wir auf seine Geometrie beschränkt, obwohl ein Bild immer noch auf die Oberfläche mithilfe von Texturen gemappt werden kann.
+  getting-started-in-webgl-custom-geometry-glossary-term5-title: Faces
+  getting-started-in-webgl-custom-geometry-glossary-term5-definition: Die feste Oberfläche, die zwischen drei Punkten erzeugt wird.
+  getting-started-in-webgl-custom-geometry-glossary-term6-title: Normals
+  getting-started-in-webgl-custom-geometry-glossary-term6-definition: Die Richtung, die senkrecht zu einer Fläche steht, oft benötigt bei der Berechnung von Beleuchtung oder beim Verwenden von Materialien.
+  getting-started-in-webgl-custom-geometry-glossary-term7-title: Normalisierung
+  getting-started-in-webgl-custom-geometry-glossary-term7-definition: Etwas so verändern, dass es in einen Standardbereich passt.
+  getting-started-in-webgl-appearance-title: Styling und Erscheinungsbild
+  getting-started-in-webgl-appearance: Die Grundlagen von Materialien und Beleuchtung in WebGL
+  getting-started-in-webgl-appearance-p0x1: >-
+    Die Erstellung in 3D handelt von mehr als nur Geometrie. Kameras, Lichter und Materialien sind ein wichtiger Teil bei der Erstellung einer visuell interessanten 3D-Szene. p5.js bietet eine Reihe von Werkzeugen,
+    die es möglich machen, das Aussehen unserer Geometrie zu transformieren.
+  getting-started-in-webgl-appearance-toc-title: Inhaltsverzeichnis
+  getting-started-in-webgl-appearance-heading1: Kamera und Ansicht
+  getting-started-in-webgl-appearance-p1x1: >-
+    Die Kamera ist ein wesentlicher Bestandteil einer 3D-Szene; sie gibt uns das Gefühl von Raum und Dimension, das wir
+    in 3D oft suchen. Im WebGL-Modus von p5.js wird standardmäßig eine Perspektivkamera bereitgestellt, aber wir können
+    diese mit
+  getting-started-in-webgl-appearance-p1x2: >-
+    oder
+  getting-started-in-webgl-appearance-p2x1: >-
+    Eine <em>Perspektivkamera</em> verzerrt Objekte so, dass sie kleiner erscheinen, je weiter sie entfernt sind, und an einem einzelnen Punkt in der Ferne verschwinden. Dies steht im Gegensatz zu einer <em>orthographischen Kamera</em>, bei der
+    die Geometrie unabhängig von der Entfernung gleich groß bleibt und keinen Fluchtpunkt hat.
+  getting-started-in-webgl-appearance-p3x1: >-
+    Eine Einstellung, die wir bei einer Perspektivkamera ändern können, ist das <em>Sichtfeld</em> oder FOV. Dies ist der
+    Begriff, der verwendet wird, um zu beschreiben, wie viel unsere Kamera sehen kann, gemessen als Winkel. In einfachen Beispielen könnte es scheinen,
+    als hätte es einen Zoom-Effekt, aber es beeinflusst auch, wie sich Formen in der Ferne ändern.
+  getting-started-in-webgl-appearance-p4x1: >-
+    Ein weiterer wichtiger Begriff bei der Arbeit mit Kameras in 3D ist das Kamera-<em>Frustum</em>. Das Frustum der Kamera ist die
+    Form des Sichtfelds der Kamera, eine pyramidenartige Form, innerhalb derer Geometrie dargestellt werden kann. Das Frustum umfasst eine <em>nahe und ferne Ebene</em>.
+    Die nahe Ebene definiert die minimale Entfernung, die Geometrie von der Kamera haben muss, um gerendert zu werden. Die ferne Ebene definiert die maximale
+    Entfernung, die die Geometrie von der Kamera haben kann. Jede dieser Ebenen kann verändert werden, um zu beeinflussen, wie nah und wie weit die Kamera sehen kann. Dieser Prozess
+    des selektiven Einbeziehens von Geometrie wird manchmal als 'Clipping' bezeichnet.
+  getting-started-in-webgl-appearance-p5x1: >-
+    Kameras können durch Übergeben von Argumenten an <a class="code">camera()</a> bewegt werden, aber das ständige Bewegen und Anpassen der Kamera im Code kann mühsam sein, besonders wenn man
+    mit Ideen experimentiert. p5.js hat eine spezielle Kameramethode,
+  getting-started-in-webgl-appearance-p5x2: >-
+    , die verwendet werden kann, um die Kamera mit der Maus zu zoomen, zu schwenken
+    und zu positionieren.
+  getting-started-in-webgl-appearance-p6x1: >-
+    Eine Szene kann mehrere Kameras haben, aber nur eine Kamera kann zu einem Zeitpunkt aktiv sein. Sketche in p5.js werden standardmäßig
+    mit einer einzigen Perspektivkamera ausgestattet, aber das kann geändert werden, indem entweder <a
+      class="code">perspective()</a>
+    (mit neuen Parametern) oder <a class="code">ortho()</a> aufgerufen wird. <a class="code">camera()</a> kann verwendet werden, um die
+    Position der aktiven Kamera und den Punkt, den die Kamera betrachtet, zu ändern. Probier es im unten stehenden Sketch aus.
+  getting-started-in-webgl-appearance-heading2: Beleuchtung
+  getting-started-in-webgl-appearance-p7x1: >-
+    Beleuchtung ist ein weiterer wesentlicher Teil einer 3D-Szene. Um Form und Tiefe in 3D vermitteln zu können, ist es notwendig,
+    eine Lichtquelle zu haben. p5.js bietet verschiedene Lichtarten, die in einem Sketch verwendet werden können.
+  getting-started-in-webgl-appearance-lighting-list1: >-
+    Umgebungslicht macht alles ein wenig heller, ohne Rücksicht auf Lichtposition oder
+    -richtung.
+  getting-started-in-webgl-appearance-lighting-list2: >-
+    Ein gerichtetes Licht strahlt aus einer Richtung, was besonders nützlich sein kann, um Tiefe in
+    einer Szene zu kommunizieren, oder wenn eine Szene ein 'Sonnen'-Licht benötigt. Diese Methode akzeptiert eine Farbe und eine Richtung.
+  getting-started-in-webgl-appearance-lighting-list3: >-
+    Ein Punktlicht emittiert von einem einzigen Punkt in alle Richtungen, ähnlich wie
+    etwas wie eine Glühbirne. Diese Methode akzeptiert eine Farbe und eine Position für das Licht.
+  getting-started-in-webgl-appearance-lighting-list4: >-
+    Ein Scheinwerfer emittiert von einem einzigen Punkt in eine einzige Richtung. Dieses Licht wird in einer kegelförmigen Form abgestrahlt und
+    sein Radius und seine Konzentration können angepasst werden.
+  getting-started-in-webgl-appearance-lighting-list5: >-
+    noLights() sorgt dafür, dass alle nachfolgende Geometrie ohne jegliches Licht gerendert wird. Dies kann nützlich sein,
+    wenn man flache, unbeschattete Geometrie möchte.
+  getting-started-in-webgl-appearance-p8x1: >-
+    Diese Lichtquellen sollten innerhalb von <a class="code">draw()</a> verwendet werden. Bis zu 5 Lichtquellen können gleichzeitig in einer Szene verwendet werden,
+    was es Ihnen ermöglicht, eine Szene mit unterschiedlichen und komplexen Beleuchtungsquellen zu komponieren.
+    Probiere aus, die Kästchen im folgenden interaktiven Beispiel an- und abzuhaken, um zu sehen, wie Beleuchtung kombiniert werden kann. Für jede aktive Lichtquelle gibt es visuelle Indikatoren für ihre Position oder
+    Richtung, nur damit Sie wissen, dass diese hier zu Illustrationszwecken sind!
+  getting-started-in-webgl-appearance-p9x1: >-
+    In diesem nächsten Beispiel versuche, jede Lichtquelle zu kommentieren und zu dekommentieren, und experimentiere mit ihren Parametern.
+  getting-started-in-webgl-appearance-heading3: Materialien und Texturen
+  getting-started-in-webgl-appearance-p10x1: >-
+    Objekte können je nach ihrem Material unterschiedlich erscheinen. Materialien bestimmen, wie
+    Licht mit der Geometrie interagiert und wie Farbe (oder Textur) auf das Objekt angewendet wird. Materialien können
+    variieren und Objekte glänzend, rau oder sogar mit Bildern texturiert machen.
+  getting-started-in-webgl-appearance-p11x1: >-
+    In diesem interaktiven Beispiel versuche, jedes der verschiedenen Materialien auszuwählen, um zu sehen, wie sie
+    das Erscheinungsbild der Geometrie beeinflussen. Du kannst deine Maus bewegen und den Effekt sehen, den ein gerichtetes Licht auf das Material hat.
+  getting-started-in-webgl-appearance-p12x1: >-
+    Versuche, die verschiedenen Lichtquellen in diesem Beispiel zu kommentieren und zu dekommentieren:
+  getting-started-in-webgl-appearance-p13x1: >-
+    Individuellere Materialien können durch die Verwendung von <a class="code">texture()</a> erreicht werden. Kurz gesagt, handelt es sich dabei um Bilder,
+    die auf die Oberfläche einer Geometrie gemappt werden können. Diese Texturen können von einem Bild importiert und sogar im Code mit Shadern generiert werden. Um eine Textur auf deine Geometrie zu mappen, verwende <a class="code">loadImage()</a>
+    innerhalb von <a class="code">preload()</a>, dann rufe <a class="code">texture()</a> auf, bevor du deine Form zeichnest.
+  getting-started-in-webgl-appearance-info1x1: >-
+    Obwohl sie nützlich sind, um das Erscheinungsbild deiner Geometrie zu ändern, sind Shader ein wenig jenseits des Rahmens dieses
+    Tutorials. Stelle also sicher, dass du die
+  getting-started-in-webgl-appearance-info1x2: >-
+    Einleitung in Shader
+  getting-started-in-webgl-appearance-info1x3: >-
+    Seite besuchst, wenn du bereit bist.
+  getting-started-in-webgl-appearance-heading4: Schlussfolgerung
+  getting-started-in-webgl-appearance-p14x1: >-
+    Die Kontrolle über die Kamera, Beleuchtung und Materialien zu haben, wird dir viel mehr Flexibilität geben,
+    zu entscheiden, wie dein Sketch aussieht, und es wird die Möglichkeiten eröffnen, deinen eigenen
+    Stil in deine 3D-Sketche einzubringen. Das folgende Tutorial in der Reihe Einführung in WebGL wird dich
+    in Shader einführen, was es möglich macht, das Erscheinungsbild deines Sketches auf noch interessantere Weise zu ändern.
+  getting-started-in-webgl-appearance-glossary-term1-title: Kamera
+  getting-started-in-webgl-appearance-glossary-term1-definition: Der Standpunkt einer 3D-Szene
+  getting-started-in-webgl-appearance-glossary-term2-title: Perspektive
+  getting-started-in-webgl-appearance-glossary-term2-definition: Eine Kameraperspektive, die den Eindruck von Tiefe vermittelt, erreicht, indem Objekte in der Ferne kleiner erscheinen.
+  getting-started-in-webgl-appearance-glossary-term3-title: Orthographisch
+  getting-started-in-webgl-appearance-glossary-term3-definition: >-
+    Eine Kameraperspektive, die <em>orthogonal</em> ist und von der Tiefe unbeeinflusst bleibt. Sie gibt den Eindruck, zweidimensional zu sein.
+  getting-started-in-webgl-appearance-glossary-term4-title: Sichtfeld
+  getting-started-in-webgl-appearance-glossary-term4-definition: Der Winkel, der darstellt, wie viel von der Kamera gesehen werden kann.
+  getting-started-in-webgl-appearance-glossary-term5-title: Frustum
+  getting-started-in-webgl-appearance-glossary-term5-definition: Die geometrische Form, die den vollständig sichtbaren Bereich der Kamera darstellt.
+  getting-started-in-webgl-appearance-glossary-term6-title: Nahe und ferne Ebene
+  getting-started-in-webgl-appearance-glossary-term6-definition: >-
+    Die nahe Ebene repräsentiert die Mindestentfernung, die eine Geometrie von der Kamera haben muss, um angezeigt zu werden, während
+    die ferne Ebene die Maximalentfernung darstellt.
+  getting-started-in-webgl-appearance-glossary-term7-title: Clipping
+  getting-started-in-webgl-appearance-glossary-term7-definition: Selektives Anzeigen einiger Geometrien und Nicht-Anzeigen anderer, wie wenn Geometrie außerhalb des Kamera-Frustums fällt.
+  getting-started-in-webgl-shaders-title: Einleitung in Shader
+  getting-started-in-webgl-shaders: Die Grundlagen der Erstellung von Shadern innerhalb von p5js mit WebGL
+  getting-started-in-webgl-shaders-p0x1: >-
+    Shader sind spezielle Programme, die auf der Grafikprozessoreinheit, oder GPU, laufen und einige unglaubliche
+    Dinge tun können. Sie nutzen die
+    GPU, um viele Pixel gleichzeitig zu verarbeiten, was sie schnell und besonders gut geeignet für bestimmte Aufgaben macht, wie
+    das Generieren von Rauschen, das Anwenden von Filtern wie Unschärfe oder das Schattieren von Polygonen. Die Programmierung von Shadern kann anfangs einschüchternd wirken, da sie einen anderen Ansatz erfordert als das 2D-Zeichnen von p5.js. Dieses Dokument wird die Grundlagen
+    der Shader-Programmierung umreißen und auf weitere Ressourcen verweisen.
+  getting-started-in-webgl-shaders-toc-title: Inhaltsverzeichnis
+  getting-started-in-webgl-shaders-heading1: Einrichtung
+  getting-started-in-webgl-shaders-p1x1: >-
+    p5.js ist ein großartiges Werkzeug für die Arbeit mit Shadern, da es viel von der WebGL-Einrichtung handhabt, sodass du dich auf
+    den Shader-Code selbst konzentrieren kannst. Bevor wir mit Shadern beginnen können, müssen wir unser Canvas so einrichten, dass es
+    p5.js WebGL-Modell verwendet.
+  getting-started-in-webgl-shaders-p2x1: >-
+    Ein Shader-Programm besteht aus zwei Teilen: einem <strong>Vertex-Shader</strong> und einem <strong>Fragment-
+      Shader</strong>. Der Vertex-Shader beeinflusst, wo die 3D-Geometrie auf dem Bildschirm gezeichnet wird, und der Fragment-
+    Shader ist verantwortlich für die Farbausgabe. Jeder dieser Teile befindet sich in separaten Dateien und wird in
+    p5.js mit <a class="code">loadShader()</a> geladen. Sobald ein Shader geladen ist, kann er innerhalb von <a
+      class="code">draw()</a>. verwendet werden. Das folgende Beispiel zeigt,
+    wie man einen grundlegenden Shader in p5.js einrichtet:
+  getting-started-in-webgl-shaders-heading2: Shading Language (GLSL)
+  getting-started-in-webgl-shaders-p3x1: >-
+    Nun fragst du dich vielleicht, was wir eigentlich in diesen Shader-Dateien schreiben! Shader-Dateien werden in
+    Graphics Library Shading Language, oder GLSL, geschrieben und haben eine sehr andere Syntax und Struktur, als wir sie kennen.
+    GLSL hat eine
+    Syntax, die C ähnelt, was bedeutet, dass es mit einer Handvoll Konzepte kommt, die in JavaScript nicht vorhanden sind.
+  getting-started-in-webgl-shaders-p4x1: >-
+    Zum einen ist die Shading Language viel strenger bezüglich Typen. Jede Variable, die du erstellst, muss mit
+    der Art von Daten beschriftet sein, die sie speichert. Hier ist eine Liste einiger häufiger Typen:
+  getting-started-in-webgl-shaders-typelist: |
+    vec2(x,y)     // ein Vektor aus zwei Floats
+    vec3(r,g,b)   // ein Vektor aus drei Floats
+    vec4(r,g,b,a) // ein Vektor aus vier Floats
+    float         // eine Dezimalzahl
+    int           // eine ganze Zahl ohne Dezimalstellen
+    sampler2D     // ein Verweis auf eine Textur
+  getting-started-in-webgl-shaders-p5x1: >-
+    Im Allgemeinen ist die Shading Language viel strenger als JavaScript. Ein fehlendes Semikolon zum Beispiel ist nicht
+    erlaubt und führt zu einer Fehlermeldung. Verschiedene Typen von Zahlen, wie Floats oder Ganzzahlen, können nicht austauschbar verwendet werden.
+    getting-started-in-webgl-shaders-p6x1: >-
+    Zuerst werfen wir einen Blick auf einen grundlegenden Vertex-Shader:
+  getting-started-in-webgl-shaders-p7x1: >-
+    Dieser Vertex-Shader beginnt mit einem <em>Attribut</em>, welches p5.js verwendet, um
+    Vertex-Positionsdaten mit dem Shader zu teilen. Dieses Attribut ist ein <a
+    class="code">vec3</a>, was bedeutet, dass es Werte für x, y und z enthält. Attribute sind spezielle
+    Variablentypen, die nur im Vertex-Shader verwendet werden und typischerweise von p5.js bereitgestellt werden. Wenn
+    Du Methoden wie <a class="code">rect()</a> oder <a class="code">vertex()</a> in p5.js
+    verwendest, überträgt p5.js die Vertex-Informationen automatisch an den Shader.
+  getting-started-in-webgl-shaders-p8x1: >-
+    Alle Vertex-Shader erfordern eine Funktion, <a class="code">main()</a>, innerhalb derer wir
+    unsere Vertices positionieren. In diesem Beispiel repositioniert der Vertex-Shader unsere Vertices so, dass die
+    Shader-Ausgabe den gesamten Sketch einnimmt. Am Ende von <a class="code">main()</a> müssen wir einen
+    Wert zu <a class="code">gl_Position</a> zuweisen.
+  getting-started-in-webgl-shaders-p9x1: >-
+    Sorge Dich nicht, wenn dies noch nicht viel Sinn ergibt. Der Vertex-Shader spielt eine wichtige Rolle, ist aber
+    oft nur dafür verantwortlich sicherzustellen, dass das, was wir in unserem Fragment-Shader erstellen,
+    ordnungsgemäß auf der Geometrie dargestellt wird. Du wirst Dich wahrscheinlich dabei wiederfinden, dieselben Vertex-Shader
+    in vielen Deiner Projekte wiederzuverwenden. Der Fragment-Shader hingegen ist verantwortlich für die Farbausgabe unseres Shaders und ist der Ort, an dem wir viel
+    unserer Shader-Programmierung durchführen werden. Hier ist ein sehr einfacher Fragment-Shader, der einfach nur die Farbe Rot anzeigen wird:
+  getting-started-in-webgl-shaders-p10x1: >-
+    Der Fragment-Shader beginnt mit einer Zeile, die die Gleitkommagenauigkeit 'precision' festlegt.
+    Dieser Wert kann entweder <a class="code">lowp</a>, <a class="code">mediump</a> oder <a class="code">highp</a> sein, wobei Du
+    wahrscheinlich <a class="code">mediump</a> oder in bestimmten Situationen <a class="code">highp</a> verwenden wirst.
+  getting-started-in-webgl-shaders-p11x1: >-
+    Und ähnlich wie der Vertex-Shader erfordert auch unser Fragment-Shader eine <a class="code">main()</a>
+    Funktion, aber statt <a class="code">gl_Position</a> festzulegen, werden wir eine Farbe zu <a class="code">gl_FragColor</a>
+    zuweisen.
+  getting-started-in-webgl-shaders-p12x1: >-
+    Die Variable <a class="code">myColor</a> ist als <a class="code">vec4</a> definiert, was bedeutet, dass sie 4 Werte speichert. Da wir
+    uns mit Farben beschäftigen, sind diese vier Werte rot, grün, blau und Alpha. Shader verwenden für Farben nicht 0 - 255 wie unsere Skizzen, sondern
+    Werte zwischen 0.0 und 1.0.
+  getting-started-in-webgl-shaders-p13x1: >-
+    Jetzt, da wir einen Vertex-Shader und einen Fragment-Shader haben, können diese in separaten Dateien gespeichert
+    werden (shader.vert und shader.frag) und mit <a class="code">loadShader()</a> in unsere Skizze geladen werden.
+  getting-started-in-webgl-shaders-heading3: >-
+    Uniforms: Daten von der Skizze zum Shader übertragen
+  getting-started-in-webgl-shaders-p14x1: >-
+    Ein einfacher Shader wie dieser kann für sich allein nützlich sein, aber es gibt Zeiten, in denen es notwendig
+    ist, Variablen von der p5.js-Skizze an einen Shader zu übermitteln. Hier kommen Uniforms ins Spiel. Uniforms sind spezielle Variablen, die
+    von einer Skizze an einen Shader gesendet werden können. Diese ermöglichen es, viel mehr Kontrolle über einen Shader zu haben. Zum Beispiel
+    könntest Du die p5.js-Methode <a class="code">millis()</a> verwenden, um eine 'time'-Uniform an unsere Skizze zu übergeben, um Bewegung zu
+    erzeugen. Im Shader werden Uniforms am Anfang der Datei, außerhalb von <a class="code">main()</a>, definiert. In
+    diesem folgenden Fragment-Shader
+    erstellen wir eine Farb-Uniform, <a class="code">myColor</a>, die es uns ermöglicht, die Farbe von unserer Skizze aus zu ändern.
+  getting-started-in-webgl-shaders-p15x1: >-
+    Zurück in unserer p5.js-Skizze kann diese Farbe nun mit <a class="code">setUniform()</a> gesendet werden:
+  getting-started-in-webgl-shaders-p16x1: >-
+    Es gibt auch <em>Attribute</em>, die in der Regel verwendet werden, um bestimmte Daten über die Geometrie zwischen der
+    Skizze und dem Vertex-Shader zu teilen, und <em>variierende</em> Variablen, die Daten zwischen dem Vertex-Shader und dem
+    Fragment-Shader teilen.
+    Dies ermöglicht es, Positionsdaten oder andere Geometriedaten innerhalb unserer Fragment-Shader zu nutzen.
+  getting-started-in-webgl-shaders-p17x1: >-
+    Jetzt, da die Texturkoordinatenattribut der variierenden Variablen zugewiesen wurde, können wir die Texturkoordinate
+    in unserem Fragment-Shader verwenden. Das Ergebnis im folgenden Beispiel ist eine blaue und magentafarbene Visualisierung unserer Texturkoordinaten.
+  getting-started-in-webgl-shaders-info1x1: >-
+    p5.js verwaltet viele Attribute und Uniforms für uns, und <a
+    href="https://github.com/processing/p5.js/blob/374acfb44588bfd565c54d61264df197d798d121/contributor_docs/webgl_mode_architecture.md">hier
+    kannst Du eine Liste aller Attribute einsehen, die p5.js an den Shader sendet</a>.
+  getting-started-in-webgl-shaders-heading4: >-
+    Fazit
+  getting-started-in-webgl-shaders-p18x1: >-
+    Mit diesen Fähigkeiten wirst Du in der Lage sein, einige grundlegende Shader zu erstellen, aber die Shader-Programmierung kann
+    unglaublich tief gehen und es gibt viele Shader-Themen, die über dieses Tutorial hinausgehen. Shaders in p5.js können ein mächtiges Werkzeug für
+    die Erstellung von Visualisierungen, Effekten und sogar Texturen sein, die auf Deine 3D-Geometrie projiziert werden können.
+  getting-started-in-webgl-shaders-p19x1: >-
+    Möchtest Du mehr über Shader lernen? Schau Dir einige dieser Webseiten an!
+  getting-started-in-webgl-shaders-resources: >-
+    <li><a href="https://thebookofshaders.com/">The Book of Shaders</a>, ein Shader-Leitfaden von Patricio Gonzalez Vivo
+      und
+      Jen Lowe.</li>
+    <li><a href="https://itp-xstory.github.io/p5js-shaders/#/">P5.js Shader</a>, ein Shader-Leitfaden von Casey Conchinha
+      und
+      Louise Lessél.</li>
+    <li><a href="https://www.shadertoy.com/">Shadertoy</a>, eine umfangreiche Online-Sammlung von Shadern, die in einem Browsereditor geschrieben wurden.</li>
+    <li><a href="https://github.com/aferriss/p5jsShaderExamples">p5jsShaderExamples</a>, eine Sammlung von Ressourcen
+      von
+      Adam Ferriss.</li>
+  getting-started-in-webgl-shaders-glossary-term1-title: Shader
+  getting-started-in-webgl-shaders-glossary-term1-definition: >-
+    Ein spezielles Grafikkartenprogramm, das effizient viele visuelle Effekte und Filter erzeugen kann.
+  getting-started-in-webgl-shaders-glossary-term2-title: GLSL
+  getting-started-in-webgl-shaders-glossary-term2-definition: >-
+    Graphics Library Shader Language (GLSL) ist eine Programmiersprache, die verwendet wird, um Shader zu schreiben.
+  getting-started-in-webgl-shaders-glossary-term3-title: Uniform
+  getting-started-in-webgl-shaders-glossary-term3-definition: >-
+    Eine Variable, die von Deiner Skizze an einen Shader übergeben wird.
+  getting-started-in-webgl-shaders-glossary-term4-title: Vektor
+  getting-started-in-webgl-shaders-glossary-term4-definition: >-
+    Ein Datentyp, der eine Gruppe von Zahlen speichert, meistens zwei, drei oder vier, um Farben, Positionen
+    und mehr darzustellen.
+  getting-started-in-webgl-shaders-glossary-term5-title: Float
+  getting-started-in-webgl-shaders-glossary-term5-definition: >-
+    Ein Datentyp, der Gleitkommazahlen speichert, die einen Dezimalpunkt haben können.
+  getting-started-in-webgl-shaders-glossary-term6-title: Int
+  getting-started-in-webgl-shaders-glossary-term6-definition: >-
+    Ein Datentyp, der ganze Zahlen ohne Dezimalpunkt speichert.
+  getting-started-in-webgl-shaders-glossary-term7-title: Sampler
+  getting-started-in-webgl-shaders-glossary-term7-definition: >-
+    Ein Datentyp, der eine Textur darstellt, die in den Shader übergeben wird.
+  getting-started-in-webgl-shaders-glossary-term8-title: Attribut
+  getting-started-in-webgl-shaders-glossary-term8-definition: >-
+    Eine GLSL-Variable, die in der p5.js-Skizze generiert und im Vertex-Shader verfügbar gemacht wird. Für die meisten
+    Situationen werden diese von p5.js bereitgestellt.
+  getting-started-in-webgl-shaders-glossary-term9-title: Textur
+  getting-started-in-webgl-shaders-glossary-term9-definition: >-
+    Ein Bild, das in ein Shader-Programm übergeben wird.
+  getting-started-in-webgl-shaders-glossary-term10-title: Typ
+  getting-started-in-webgl-shaders-glossary-term10-definition: >-
+    Ein Label, das die Eigenschaften eines Datumsstücks beschreibt, wie zum Beispiel ein Int, ein Float, ein Vektor usw.
+  getting-started-in-webgl-shaders-glossary-term11-title: Vertex-Shader
+  getting-started-in-webgl-shaders-glossary-term11-definition: >-
+    Der Teil eines Shader-Programms, der für die Positionierung der Geometrie im 3D-Raum verantwortlich ist.
+  getting-started-in-webgl-shaders-glossary-term12-title: Fragment-Shader
+  getting-started-in-webgl-shaders-glossary-term12-definition: >-
+    Der Teil eines Shader-Programms, der für die Farbe und das Erscheinungsbild jedes vom Shader ausgegebenen Pixels verantwortlich ist.
+  getting-started-in-webgl-framebuffers-title: Geschichtetes Rendering mit Framebuffers
+  getting-started-in-webgl-framebuffers: >-
+    Einrichtung von Skizzen, die in mehreren Stufen zeichnen oder auf 3D-Tiefeninformationen zugreifen.
+  color-title: Farbe
+  color: Eine Einführung in digitale Farben.
+  coordinate-system-and-shapes-title: Koordinatensystem und Formen
+  coordinate-system-and-shapes: Zeichnen einfacher Formen und Verwenden des Koordinatensystems.
+  interactivity-title: Interaktivität
+  interactivity: Einführung in Interaktivität mit der Maus und der Tastatur.
+  program-flow-title: Programmablauf
+  program-flow: Einführung in die Steuerung des Programmablaufs in p5.js.
+  curves-title: Kurven
+  curves: >-
+    Eine Einführung in die drei Arten von Kurven in p5.js: Bögen, Spline-Kurven
+    und Bézier-Kurven.
+  becoming-a-better-programmer-title: Ein besserer Programmierer werden
+  debugging-title: Debugging
+  debugging: Feldführer zum Debugging für alle.
+  optimizing-title: Optimieren von p5.js-Code für die Leistung
+  optimizing: >-
+    Ein Tutorial mit Tipps und Tricks zum Optimieren Deines Codes, damit er schneller
+    und flüssiger läuft.
+  test-driven-development-title: Unit-Tests und testgetriebene Entwicklung
+  test-driven-development: >-
+    Rette Dich vor Qual am Installationstag. Was ist Unit Testing und wie benutzt
+    man es? Von Andy Timmons.
+  contributing-to-the-community-title: Zur Gemeinschaft beitragen
+  development-title: Entwicklung
+  development: Einstieg und Übersicht zum Beitrag zur Entwicklung.
+  looking-inside-title: Ein Blick ins Innere von p5
+  looking-inside: >-
+    Eine freundliche Einführung in die Dateistruktur und Werkzeuge für die p5.js-Entwicklung, von
+    Luisa Pereira.
+  writing-tutorial-title: Ein Tutorial schreiben
+  writing-tutorial: Ein Leitfaden zum Schreiben eines p5.js-Programmiertutorials.
+  writing-a-tutorial-title: Leitfaden zum Beitrag von p5.js-Tutorials
+  writing-a-tutorial-author: Dieses Tutorial wurde von Tega Brain geschrieben.
+  writing-a-tutorial-1: >-
+    Wir laden Lehrer, Mitwirkende und allgemeine Enthusiasten ein, p5js
+    Tutorials beizutragen. Das p5js-Projekt macht kreatives Programmieren und
+    Open Source-Entwicklung für eine vielfältige Gemeinschaft zugänglicher und wir sind gespannt darauf,
+    Tutorials zu allen Aspekten des Entwicklungsprozesses zu veröffentlichen. Unsere bisherigen Lernmaterialien umfassen Anleitungen zum Lernen von p5, Programmierungstechnik und
+    wie man zu einem Open Source-Projekt beiträgt.
+  writing-a-tutorial-2: >-
+    Wir begrüßen neue schriftliche Tutorial-Beiträge und dieser Leitfaden skizziert die
+    Schritte, wie man vorschlägt, vorbereitet und beiträgt.
+  writing-a-tutorial-how-start-title: 'Wie man anfängt:'
+  writing-a-tutorial-how-start-1: 'Prüfe, ob Dein vorgeschlagenes Thema nicht bereits abgedeckt wurde. Es gibt '
+  writing-a-tutorial-how-start-2: hier eine Arbeitsliste
+  writing-a-tutorial-how-start-3: >-
+    , die laufende Tutorials auflistet. Wenn Dein Thema als in Arbeit aufgeführt ist,
+    kannst Du vielleicht zur laufenden Arbeit beitragen und zur Vorbereitung bestehender
+    Arbeiten für die Veröffentlichung beitragen, also kontaktiere uns bitte.
+  writing-a-tutorial-how-start-4: >-
+    Wenn Dein Thema noch nicht abgedeckt ist und nicht als in Arbeit aufgeführt ist,
+    schreibe bitte ein paar Sätze darüber, was Du abdecken möchtest, und sende uns diese
+    Beschreibung per E-Mail an education@p5js.org.
+  writing-a-tutorial-how-prepare-title: 'Wie man ein p5js-Tutorial für die Online-Veröffentlichung vorbereitet:'
+  writing-a-tutorial-how-prepare-1: >-
+    Wenn Dein Tutorial bereit für die Veröffentlichung ist, befolge bitte diese Schritte, um
+    Deine Inhalte für die p5js-Website vorzubereiten.
+  writing-a-tutorial-how-prepare-2: 'Bereite den Inhalt Deines Tutorials als tutorial-name.hbs-Datei mit '
+  writing-a-tutorial-how-prepare-3: dieser Grundstruktur
+  writing-a-tutorial-how-prepare-4: ' vor. Wie in dieser Datei gezeigt, muss sie einen Kopfteil wie unten gezeigt enthalten:'
+  writing-a-tutorial-how-prepare-5: >-
+    Der Ordner, der Dein Tutorial enthält, wird im 'tutorials'-Ordner
+    der p5js-Website platziert. Die Datei namens index.hbs ist die
+  writing-a-tutorial-how-prepare-6: 'p5.js-Tutorial-Startseite,'
+  writing-a-tutorial-how-prepare-7: ' und die test-tutorial.hbs-Datei ist das Test-Tutorial.'
+  writing-a-tutorial-how-prepare-8: 'Alle Inhalte sollten in den:'
+  writing-a-tutorial-how-prepare-9: >-
+    -Tags auf der Seite gehen, mit einer Formatierung, die durch die &lt;h1&gt;- und &lt;h2&gt;-
+    Tags, die &lt;p&gt;-Absatz-Tags definiert ist, wie auf der
+  writing-a-tutorial-how-prepare-10: Test-Tutorial-Seite gezeigt.
+  writing-a-tutorial-how-prepare-11: >-
+    Wenn Dein Tutorial Bilder enthält, sollen diese im Assets-Ordner
+    der p5-Website, unter dem Pfad src/assets/learn/test-tutorial/images wie
+    unten gezeigt, platziert werden.
+  writing-a-tutorial-how-prepare-12: 'Um Code im HTML der Seite korrekt zu formatieren, verwende den Tag:'
+  writing-a-tutorial-embedding-title: Einbindung von p5.js Skizzen
+  writing-a-tutorial-embedding-1: >-
+    p5js zu verwenden bedeutet, dass Du Dein Tutorial mit animierten, interaktiven
+    oder bearbeitbaren Codebeispielen illustrieren kannst, um Programmierkonzepte zu demonstrieren. Deine Beispiele
+    sollten als p5.js Skizzen vorbereitet und auf zwei Arten in das Tutorial eingebettet werden können.
+  writing-a-tutorial-embedding-2: 'Wenn das Beispiel bearbeitbar sein soll, wie auf den '
+  writing-a-tutorial-embedding-3: Referenzseiten
+  writing-a-tutorial-embedding-4: ' der p5js-Website, sollte die p5-Skizze mithilfe des p5js-Widgets in die HTML-Seite eingebettet werden. Folge '
+  writing-a-tutorial-embedding-5: 'dieser Anleitung '
+  writing-a-tutorial-embedding-6: 'zur Einbettung von p5js-Skizzen mittels des Widgets, geschrieben von '
+  writing-a-tutorial-embedding-7: . Du kannst dies auch in Aktion auf der
+  writing-a-tutorial-embedding-8: ' Test-Tutorial-Seite'
+  writing-a-tutorial-embedding-9: ' sehen.'
+  writing-a-tutorial-embedding-10: >-
+    Wenn das Beispiel animiert und/oder interaktiv, aber nicht bearbeitbar sein soll, sollte die
+    p5.js-Skizze als iFrame in die Seite eingebettet werden, wie unten beschrieben.
+  writing-a-tutorial-iframe-title: Einbetten einer p5-Skizze mit einem iFrame
+  writing-a-tutorial-iframe-1: >-
+    Ein iFrame ist wie das Erstellen eines Fensters, durch das Du eine andere
+    Seite erkunden kannst, abgegrenzt vom Rest Deiner Seite. In diesem Fall wird es ein Fenster
+    zur index.html sein, die Deine p5.js-Skizze enthält.
+  writing-a-tutorial-iframe-2: >-
+    Lege Deine p5-Skizzen im Ordner /src/assets/learn der Seite ab, in einem
+    Ordner, der mit dem Namen Deiner Skizze beschriftet ist, wie im Screenshot gezeigt.
+    Hier sollten alle Bilder und p5-Skizzen gespeichert werden, die per iFrame verlinkt sind.
+  writing-a-tutorial-iframe-3: >-
+    In den Unterordnern, die Deine p5-Beispiele enthalten, sollte es eine sketch.js
+    Datei und eine embed.html Datei für die Skizze geben.
+  writing-a-tutorial-iframe-4: >-
+    Stelle sicher, dass Deine embed.html Datei die korrekten Pfade zu den p5-Bibliotheken der
+    Seite hat. Wenn Deine Dateistruktur wie oben ist, sollte der Pfad zur p5.js-
+    Bibliothek "../../../js/p5.min.js" sein.
+  writing-a-tutorial-iframe-5: >-
+    Du kannst dann die p5js-Indexdateien als iFrames in der .hbs-Datei einbetten,
+    die Deinen Tutorialinhalt enthält. Der Einbettungscode für den iFrame wäre dann:
+  writing-a-tutorial-iframe-6: >-
+    Styling für den iFrame (dies könnte direkt in den Post oder in einem
+    Stylesheet erfolgen):
+  writing-a-tutorial-iframe-7: 'Hier kannst Du die nackte Skizze laufen sehen: '
+  writing-a-tutorial-iframe-8: 'Und hier ist sie eingebettet auf der p5-Website mit dem untenstehenden Code:  '
+  writing-a-tutorial-iframe-9: >-
+    Eines, das zu beachten ist, ist, dass Du manuell die Größe des iFrames setzen musst,
+    es funktioniert also am besten, wenn die Dinge eine Standardgröße haben.
+  writing-a-tutorial-iframe-10: >-
+    Auch zu beachten ist, dass die Verlinkungen zu den p5.js-Bibliotheksdateien nicht von der
+    .eps-Seite mit all dem Tutorialinhalt erfolgen. Stattdessen werden sie in der
+    html-Seite, die Deine Skizze rendert (in diesem Fall genannt embed.html), lokalisiert sein.
+  writing-a-tutorial-iframe-11: 'Mehr Informationen zur Einbettung von p5.js-Skizzen findest Du '
+  writing-a-tutorial-embed-iframe-12: hier.
+  writing-a-tutorial-finishing-title: Abschluss
+  writing-a-tutorial-finishing-1: >-
+    Sobald Du Dein Tutorial fertiggestellt hast und Dein Inhalt das Okay erhalten hat. Fork das p5.js-Website-Repository, bereite Deinen Inhalt wie oben beschrieben vor und dann erstelle eine Pull-Anfrage an das p5.js-Website-Repository, damit wir Deinen Beitrag veröffentlichen können!
+  writing-a-tutorial-finishing-2: Danke!
+  color-description1: >-
+    Dieses Tutorial stammt aus dem Buch Learning Processing von Daniel Shiffman,
+    veröffentlicht von Morgan Kaufmann, © 2008 Elsevier Inc. Alle Rechte vorbehalten. Es
+    wurde zu P5 von Kelly Chang portiert. Wenn Du Fehler findest oder Kommentare hast,
+  color-description2: ' bitte lass es uns wissen.'
+  color-p1x1: >-
+    In der digitalen Welt, wenn wir über eine Farbe sprechen wollen, ist Präzision
+    erforderlich. Zu sagen "Hey, kannst Du diesen Kreis blaugrün machen?" wird nicht funktionieren.
+    Farbe wird vielmehr als eine Reihe von Zahlen definiert. Beginnen wir mit dem
+    einfachsten Fall: Schwarz & Weiß oder Graustufen. 0 bedeutet Schwarz, 255 bedeutet Weiß.
+    Dazwischen ist jede andere Zahl—50, 87, 162, 209 und so weiter—ein Grauton von Schwarz bis Weiß.
+  color-p2x1: 'Durch Hinzufügen der '
+  color-p2x2: ' und '
+  color-p2x3: ' Funktionen vor dem Zeichnen, können wir die Farbe einer beliebigen Form festlegen. Es gibt auch die Funktion '
+  color-p2x4: ', die eine Hintergrundfarbe für das Fenster festlegt. Hier ist ein Beispiel.'
+  color-code1: |-
+    background(255);    // Setzt den Hintergrund auf Weiß
+    stroke(0);          // Setzt die Umrandung (stroke) auf Schwarz
+    fill(150);          // Setzt das Innere einer Form (fill) auf Grau
+    rect(50,50,75,100); // Zeichnet das Rechteck
+  color-p3x1: 'Stroke oder fill können mit den Funktionen: '
+  color-p3x2: ' und '
+  color-p3x3: >-
+    . eliminiert werden. Unser Instinkt könnte sein, "stroke(0)" für keine Umrandung zu sagen, jedoch, es ist
+    wichtig zu bedenken, dass 0 nicht "nichts" ist, sondern die Farbe Schwarz darstellt. Auch, vergiss nicht, beides zu eliminieren—mit
+  color-p3x4: ' und '
+  color-p3x5: ', wird nichts erscheinen!'
+  color-p4x1: >-
+    Zusätzlich, wenn wir zwei Formen zeichnen, wird p5.js immer den zuletzt
+    spezifizierten Stroke und Fill verwenden, den Code von oben nach unten lesend.
+  color-rgb-title: RGB-Farbe
+  color-rgb-p1x1: >-
+    Erinnerst Du Dich an Fingerfarben? Durch Mischen von drei "primären" Farben konnte jede Farbe
+    erzeugt werden. Das Vermischen aller Farben führte zu einem schlammigen Braun. Je
+    mehr Farbe Du hinzugefügt hast, desto dunkler wurde es. Digitale Farben werden ebenfalls durch Mischen von drei Primärfarben konstruiert, aber es funktioniert anders als bei Farbe. Erstens,
+    die Primärfarben sind anders: Rot, Grün und Blau (d.h., "RGB"-Farbe). Und
+    mit Farbe auf dem Bildschirm mischst Du Licht, nicht Farbe, also sind die Mischregeln auch anders.
+  color-rgb-li1: Rot + Grün = Gelb
+  color-rgb-li2: Rot + Blau = Lila
+  color-rgb-li3: Grün + Blau = Cyan (blaugrün)
+  color-rgb-li4: Rot + Grün + Blau = Weiß
+  color-rgb-li5: Keine Farben = Schwarz
+  color-rgb-p2x1: >-
+    Dies setzt voraus, dass die Farben alle so hell wie möglich sind, aber natürlich,
+    hast Du eine Bandbreite an Farben zur Verfügung, also etwas Rot plus etwas Grün plus etwas
+    Blau ergibt Grau, und ein bisschen Rot plus ein bisschen Blau ergibt dunkles Lila.
+    Während dies anfangs gewöhnungsbedürftig sein mag, je mehr Du programmierst und
+    mit RGB-Farben experimentierst, desto intuitiver wird es, ähnlich wie das Farbenmischen mit Deinen Fingern. Und natürlich kannst Du nicht sagen "Mische etwas Rot mit ein bisschen Blau", Du musst eine genaue Menge angeben. Wie bei Graustufen,
+    werden die einzelnen Farbelemente als Reichweiten von 0 (keine dieser Farbe) bis 255 (so viel wie möglich) ausgedrückt, und sie sind in der Reihenfolge R, G,
+    und B aufgelistet. Du wirst das Mischen von RGB-Farben durch Experimentieren erlernen,
+    aber als nächstes werden wir etwas Code mit einigen gängigen Farben durchgehen.
+  color-transparency-title: Farbtransparenz
+  color-transparency-p1x1: >-
+    Zusätzlich zu den Rot-, Grün- und Blaukomponenten jeder Farbe gibt es
+    eine zusätzliche optionale vierte Komponente, die als die "Alpha"-Komponente der Farbe bezeichnet wird.
+    Alpha bedeutet Transparenz und ist besonders nützlich, wenn Du Elemente zeichnen möchtest, die teilweise durchscheinend übereinander erscheinen. Die Alpha-
+    Werte eines Bildes werden manchmal kollektiv als der "Alpha-Kanal" eines Bildes bezeichnet.
+  color-transparency-p2x1: >-
+    Es ist wichtig zu realisieren, dass Pixel nicht buchstäblich transparent sind, dies
+    ist einfach eine praktische Illusion, die durch Farbmischung erreicht wird.
+    Hinter den Kulissen nimmt p5.js die Farbnummern und fügt einen Prozentsatz
+    von einem zu einem Prozentsatz von einem anderen hinzu, was die optische Wahrnehmung von Mischung erzeugt.
+    (Wenn Du interessiert bist, "rosafarbene" Brillen zu programmieren, hier würdest Du beginnen.)
+  color-transparency-p3x1: >-
+    Alpha-Werte reichen ebenfalls von 0 bis 255, wobei 0 völlig transparent
+    (d.h. 0 % deckend) und 255 völlig undurchsichtig (d.h. 100 % deckend) ist.
+  color-custom-ranges-title: Benutzerdefinierte Farbbereiche
+  color-custom-ranges-p1x1: >-
+    RGB-Farbe mit Bereichen von 0 bis 255 ist nicht der einzige Weg, wie Du Farbe
+    in p5.js handhaben kannst, tatsächlich erlaubt es uns, über Farbe in jeder beliebigen Weise nachzudenken. Zum Beispiel könntest Du es vorziehen, Farbe als Bereich von 0 bis 100 (wie ein
+    Prozentsatz) zu betrachten. Du kannst dies tun, indem Du einen benutzerdefinierten
+  color-custom-ranges-p2x1: >-
+    Die obige Funktion sagt: "OK, wir möchten über Farbe in Bezug auf Rot,
+    Grün und Blau nachdenken. Der Bereich der RGB-Werte wird von 0 bis 100 sein."
+  color-custom-ranges-p3x1: >-
+    Obwohl es selten praktisch ist, dies zu tun, kannst Du auch unterschiedliche
+    Bereiche für jede Farbkomponente haben:
+  color-custom-ranges-p4x1: >-
+    Jetzt sagen wir "Rote Werte gehen von 0 bis 100, Grün von 0 bis 500, Blau
+    von 0 bis 10 und Alpha von 0 bis 255."
+  color-custom-ranges-p5x1: >-
+    Schließlich, obwohl Du wahrscheinlich nur RGB-Farbe für all Deine
+    Programmierbedürfnisse benötigen wirst, kannst Du auch Farben im HSB-Modus (Farbton, Sättigung,
+    und Helligkeit) spezifizieren. Ohne zu sehr ins Detail zu gehen, funktioniert HSB-Farbe wie folgt:
+  color-custom-ranges-li1x1: Farbton
+  color-custom-ranges-li1x2: '—Der Farbtyp, reicht standardmäßig von 0 bis 360.'
+  color-custom-ranges-li2x1: Sättigung
+  color-custom-ranges-li2x2: '—Die Lebendigkeit der Farbe, standardmäßig von 0 bis 100.'
+  color-custom-ranges-li3x1: Helligkeit
+  color-custom-ranges-li3x2: '—Die, nun ja, Helligkeit der Farbe, standardmäßig von 0 bis 100.'
+  color-custom-ranges-p6x1: 'Mit '
+  color-custom-ranges-p6x2: ' kannst Du eigene Bereiche für diese Werte festlegen. Einige bevorzugen einen Bereich von 0-360 für den Farbton (denke an 360 Grad auf einem Farbkreis) und 0-100 für Sättigung und Helligkeit (denke an 0-100%).'
+  coordinate-system-description1: 'Dieses Tutorial stammt aus dem Buch '
+  coordinate-system-description2: Learning Processing
+  coordinate-system-description3: ' von Daniel Shiffman, veröffentlicht von Morgan Kaufmann, © 2008 Elsevier Inc. Alle Rechte vorbehalten. Es wurde zu p5.js von Alex Yixuan Xu portiert. Wenn Du Fehler findest oder Kommentare hast, bitte '
+  coordinate-system-description4: lass es uns wissen
+  coordinate-system-description5: .
+  coordinate-system-description-title: Koordinatensystem und Formen
+  coordinate-system-description-p1x1: >-
+    Bevor wir mit der Programmierung in p5 beginnen, müssen wir zunächst in unsere Acht-Klässler-Selbst schlüpfen, ein Stück Millimeterpapier herausziehen und eine Linie zeichnen. Die kürzeste Entfernung zwischen zwei Punkten ist eine gute alte Linie, und genau hier fangen wir an, mit zwei Punkten auf diesem Millimeterpapier.
+  coordinate-system-description-p2x1: >-
+    Die obige Abbildung zeigt eine Linie zwischen Punkt A (1,0) und Punkt B (4,5). Wenn Du einem Freund von Dir sagen wolltest, diese gleiche Linie zu zeichnen, würdest Du ihm zurufen und sagen: "Zeichne eine Linie vom Punkt eins-null zum Punkt vier-fünf, bitte." Nun, stell Dir vor, für den Moment, Dein Freund wäre ein Computer und Du wolltest diesen digitalen Kumpel anweisen, diese gleiche Linie auf seinem Bildschirm anzuzeigen. Der gleiche Befehl gilt (nur dieses Mal kannst Du die Höflichkeitsformen überspringen und musst ein präzises Format verwenden). Hier würde die Anweisung so aussehen:
+  coordinate-system-description-p3x1: >-
+    Selbst ohne die Syntax des Code-Schreibens studiert zu haben, sollte die obige Aussage einen recht guten Sinn ergeben. Wir geben einen Befehl (den wir als "Funktion" bezeichnen) für die Maschine zum Folgen mit dem Titel "line". Zusätzlich spezifizieren wir einige Argumente dafür, wie diese Linie gezeichnet werden soll, von Punkt A (1,0) nach Punkt B (4,5). Wenn Du an diese Codezeile als einen Satz denkst, ist die Funktion ein Verb und die Argumente sind die Objekte des Satzes. Der Code-Satz endet auch mit einem Semikolon statt einem Punkt.
+  coordinate-system-description-p4x1: >-
+    Der Schlüssel hier ist zu erkennen, dass der Computerbildschirm nichts weiter ist als ein ausgefalleneres Stück Millimeterpapier. Jeder Pixel des Bildschirms ist eine Koordinate - zwei Zahlen, ein "x" (horizontal) und ein "y" (vertikal) -, die die Lage eines Punktes im Raum bestimmt. Und es ist unsere Aufgabe zu spezifizieren, welche Formen und Farben an diesen Pixelkoordinaten erscheinen sollen.
+  coordinate-system-description-p5x1: >-
+    Dennoch, es gibt hier einen Haken. Das Millimeterpapier aus der achten Klasse ("kartesisches Koordinatensystem") platzierte (0,0) in der Mitte mit der y-Achse nach oben zeigend und der x-Achse nach rechts zeigend (in die positive Richtung, negativ nach unten und links). Das Koordinatensystem für Pixel in einem Computerfenster ist jedoch entlang der y-Achse umgekehrt. (0,0) befindet sich oben links mit der positiven Richtung nach rechts horizontal und nach unten vertikal.
+  coordinate-system-simple-shapes-title: Einfache Formen
+  coordinate-system-simple-shapes-p1x1: >-
+    Die überwiegende Mehrheit der p5-Programmierbeispiele ist visueller Natur. Diese Beispiele umfassen im Kern das Zeichnen von Formen und das Setzen von Pixeln. Beginnen wir indem wir vier primitive Formen betrachten.
+  coordinate-system-simple-shapes-p2x1: >-
+    Bei jeder Form werden wir uns fragen, welche Informationen benötigt werden, um die Lage und Größe (und später die Farbe) dieser Form zu spezifizieren, und wie p5 diese Informationen erhalten möchte. In jedem der folgenden Diagramme gehen wir von einem Fenster mit einer Breite von 100 Pixeln und einer Höhe von 100 Pixeln aus.
+  coordinate-system-simple-shapes-p3x1: 'Ein '
+  coordinate-system-simple-shapes-p3x2: ' ist die einfachste der Formen und ein guter Startpunkt. Um einen Punkt zu zeichnen, benötigen wir nur eine x- und eine y-Koordinate.'
+  coordinate-system-simple-shapes-p4x1: 'Ein '
+  coordinate-system-simple-shapes-p4x2: ' ist auch nicht besonders schwierig und benötigt lediglich zwei Punkte: (x1,y1) und (x2,y2):'
+  coordinate-system-simple-shapes-p5x1: 'Sobald wir beim Zeichnen eines '
+  coordinate-system-simple-shapes-p5x2: >-
+    ' angekommen sind, wird es ein bisschen komplizierter. In p5 wird ein Rechteck durch die Koordinate für die obere linke Ecke des Rechtecks sowie dessen Breite und Höhe spezifiziert.
+  coordinate-system-simple-shapes-p6x1: >-
+    Eine zweite Möglichkeit, ein Rechteck zu zeichnen, besteht darin, den Mittelpunkt anzugeben, zusammen mit Breite und Höhe. Wenn wir diese Methode bevorzugen, geben wir zuerst an, dass wir den
+  coordinate-system-simple-shapes-p6x2: ' Modus vor der Anweisung für das Rechteck selbst verwenden wollen. Beachte, dass p5 casesensitiv ist.'
+  coordinate-system-simple-shapes-p7x1: >-
+    Schließlich können wir auch ein Rechteck mit zwei Punkten zeichnen (die obere linke Ecke und die untere rechte Ecke). Der Modus hier ist
+  coordinate-system-simple-shapes-p7x2: . Beachte, dass dieses Beispiel auf dem Bildschirm das gleiche Ergebnis liefert wie das oben genannte Beispiel.
+  coordinate-system-simple-shapes-p8x1: 'Sobald wir uns mit dem Konzept des Zeichnens eines Rechtecks vertraut gemacht haben, ist eine '
+  coordinate-system-simple-shapes-p8x2: ' ein Kinderspiel. Tatsächlich entspricht es '
+  coordinate-system-simple-shapes-p8x3: ' mit dem Unterschied, dass eine Ellipse dort gezeichnet wird, wo der Begrenzungsrahmen des Rechtecks sein würde. Der Standardmodus für '
+  coordinate-system-simple-shapes-p8x4: ' ist '
+  coordinate-system-simple-shapes-p8x5: ', anstatt '
+  coordinate-system-simple-shapes-p8x6: .
+  coordinate-system-simple-shapes-p9x1: >-
+    Schauen wir uns jetzt an, wie einige Codes mit Formen in vollständigerer Form aussehen, mit Leinwandabmessungen von 200 mal 200. Beachte die Verwendung der Funktion createCanvas(), um die Breite und Höhe der Leinwand anzugeben.
+  curves-description1: 'Dieses Tutorial wurde von J David Eisenberg geschrieben und von Sally Chen portiert. Wenn Du Fehler siehst oder Kommentare hast, '
+  curves-description2: ' lass es uns bitte wissen.'
+  curves-description3: 'Dieses Werk ist lizenziert unter einer '
+  curves-description4: ' Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Lizenz.'
+  curves-p1x1: 'Dieses kurze Tutorial führt Dich in die drei Arten von Kurven in p5.js ein: Bögen, Spline-Kurven und Bézier-Kurven.'
+  curves-arcs-title: ' Bögen '
+  curves-arcs-p1x1: 'Bögen sind die einfachsten zu zeichnenden Kurven, definiert als ein Abschnitt einer Ellipse. Du rufst die Funktion mit diesen Parametern auf:'
+  curves-arcs-p2x1: 'arc (x, y, w, h, start, stop, [Modus])'
+  curves-arcs-p3x1: >-
+    Die ersten vier Parameter (x,y,w,h) definieren den Begrenzungsrahmen für Deinen Bogen und die nächsten zwei (start, stop), sind die Start- und Stop-Winkel für den Bogen. Diese Winkel werden in Radiant angegeben und im Uhrzeigersinn gemessen, wobei null Grad nach Osten zeigt und PI-Radiant 180° entspricht.
+  curves-spline-curves-title: 'Spline-Kurven'
+  curves-spline-curves-p1x1: >-
+    Bögen sind in Ordnung, aber sie sind schlicht. Die nächste Funktion, curve(), ermöglicht es Dir, Kurven zu zeichnen, die nicht unbedingt Teil eines Bogens sind. Diese Funktion zeichnet das, was technisch als Rom-Catmull Spline bezeichnet wird.
+    Um die Kurve zu zeichnen, musst Du die (x, y)-Koordinaten der Punkte angeben, an denen die Kurve beginnt und endet. Du musst auch zwei Kontrollpunkte angeben, die die Richtung und das Ausmaß der Krümmung bestimmen.
+    Die ersten beiden und die letzten beiden Parameter sind die Kontrollpunkte der Kurve.
+    Ein Aufruf der curve()-Funktion verwendet diese Parameter:
+  curves-spline-curves-p2x1: 'curve (cpx1, cpy1, x1, y1, x2, y2, cpx2, cpy2);'
+  curves-spline-curves-p3x1: 'Wie beeinflussen die Kontrollpunkte das Aussehen der Kurve?'
+  curves-spline-curves-p4x1: 'Die Tangente an die Kurve am Startpunkt liegt parallel zur Linie zwischen dem ersten Kontrollpunkt und dem Endpunkt der Kurve. Die Tangente an die Kurve am Endpunkt liegt parallel zur Linie zwischen dem Startpunkt und Kontrollpunkt 2.'
+  curves-spline-curves-p5x1: 'Das folgende Diagramm zeigt eine Kurve, und die Punkte können verschoben werden, um zu zeigen, wie der Kontrollpunkt die Kurve beeinflusst:'
+  curves-continuous-spline-curves-title: 'Durchgehende Spline-Kurven'
+  curves-continuous-spline-curves-p1x1: >-
+    Eine einzelne curve()-Funktion für sich ist nicht besonders ansprechend. Um eine durchgehende Kurve durch mehrere Punkte zu zeichnen, bist Du besser dran mit der Funktion curveVertex().
+    Diese Funktion kannst Du nur verwenden, wenn Du eine Form mit den Funktionen beginShape() und endShape() erstellst. Im allgemeinen Gebrauch nutzen die Leute den ersten Punkt der Kurve
+    als den ersten Kontrollpunkt und den letzten Punkt der Kurve als den letzten Kontrollpunkt.
+  curves-bezier-curves-title: 'Bézier-Kurven'
+  curves-bezier-curves-p1x1: >-
+    Obwohl besser als Bögen, scheinen Spline-Kurven nicht diese anmutigen, schwingenden Kurven zu haben, die "Kunst" sagen. Für diese benötigst Du Bézier-Kurven, die mit der bezier()-Funktion gezeichnet werden.
+    Wie bei Spline-Kurven hat die bezier()-Funktion acht Parameter, aber die Reihenfolge ist anders. Die ersten beiden und die letzten beiden Parameter sind die Start- und Endpunkte, während die mittleren
+    vier Punkte die Kontrollpunkte sind.
+  curves-bezier-curves-p2x1: ' bezier(x1, y1, cpx1, cpy1, cpx2, cpy2, x2, y2); '
+  curves-bezier-curves-p3x1: >-
+    Während es schwer ist, sich zu visualisieren, wie die Kontrollpunkte eine curve() beeinflussen, ist es ein wenig einfacher zu sehen, wie die Kontrollpunkte Bézier-Kurven beeinflussen.
+    Stelle Dir zwei Stangen und mehrere Gummibänder vor. Die Stangen verbinden die Kontrollpunkte mit den Endpunkten der Kurve. Ein Gummiband verbindet die Spitzen der Stangen.
+    Zwei weitere Gummibänder verbinden die Mittelpunkte der Stangen mit dem Mittelpunkt des ersten Gummibands. Ein weiteres Gummiband verbindet ihre Mittelpunkte.
+    Das Zentrum dieses letzten Gummibands ist an der Kurve befestigt. Dieses Diagramm hilft zu erklären, die Punkte können bewegt werden, um die Kurve zu ändern.
+  curves-continuous-bezier-curves-title: 'Durchgehende Bézier-Kurven'
+  curves-continuous-bezier-curves-p1x1: >-
+    So wie curveVertex() es Dir ermöglicht, durchgehende Spline-Kurven zu machen, lässt bezierVertex() Dich durchgehende Bézier-Kurven erzeugen.
+    Auch hier musst Du innerhalb einer beginShape() / endShape()-Sequenz sein. Du musst vertex(startX, startY) verwenden, um den Startankerpunkt der Kurve zu spezifizieren.
+    Nachfolgende Punkte werden mit einem Aufruf spezifiziert zu:
+  curves-continuous-bezier-curves-p2x1: 'bezierVertex(cpx1, cpy1, cpx2, cpy2, x, y);'
+  curves-continuous-bezier-curves-p3x1: >-
+    Hier ist eine durchgehende Bézier-Kurve, aber sie schließt sich nicht sanft an. Um zwei Kurven A und B nahtlos anzuschließen, müssen der letzte Kontrollpunkt von A,
+    der letzte Punkt von A und der erste Kontrollpunkt von B auf einer geraden Linie liegen.
+  curves-summary-title: 'Zusammenfassung'
+  curves-summary-li1: 'Verwende arc(), wenn Du ein Segment eines Kreises oder einer Ellipse benötigst. Du kannst keine durchgehenden Bögen machen oder sie als Teil einer Form verwenden.'
+  curves-summary-li2: 'Verwende curve(), wenn Du eine kleine Kurve zwischen zwei Punkten benötigst. Verwende curveVertex(), um eine durchgehende Serie von Kurven als Teil einer Form zu machen.'
+  curves-summary-li3: 'Verwende bezier(), wenn Du lange, glatte Kurven benötigst. Verwende bezierVertex(), um eine durchgehende Serie von Bézier-Kurven als Teil einer Form zu machen.'
+  teach-desc: 'Halte einen p5-Workshop oder -Kurs ab, oder erstelle Lehrmaterialien!'
+libraries:
+  Libraries: Bibliotheken
+  core-libraries: Kernbibliotheken
+  community-libraries: Community-Bibliotheken
+  libraries-created-by: 'Erstellt von:'
+  p5.sound: >-
+    p5.sound erweitert p5 um Web-Audio-Funktionalität inklusive Audio-Eingabe,
+    Wiedergabe, Analyse und Synthese.
+  asciiart: >-
+    p5.asciiart ist ein einfacher und leicht zu verwendender Bild-zu-ASCII-Kunst-Konverter für
+    p5js.
+  p5.ble: >-
+    Eine Javascript-Bibliothek, die die Kommunikation zwischen BLE-Geräten und p5
+    Skizzen ermöglicht.
+  p5.bots: >-
+    Mit p5.bots kannst Du aus dem Browser heraus mit Deinem Arduino (oder anderen Mikroprozessoren)
+    interagieren. Benutze Sensordaten, um eine Skizze anzutreiben; benutze eine Skizze, um
+    LEDs, Motoren und mehr zu steuern!
+  p5.bezier: Eine Bibliothek, die beim Zeichnen von Bézier-Kurven hohen Grades mit unbegrenzten Punkten hilft.
+  p5.clickable: 'Ereignisgetriebene, einfach zu verwendende Button-Bibliothek für p5.js.'
+  p5.cmyk.js: CMYK-Farbraum
+  p5.collide2D: >-
+    p5.collide2D bietet Werkzeuge für die Berechnung von Kollisionserkennung für 2D
+    Geometrie mit p5.js.
+  CO2Budget.js: >-
+    Diese Bibliothek eröffnet die Idee des CO2-Countdowns kreativen Gemeinschaften von
+    Codern, Designern und Künstlern, die mit p5*js und JavaScript verbunden sind.
+  p5.createloop: Erstelle Animationsloops mit Rauschen und GIF-Exporten in einer einzigen Codezeile.
+  p5.dimensions: >-
+    p5.dimensions erweitert die Vektorfunktionen von p5.js, um in beliebiger Anzahl von
+    Dimensionen zu arbeiten.
+  p5.EasyCam: >-
+    Einfache 3D-Kamerasteuerung mit inerter Schwenk-, Zoom- und Rotationsfunktion. Wesentliche
+    Beiträge von Thomas Diewald.
+  p5.experience: >-
+    Umfangreiche Bibliothek für p5.js, die zusätzliche Event-Listening-Funktionalitäten
+    für die Erstellung von Canvas-basierten Web-Anwendungen hinzufügt.
+  p5.func: >-
+    p5.func ist eine p5-Erweiterung, die neue Objekte und Dienstprogramme für
+    die Funktionsgenerierung in den Bereichen Zeit, Frequenz und Raum bietet.
+  p5.geolocation: >-
+    p5.geolocation bietet Techniken für den Erwerb, das Beobachten, das Berechnen und
+    das Geofencing von Standorten der Nutzer für p5.js.
+  p5.glitch: p5.glitch erweitert p5.js für das Stören von Bildern und Binärdateien.
+  p5.gibber: p5.gibber bietet schnelle Musiksequenzierung und Audio-Synthese-Fähigkeiten.
+  grafica.js: >-
+    grafica.js lässt Dich einfache, aber hoch konfigurierbare 2D-Plots zu Deinen
+    p5.js-Skizzen hinzufügen.
+  p5.gui: p5.gui erzeugt eine grafische Benutzeroberfläche für Deine p5.js-Skizzen.
+  p5.j5: >-
+    Die komplette Johnny-Five.io Nodebots/Robotik-Bibliothek für Arduino und andere
+    Mikrocontroller, die direkt im Browser mit WebSerial oder WebUSB funktioniert.
+  p5.localmessage: >-
+    p5.localmessage bietet eine einfache Schnittstelle zum lokalen Senden von Nachrichten
+    von einer Skizze zu einer anderen für einfaches Multi-Fenster-Skizzieren!
+  marching: 'Raster-zu-Vektor-Konvertierung, Isobereiche.'
+  mappa: >-
+    Mappa bietet einen Satz von Werkzeugen für die Arbeit mit statischen Karten, Kachelkarten und
+    Geo-Daten. Nützlich beim Erstellen von geolokationsbasierten visuellen Darstellungen.
+  ml5.js: >-
+    ml5.js baut auf Tensorflow.js auf und bietet einfachen Zugang zu maschinellen
+    Lern-Algorithmen und -Modellen im Browser.
+  numero: Eine freundliche und intuitive Mathematikbibliothek für p5.js.
+  pdl.library: >-
+    Ein Satz von Funktionen und Klassen zum Erstellen interaktiver Diagramme für den Unterricht
+    und das Lernen von Physik.
+  p5play: >-
+    p5play ist für die Erstellung interaktiver Kunst und Spiele mit der Box2D-Physik-Engine.
+    Es bietet Sprites, Animationen, verbesserte Eingabeerkennung und mehr!
+  p5.particle: >-
+    Die Objekte Particle und Fountain können verwendet werden, um datengesteuerte Effekte 
+    zu erstellen, die durch Benutzerstrukturen oder JSON-Eingaben und Benutzerzeichenfunktionen definiert sind.
+  p5.party: >-
+    p5.party ist eine Bibliothek, die das Erstellen vernetzter Multiuser-Spiele, Apps
+    und Skizzen vereinfacht.
+  p5.Polar: >-
+    p5.Polar bietet mathematische Abstraktionen, die es leicht machen,
+    schöne, kaleidoskopische, radiale Muster zu erstellen.
+  react-p5: Diese Bibliothek ermöglicht es Dir, p5-Skizzen in Deine React-App zu integrieren.
+  p5.recorder: Zeichne Skizzen-Canvas und Audio auf.
+  p5.Riso: >-
+    p5.Riso ist eine Bibliothek zur Erzeugung von für den Risograph-Druck geeigneten Dateien.
+    Sie hilft dabei, Deine Skizzen in mehrfarbige Drucke umzuwandeln.
+  rita.js: >-
+    RiTa.js bietet einen Satz von Objekten zur Verarbeitung natürlicher Sprache für generative
+    Literatur.
+  Rotating knobs: Mache Drehknöpfe mit benutzerdefinierten Grafiken und Rückgabewertbereichen.
+  p5.scenemanager: >-
+    p5.SceneManager hilft Dir, Skizzen mit mehreren Zuständen / Szenen zu erstellen.
+    Jede Szene ist wie eine Skizze innerhalb der Hauptskizze.
+  p5.screenPosition: Fügt die Funktionen screenX und screenY von Processing zu P5js hinzu.
+  p5.scribble: >-
+    Zeichne 2D-Primitive in einem skizzenhaften Aussehen. Erstellt von Janneck Wullschleger, basierend
+    auf einem Port der ursprünglichen Processing-Bibliothek
+  p5.serialport: >-
+    p5.serialport ermöglicht die serielle Kommunikation zwischen Geräten, die seriell
+    (RS-232) unterstützen, und p5-Skizzen, die im Browser laufen.
+  Shape5: >-
+    Shape5 ist eine 2D-Primär-Bibliothek für Grundschüler, die zum ersten Mal das Programmieren lernen.
+  p5.shape.js: Eine Bibliothek, die dem p5.js-Framework mehr einfache Formen hinzufügt.
+  P5.slides: p5.slides ist eine Präsentationsplattform, die in p5.js geschrieben wurde.
+  p5snap: >-
+    p5snap ist eine Befehlszeilenschnittstelle, die Schnappschüsse
+    einer p5-Skizze in einem Intervall erstellt und speichert.
+  p5.speech: >-
+    p5.speech bietet einfachen, klaren Zugang zu den Web Speech und Speech
+    Recognition APIs, was die einfache Erstellung von Skizzen ermöglicht, die sprechen
+    und zuhören können.
+  p5.start2d.js: 'p5-Erweiterung für 2D-Statikkunst mit px, mm, cm oder Zoll'
+  p5.tiledmap: >-
+    p5.tiledmap bietet Zeichen- und Hilfsfunktionen, um Karten in Deinen
+    Skizzen einzubinden.
+  TiledPlay: >-
+    Eine kleine Bibliothek, die die Funktionalität von p5.js, p5.play.js und
+    p5.tiled.js verbindet, um leicht 2D-Plattformspiele mit JavaScript zu erstellen.
+  p5.touchgui: Eine Multi-Touch- und Maus-GUI-Bibliothek für p5.js.
+  tramontana: >-
+    Tramontana ist eine Plattform für die einfache Nutzung vieler Geräte (iOS, Android,
+    tramontana-Board, ...) zur Schaffung interaktiver Umgebungen, interaktiver Räume oder einfach nur zum Prototyping von Erlebnissen im großen Maßstab und im Raum.
+  TurtleGFX: >-
+    Mit TurtleGFX kann man mit Turtle Graphics in JavaScript programmieren.
+    Großartig für Bildung und kreatives Programmieren.
+  p5.tween: >-
+    Mit p5.tween kannst Du einfach Animationen als Tween für Deine Objekte und
+    Formen erstellen.
+  vida: >-
+    Vida ist eine einfache Bibliothek, die kamerabasierte (oder videobasierte) Bewegungserkennung
+    und Blob-Tracking-Funktionalität zu p5js hinzufügt.
+  p5.voronoi: >-
+    p5.voronoi bietet einen Satz von Werkzeugen zum Zeichnen und Nutzen von Voronoi-Diagrammen in
+    Deinen p5.js-Skizzen.
+  p5.wasm: >-
+    p5.wasm ist eine in Rust geschriebene und zu WebAssembly kompilierte Addon-Bibliothek, die
+    gängige Funktionen, die in p5.js gefunden werden, implementiert.
+  p5.xr: Eine Bibliothek für die Erstellung von VR- und AR-Skizzen mit p5.
+  p5.3D: 3D-Text und -Bilder in WebGL.
+  WEBMIDI.js: Senden und Empfangen von MIDI-Nachrichten aus p5 leicht gemacht.
+  p5.buttons: Eine Bibliothek, die das Scripting von Schaltflächen entkompliziert.
+  p5.button: >-
+    Kleine Einzelfunktionsbibliothek zum Entwerfen und Rendern einfacher oder stilisierter Schaltflächen
+    direkt auf dem p5.js-Canvas.
+  p5.math.js: >-
+    Die mathematischen Operationen von JavaScript wurden in einfache
+    menschliche Sprache umgewandelt, so dass sie wirklich schnell verstehen können.
+  p5LiveMedia: Echtzeit-Audio-, Video-, Canvas- und Datenteilung.
+  P5.Create: >-
+    P5.Create ist eine Bibliothek, die Speicher-, Animations-, Kollisions- und Tag-
+    Funktionen bietet, die für eine effiziente Spieleerstellung konzipiert sind.
+  p5.quadrille.js: p5.js-Quadrillenbibliothek.
+  p5.animS: p5.animS animiert p5.js-Formen, indem ihre Zeichenprozesse gerendert werden.
+  I_AM_UI: Eine Benutzeroberflächenbibliothek.
+  simple.js: Hilfsfunktionen und Standardeinstellungen für junge und neue Programmierer.
+  p5.timer: >-
+    Diese Bibliothek führt asynchrone Zeitfunktionen wie Countdowns,
+    Einmal-Timer, % Zeit verstrichen und umschließt die millis()-Funktion sowie
+    andere damit verbundene Berechnungen, die oft Deinen Code belasten.
+  c2.js: >-
+    c2.js ist eine JavaScript-Bibliothek für kreatives Programmieren, basierend auf Rechen-
+    geometrie, Physiksimulation, evolutionärem Algorithmus und anderen Modulen.
+  Concave Hull: Berechne eine konkave Hülle aus einer Menge von Punkten im 2D-Raum.
+  p5.joystick: Verbinde und spiele mit physischen Joysticks.
+  p5.webserial: >-
+    Eine Bibliothek für die Interaktion mit seriellen Geräten innerhalb des Browsers,
+    basierend auf der Web Serial API (verfügbar in Chrome und Edge).
+  p5.pattern: Eine Musterzeichnungsbibliothek für p5.js.
+  p5.jacdac: Plug-and-Play-Mikrocontroller für p5js.
+  p5.PatGrad: p5.PatGrad lässt Dich Muster und Gradienten zu Deinen Skizzen hinzufügen.
+  p5.projection: Einfache Projektionsmapping von Skizzen auf reale Oberflächen.
+  p5.filterRenderer: >-
+    Eine Bibliothek für den p5.js WebGL-Modus zum Zeichnen mit Tiefenunschärfe und Schatten.
+  p5.capture: >-
+    p5.capture bietet eine einfache GUI, um p5.js-Animationen aufzunehmen und
+    Videodateien in verschiedenen Formaten auszugeben (webm, gif, mp4, png, jpg und webp).
+  p5.input: Fügt p5.js weitere Tastenunterstützung hinzu.
+  p5.web-serial: >-
+    Eine p5.js-Bibliothek zur Nutzung der Web Serial API für den Zugriff auf Geräte wie Arduino,
+    keine Einrichtung erforderlich.
+  p5.wasm.core: Ein WebAssembly-Kern für p5.js.
+  p5.videorecorder: Nimm Dein Canvas als Videodatei mit Audio auf.
+  p5.mapper: >-
+    p5.mapper ist eine Projektionsmapping-Bibliothek für p5.js. Diese Bibliothek macht es
+    leicht, interaktive, algorithmische Skizzen zu codieren und zu keystone.
+  p5.teach: >-
+    Eine anfängerfreundliche Mathematikanimationsbibliothek für p5.js. Erstellt mit der Mentorship
+    von Nick McIntyre und Jithin KS.
+  p5.fab: p5.fab steuert digitale Fertigungsmaschinen aus p5.js.
+  p5.utils: >-
+    Eine Reihe von Dienstprogrammen und zusätzlichen Funktionen für meinen Kreativcode-Unterricht, die darauf abzielen,
+    Studenten zu helfen.
+  using-a-library-title: Eine Bibliothek nutzen
+  using-a-library1: >-
+    Eine p5.js-Bibliothek kann jeder JavaScript-Code sein, der die Kernfunktionalität von p5.js
+    erweitert oder ergänzt. Es gibt zwei Kategorien von Bibliotheken. Kernbibliotheken (
+  using-a-library3: >-
+    ) sind Teil der p5.js-Distribution, während beigetragene Bibliotheken von Mitgliedern der p5.js-Community
+    entwickelt, besessen und gewartet werden.
+  using-a-library4: >-
+    Um eine Bibliothek in Deine Skizze einzubinden, verlinke sie in Deiner HTML-Datei, nachdem Du
+    p5.js verlinkt hast. Eine beispielhafte HTML-Datei könnte so aussehen:
+  create-your-own-title: Erstelle Deine eigene
+  create-your-own1: p5.js begrüßt Bibliotheken, die von anderen beigesteuert wurden! Sieh Dir das
+  create-your-own2: Bibliotheken-Tutorial
+  create-your-own3:
+    an, um mehr über die Erstellung zu erfahren. Wenn Du eine Bibliothek erstellt hast und möchtest, dass sie auf dieser
+    Seite aufgenommen wird,
+  create-your-own4: >-
+    reiche dieses Formular ein!
+community:
+  community-title: Community
+  community-statement-title: p5.js Gemeinschaftserklärung
+  community-statement1: >-
+    p5.js ist eine Gemeinschaft, die daran interessiert ist, die Schaffung von Kunst und Design
+    mit Technologie zu erkunden.
+  community-statement2: >-
+    Wir sind eine Gemeinschaft von Personen und solidarisieren uns mit Menschen jeder Geschlechts-
+    identität und -ausdruck, sexueller Orientierung, Rasse, Ethnizität, Sprache, Neuro-Typ, Größe, Fähigkeit, Klasse, Religion, Kultur, Subkultur, politischer Meinung, Alter, Fertigkeitslevel, Beruf und Hintergrund. Wir erkennen an, dass nicht jeder die Zeit, finanziellen Mittel oder Kapazität hat, aktiv teilzunehmen, jedoch erkennen und ermutigen wir Beteiligung aller Art. Wir erleichtern und fördern Zugang und Ermächtigung. Wir sind alle Lernende.
+  community-statement3: >-
+    Wir mögen diese Hashtags: #noCodeSnobs (weil wir Gemeinschaft über Effizienz stellen), #newKidLove (weil wir alle irgendwo angefangen haben), #unassumeCore (weil wir kein Wissen voraussetzen), und #BlackLivesMatter (weil natürlich).
+  in-practice-title: 'In der Praxis:'
+  in-practice1: ' Wir sind keine Code-Snobs. Wir setzen kein Wissen voraus und implizieren nicht, dass es Dinge gibt, die jemand wissen sollte. '
+  in-practice2: >-
+    Wir bestehen darauf, aktiv auf Anfragen nach Feedback einzugehen, unabhängig von deren Komplexität.
+  in-practice3: >-
+    Wir begrüßen Neulinge und priorisieren die Bildung anderer. Wir bemühen uns, alle Aufgaben mit der Begeisterung eines Neulings anzugehen. Denn wir glauben, dass Neulinge in diesem Bemühen genauso wertvoll sind wie Experten.
+  in-practice4: >-
+    Wir bemühen uns konsequent, aktiv mehrere Arten von Beiträgen anzuerkennen und zu validieren.
+  in-practice5: Wir sind immer bereit, Hilfe oder Anleitung anzubieten.
+  in-times-conflict-title: 'In Konfliktzeiten:'
+  in-times-conflict1: Wir hören zu.
+  in-times-conflict2: Wir kommunizieren klar und erkennen die Gefühle anderer an.
+  in-times-conflict3: >-
+    Wir geben zu, wenn wir falsch liegen, entschuldigen uns und übernehmen Verantwortung für unser Handeln.
+  in-times-conflict4: Wir sind kontinuierlich bestrebt, uns selbst und unsere Gemeinschaft zu verbessern.
+  in-times-conflict5: Wir halten unsere Gemeinschaft respektvoll und offen.
+  in-times-conflict6: Wir sorgen dafür, dass sich jeder gehört fühlt.
+  in-times-conflict7: Wir sind achtsam und freundlich in unseren Interaktionen.
+  in-the-future-title: 'In der Zukunft:'
+  in-the-future1: Die Zukunft ist jetzt.
+  notes-title: Notizen
+  notes1: 'Bitte besuche auch unseren '
+  notes2: p5.js Verhaltenskodex
+  notes3: '. Die p5.js Gemeinschaftserklärung ist lizenziert unter einer '
+  notes4: Creative Commons Lizenz
+  notes5: . Bitte fühle Dich frei, sie zu teilen und umzugestalten, mit Angabe der Urheberschaft.
+  contribute-title: Mitwirken
+  contribute1: >-
+    Unsere Gemeinschaft ist immer auf der Suche nach Enthusiasten, die in allen möglichen Bereichen helfen.
+  develop-title: Entwickeln.
+  develop1: GitHub
+  develop2: ' ist der Hauptort, an dem der Code gesammelt, Probleme dokumentiert und Diskussionen über den Code geführt werden. Sieh Dir das '
+  develop3: ' Entwicklungs-Tutorial'
+  develop4: ' an, um loszulegen oder '
+  develop5: erstelle Deine eigene Bibliothek.
+  document-title: Dokumentieren.
+  document1: ' Jeder liebt Dokumentation. Hilfe beim '
+  document2: Portieren von Beispielen
+  document3: ', und'
+  document4: ' Hinzufügen von Dokumentation'
+  document5: ', und Erstellen von Tutorials wird benötigt.'
+  teach-title: Lehren.
+  teach1: " Halte einen Workshop, einen Kurs, bringe es einem Freund oder einem Mitarbeiter bei! Tagge @p5xjs auf Twitter und wir werden unser Bestes tun, um zu teilen, was Du machst."
+  create-title: Kreieren.
+  create1: ' p5.js sucht nach Designern, Künstlern, Codern, Programmierern, um Eure kreativen und erstaunlichen Werke auf der Startseite zu präsentieren und andere Menschen zu inspirieren. Reiche Deine Arbeit ein bei '
+  create2: hello@p5js.org
+  create3: .
+  donate-title: Spenden.
+  donate1: ' p5.js ist kostenlos und Open Source und wurde von Künstlern gemacht. Unterstütze die Entwicklung von p5.js durch eine Spende an die '
+  donate2: Processing Foundation
+  donate3: .
+  contributors-conference-title: p5.js Mitwirkendenkonferenz
+  contributors-conference1: "Obwohl die meiste Arbeit online stattfindet, treffen wir uns auch IRL. Wir hatten zwei Mitwirkendenkonferenzen an der "
+  contributors-conference2: >-
+    Carnegie Mellon University in Pittsburgh, PA. Künstler, Designer,
+    Entwickler, Pädagogen und versammelten sich, um das p5.js Projekt voranzutreiben.
+  participants-title: Teilnehmende
+  support-title: Unterstützung
+  support1: Unsere Mitwirkendenkonferenz fand an der
+  support2: >-
+    Carnegie Mellon University statt, einem akademischen Labor für untypische,
+    anti-disziplinäre und interinstitutionelle Forschung an den Schnittstellen
+    von Kunst, Wissenschaft, Technologie und Kultur.
+  support3: Diese Veranstaltung wurde möglich gemacht durch ein Stipendium der
+  support4: und großzügige Unterstützung von der
+  support5: und
+  support6: Danke!
+  mailing-list-title: Mailingliste
+  mailing-list-1: >-
+    Gib Deine E-Mail-Adresse ein, um gelegentliche Updates von der Processing
+    Foundation zu erhalten.
+  2015contributors-conference-title: Mitwirkendenkonferenz 2015
+  2015contributors-conference-date: 25.-31. Mai
+  2015contributors-conference1: 'Eine Gruppe von etwa 30 Teilnehmenden versammelte sich für eine Woche an der '
+  2015contributors-conference2: >-
+    , um den Code, die Dokumentation und die Community-Outreach-Tools der
+    p5.js-Programmierumgebung voranzutreiben. Die Teilnehmenden kamen aus Orten so weit entfernt wie Hong
+    Kong, Seattle, Los Angeles, Boston und New York. Die meisten waren Berufstätige
+    in den Bereichen Kreativtechnologie, Interaktionsdesign und Neue-Medien-Kunst, aber die Gruppe umfasste auch ein halbes Dutzend Studierende der Carnegie Mellon’s Schools of Art und Architecture.
+  2015contributors-conference3: Fotos von Taeyoon Choi
+  2015contributors-conference-diversity-title: Diversität
+  2015contributors-conference-diversity1: >-
+    Neben der technischen Entwicklung war einer der Hauptfokuspunkte dieser Konferenz das Outreach, die Gemeinschaft und die Diversität. Die Konferenz begann mit einem Panel
+  2015contributors-conference-diversity2: >-
+    Diversität: Sieben Stimmen zu Rasse, Geschlecht, Fähigkeit &amp; Klasse für FLOSS und
+    das Internet
+  2015contributors-conference-diversity3: '. '
+  2015contributors-conference-diversity4: Organisiert von
+  2015contributors-conference-diversity5: und
+  2015contributors-conference-diversity6: ', '
+  2015contributors-conference-diversity7: >-
+    das Panel fand am Dienstag, den 25. Mai 2015 im Kresge Auditorium an der Carnegie
+    Mellon University statt. Zu den Sprechern gehörten
+  2015contributors-conference-diversity8: und
+  2015contributors-conference-diversity9: .
+  2015cc_1: Diverse Gruppe von Teilnehmenden lächelt und macht ein p5-Zeichen mit ihren Händen
+  2015cc_2: 'Teilnehmende springen, lächeln und werfen ihre Hände in die Luft auf einer grünen Wiese'
+  2015cc_3: Frau präsentiert die p5.js-Gemeinschaftserklärung von ihrem Laptop
+  2015cc_4: >-
+    Frau spricht ausdrucksstark in ein Mikrofon, während zwei männliche Mitarbeiter zuschauen
+  2015cc_5: Teilnehmende lächeln aufmerksam und hören einer Präsentation zu
+  2015cc_6: Frau liest über p5.js in ein Mikrofon zu drei Studentinnen
+  2015cc_7: >-
+    Teilnehmende sitzen im Kreis um eine weiße Tafel mit Haftnotizen darauf, während eine Studentin in ein Mikrofon spricht
+  2015cc_8: >-
+    Teilnehmende sitzen um einen Tisch herum, blicken auf die Laptops der anderen und vergleichen Code
+  2015cc_9: Whiteboard mit verschiedenfarbigen Haftnotizen und geschriebenen Notizen zum Programmieren
+  2015cc_10: >-
+    Frau spricht in ein Mikrofon über die Wertschätzung unterschiedlicher Fähigkeiten, während eine Gruppe von Teilnehmenden mit Laptops auf ihr PowerPoint in einem Klassenzimmer schaut
+  2015cc_11: >-
+    Frau spricht an einem Rednerpult in einem Auditorium, während drei Teilnehmende auf der Bühne sitzen und weitere drei per Skype auf dem Bühnenbildschirm zugeschaltet sind
+  2015cc_12: Draufsicht auf ein Klassenzimmer mit Teilnehmenden, die an ihren Laptops arbeiten
+  2015cc_13: Fünf Personen führen ein Gespräch im Kreis
+  2015cc_14: Fünf Personen im Kreis mit ihren Laptops teilen ihre Notizen
+  2015cc_15: Mann in einem Klassenzimmer mit einem Mikrofon spricht zu einer Gruppe von Teilnehmenden
+  2019contributors-conference-title: Mitwirkendenkonferenz 2019
+  2019contributors-conference-date: 13.-18. August
+  2019contributors-conference1: 'Eine interdisziplinäre Gruppe von 35 Teilnehmenden versammelte sich an der '
+  2019contributors-conference2: >-
+    , um den Code, die Dokumentation und die Community-Outreach-Tools voranzutreiben und
+    die aktuelle Landschaft der p5.js-Programmierumgebung zu erkunden.
+    Mit einer vielfältigen Gruppe von Teilnehmenden aus den Bereichen Kreativtechnologie, Interaktionsdesign und Neue-Medien-Kunst zielte die Konferenz darauf ab, den Dialog durch eine multidisziplinäre Linse zu fördern. Arbeitsgruppen konzentrierten sich auf mehrere Themengebiete: Zugänglichkeit, Musik und Code in der Aufführung, Landschaft der Kreativtechnologie und Internationalisierung.
+  2019contributors-conference3: Videos von Qianqian Ye
+  2019contributors-conference4: Fotos von Jacquelyn Johnson
+  outputs: Ausgaben
+  output1: >-
+    . Eine Implementierung von hochflexiblen Dreiecks-, Quadrat-, Sechsecks- und
+    Oktagongittern für p5.js. Erstellt von Aren Davey.
+  output2: >-
+    . Ein Set von Vorlagendateien zum Erstellen eines Multi-Device, Multiplayer-Spiels,
+    bei dem sich mehrere Clients mit einer festgelegten Hostseite verbinden können. Erstellt von L05.
+  output3: Experimente mit
+  output3-1: >-
+    , frühe Implementierungen von softCompile, OSC-Schnittstellen und erweiterter
+    Konnektivität mit Demonstration für MIDI-Setup testend. Eine p5.js kollaborative Live-Coding-VJ-Umgebung! Erstellt von Ted Davis.
+  output4: >-
+    Ein Panel über Schwarzsein und Geschlecht im virtuellen Raum geleitet von American Artist,
+    mit shawné michaelain holloway und LaJuné McMillian.
+  output5: Workshops geleitet von Everest Pipkin und Jon Chambers.
+  output6: 'Ein Prototyp einer '
+  output6-1: Notebook-Schnittstelle für p5.js.
+  output6-2: Erstellt von Allison Parrish.
+  output7: >-
+    Neue Kunstinstallationen von Stalgia Grigg, LaJuné McMillian, Aatish Bhatia und
+    Jon Chambers.
+  output8: p5.js Global Contributor's Toolkit.
+  output8-1: >-
+    Erstellt von Aarón Montoya-Moraga, Kenneth Lim, Guillermo Montecinos, Qianqian
+    Ye, Dorothy R. Santos und Yasheng She.
+  output9: Wie man nicht-gewaltvollen kreativen Code schreibt.
+  output9-1: ' Ein Zine geleitet von Olivia Ross.'
+  output10: >-
+    Ein komplettes Überarbeiten der p5.js-Webseite für Zugänglichkeit. Einschließlich Updates für
+    Bildschirmleser-Zugänglichkeit und Verbesserungen der Start-, Download-, Einstiegs- und Referenzseiten. Mit Beiträgen von Claire Kearney-Volpe,
+    Sina Bahram, Kate Hollenbach, Olivia Ross, Luis Morales-Navarro, Lauren
+    McCarthy und Evelyn Masso.
+  output11: >-
+    Kollaborative Aufführungen von Luisa Pereira, Jun Shern Chan, Shefali Nayak,
+    Sona Lee, Ted Davis und Carlos Garcia.
+  output12: Eine Aufführung von Natalie Braginsky.
+  output13: >-
+    Ein Design des p5.js-Bibliothekssystems für den p5 Editor. Erstellt von Cassie
+    Tarakajian und Luca Damasco.
+  output14: >-
+    Prototypen, die p5 mit anderen Bibliotheken verbinden. Erstellt von Alex Yixuan Xu und
+    Lauren Valley.
+  output15: Ein abschließender Lagerfeuerkreis geleitet von Golan Levin.
+  2019cc_1: Mann an einem Rednerpult gibt eine Präsentation vor der Gruppe
+  2019cc_2: Teilnehmende sitzen an einem langen Tisch beim Mittagessen und einer Diskussion
+  2019cc_3: 'Teilnehmende in einem Klassenzimmer, einige arbeiten an ihren Laptops, andere sprechen '
+  2019cc_4: Klassenzimmer von Teilnehmenden, die an ihren Laptops arbeiten
+  2019cc_5: Teilnehmende in einem Meeting in einem dunklen Klassenzimmer
+  2019cc_6: Frau gibt Präsentation in einem Klassenzimmer mit diversen Teilnehmenden
+  2019cc_7: Teilnehmende unterhalten sich in einem belebten Klassenzimmer
+  2019cc_8: Frau mit Mikrofon spricht zu Mitteilnehmenden in einem Klassenzimmer
+  2019cc_9: >-
+    Teilnehmende spricht an einem Rednerpult vor projiziertem Text über das Problem
+    mit der Anonymisierung von Daten
+  2019cc_10: >-
+    Person mit einem Mikrofon spricht zu Mitteilnehmenden vor Text, der liest, p5.js wird keine neuen Features hinzufügen, außer solchen, die den Zugang erhöhen
+  2019cc_11: 'Frau spricht in ein Mikrofon und redet mit Mitteilnehmenden '
+  2019cc_12: Ein Mann mit einem Mikrofon spricht zu Mitteilnehmenden
+  2019cc_13: Teilnehmende sitzen in einem Klassenzimmer den Sprecherinnen zuhörend
+  2019cc_14: 'Klassenzimmer von Teilnehmenden, die einer Sprecherin aufmerksam zuhören '
+  2019cc_15: >-
+    Frau mit Mikrofon spricht zu Mitteilnehmenden mit dem Text heilige
+    Grenzen in der Projektion hinter ihr
+  2019cc_16: >-
+    Draufsicht auf Teilnehmende, die einem Panel von Personen mit einem Bild
+    eines 3D-renderten Mannes darauf zuhören
+  2019cc_17: >-
+    Teilnehmende sitzen um einen Tisch herum mit ihren Laptops und beobachten Code auf einem
+    Bildschirm
+  2019cc_18: Frau sitzt neben einem lebensgroßen Teddybär und arbeitet an ihrem Laptop
+  2019cc_19: Teilnehmende stehen draußen und lächeln
+  2019cc_20: Vier Teilnehmende stehen im Kreis und unterhalten sich
+  2019cc_21: Teilnehmer sitzen draußen zusammen und essen zu Mittag
+  2019cc_22: >-
+    Teilnehmer sitzen um einen großen U-förmigen Tisch und blicken nach vorne
+    in den Klassenraum
+  2019cc_23: >-
+    Mann sitzt vor dem Klassenzimmer, spricht energisch in ein
+    Mikrofon
+  2019cc_24: >-
+    Gruppenfoto von Teilnehmern, die enthusiastisch lächeln mit ihren Händen in der
+    Luft
+  2019cc_25: Gruppe von Menschen sitzt um ein Lagerfeuer, das aus vier LCD-Monitoren gemacht wurde.
+  p5js-community-event-title: p5.js Community Events
+  2022-p5js-access-day-title: p5.js Zugangstag 2022
+  2022-p5js-access-day-date: 21. Mai 2022
+  2022-p5js-access-day-organizer: Organisator und Kurator
+  2022-p5js-access-day-coordinator: Veranstaltungskoordinator und Videoproduzent
+  2022-p5js-access-day-description: >-
+    Der p5.js Zugangstag ist eine virtuelle Konferenz, um über Zugänglichkeit in
+    Open-Source-Software für die Künste (OSSTA) und größere Probleme darüber hinaus zu sprechen.
+    Die ganztägige Online-Veranstaltung bietet vier thematische Sitzungen — Kritische Webzugänglichkeit,
+    Kunst & Behinderung, Zugang & Gemeinschaftsaufbau und Zugang durch Übersetzung. Es bietet Platz für
+    Beitragende von p5.js und erfahrene Praktiker von außerhalb der OSSTA-Projekte, ihr Wissen, ihre Perspektiven
+    und Träume für den Aufbau eines größeren Zugangs zu technischen und künstlerischen Räumen zu teilen.
+  2022-p5js-access-day-recap-video: p5.js Zugangstag 2022 Zusammenfassungsvideo
+  2022-p5js-access-day-recap-video-asl: p5.js Zugangstag 2022 Zusammenfassungsvideo mit ASL-Interpretation
+  2022-p5js-access-day-moderator: Moderator
+  2022-p5js-access-day-speakers: Sprecher
+  2022-p5js-access-day-session-0: Veranstaltungseröffnung
+  2022-p5js-access-day-session-1: Kritische Webzugänglichkeit
+  2022-p5js-access-day-session-2: Kunst & Behinderung
+  2022-p5js-access-day-session-3: Zugang & Gemeinschaftsaufbau
+  2022-p5js-access-day-session-4: Zugang durch Übersetzung
+  2022-p5js-access-day-session-5: Veranstaltungsabschluss
+  2022-p5js-access-day-production: Veranstaltungsproduktion
+  2022-p5js-access-day-advisor: Veranstaltungsberater
+  2022-p5js-access-day-asl: Live ASL-Interpretation
+  2022-p5js-access-day-designer: Grafikdesigner
+  2022-p5js-access-day-tech-support: Live Event Technikunterstützung
+  2022-p5js-access-day-transcriber: Unterstützung für Untertitel-Transkription
+  2022-p5js-access-day-asl-support: Live ASL-Unterstützung
+books:
+  books-title: Bücher
+  book-1-title: Einstieg in p5.js
+  book-1-authors: 'Lauren McCarthy, Casey Reas und Ben Fry. Illustrationen von Taeyoon Choi.'
+  book-1-publisher: 'Veröffentlicht Oktober 2015, Maker Media. '
+  book-1-pages: '246 Seiten. '
+  book-1-type: Taschenbuch.
+  book-1-description: >-
+    Geschrieben von der Hauptentwicklerin von p5.js und den Gründern von Processing, bietet dieses
+    Buch eine Einführung in die kreativen Möglichkeiten des heutigen Webs,
+    mit JavaScript und HTML.
+  book-1-order-a: Druck/E-Book bei O’Reilly bestellen
+  book-1-order-b: Bei Amazon bestellen
+  book-2-title: Einführung in p5.js (Spanische Ausgabe)
+  book-2-authors: >-
+    Lauren McCarthy, Casey Reas und Ben Fry. Übersetzt von Aarón
+    Montoya-Moraga. Illustrationen von Taeyoon Choi.
+  book-2-publisher: 'Veröffentlicht 2018, Processing Foundation, Inc. '
+  book-2-pages: '246 Seiten. '
+  book-2-type: Softcover.
+  book-2-description: >-
+    Geschrieben von der Hauptentwicklerin von p5.js und den Gründern von Processing, bietet dieses
+    Buch eine Einführung in die kreativen Möglichkeiten des heutigen Webs,
+    mit JavaScript und HTML.
+  book-2-order-a: Bestelle das PDF bei The Processing Foundation Press
+  book-2-order-b: Bestelle die physische Version bei Amazon
+  book-3-title: Generative Design
+  book-3-authors: 'Benedikt Gross, Hartmut Bohnacker, Julia Laub und Claudius Lazzeroni.'
+  book-3-publisher: 'Veröffentlicht 30. Oktober 2018, Princeton Architectural Press; Nachdruck Edition. '
+  book-3-pages: '255 Seiten. '
+  book-3-type: Taschenbuch.
+  book-3-description: >-
+    Durch die Nutzung einfacher Sprachen wie JavaScript in p5.js können Künstler und Macher
+    alles von interaktiver Typografie und Textilien bis zu 3D-gedruckten
+    Möbeln bis zu komplexen und eleganten Infografiken erstellen.
+  book-3-order-a: Bei Princeton Architectural Press bestellen
+  book-3-order-b: Bei Amazon bestellen
+  book-4-title: Generative Gestaltung (Deutsche Ausgabe)
+  book-4-authors: 'Benedikt Gross, Hartmut Bohnacker, Julia Laub und Claudius Lazzeroni.'
+  book-4-publisher: 'Veröffentlicht 1. März 2018, Schmidt Hermann Verlag. '
+  book-4-pages: '256 Seiten. '
+  book-4-type: Hardcover.
+  book-4-description: >-
+    Durch die Nutzung einfacher Sprachen wie JavaScript in p5.js können Künstler und Macher
+    alles von interaktiver Typografie und Textilien bis zu 3D-gedruckten
+    Möbeln bis zu komplexen und eleganten Infografiken erstellen.
+  book-4-order-a: Bei Verlag Hermann Schmidt bestellen
+  book-4-order-b: Bei Amazon bestellen
+  book-5-title: JavaScript lernen mit p5.js
+  book-5-authors: Engin Arslan.
+  book-5-publisher: 'Veröffentlicht 2018, Apress. '
+  book-5-pages: '217 Seiten. '
+  book-5-type: Taschenbuch.
+  book-5-description: >-
+    Lerne das Programmieren von Grund auf in einer höchst anschaulichen und visuellen Art und Weise, mit dem
+    überaus beliebten JavaScript und der Programmierbibliothek p5.js. Die Fähigkeiten, die
+    Du aus diesem Buch erwirbst, sind hochgradig übertragbar auf eine Vielzahl
+    von Industrien und können verwendet werden, um Webanwendungen zu erstellen, programmierbare
+    Roboter oder generative Kunst.
+  book-5-order-a: Bei Apress bestellen
+  book-5-order-b: Bei Amazon bestellen
+  book-6-title: 'Ästhetische Programmierung: Ein Handbuch der Softwarestudien'
+  book-6-authors: 'Winnie Soon, Geoff Cox. '
+  book-6-publisher: 'Veröffentlicht  2020, Open Humanities Press. '
+  book-6-pages: '298 Seiten. '
+  book-6-type: Hardcover.
+  book-6-description: >-
+    Unter Verwendung von p5.js führt dieses Buch in die reflexive Praxis
+    der ästhetischen Programmierung ein und beschäftigt sich mit dem Erlernen des Programmierens als Weg,
+    bestehende technologische Objekte und Paradigmen zu verstehen und zu hinterfragen,
+    sowie das Potential für die Neuprogrammierung breiterer öko-sozio-technischer Systeme zu erkunden.
+  book-6-order-a: PDF herunterladen (KOSTENLOS)
+  book-6-order-b: Bei Barnes & Noble bestellen
+examples:
+  Examples: Beispiele
+  back-examples: Zurück zu Beispielen
+  Structure: Struktur
+  Form: Form
+  Data: Daten
+  Arrays: Arrays
+  Control: Steuerung
+  Image: Bild
+  Color: Farbe
+  Math: Mathematik
+  Simulate: Simulation
+  Interaction: Interaktion
+  Objects: Objekte
+  Lights: Lichter
+  Motion: Bewegung
+  Instance_Mode: Instanzmodus
+  Dom: DOM
+  Drawing: Zeichnung
+  Transform: Transformation
+  Typography: Typografie
+  3D: 3D
+  Input: Eingabe
+  Advanced_Data: Erweiterte Daten
+  Sound: Ton
+  Mobile: Mobil
+  Hello_P5: Hallo p5
+reference:
+  Reference: Referenz
+showcase:
+  showcase-title: Schaufenster
+  showcase-intro1: 'Vorstellung des Schaufensters, erstellt von '
+  showcase-intro2: ' im Jahr 2019 und derzeit kuratiert von '
+  showcase-intro3: >-
+    Wir feiern, wie Menschen p5.js nutzen, um kreative Arbeit,
+    Lernen und Open Source interessanter und inklusiver zu machen. Gemeinsam
+    bilden wir eine Gemeinschaft. Während des Sommers 2019 baten wir einige
+    Schöpfer, mehr darüber zu teilen, wie sie p5.js durch verschiedene Projekte
+    und Stücke genutzt haben.
+  showcase-intro4: >-
+    Das Schaufenster Sommer 2021: The Love Ethic ist jetzt offen für Einreichungen, nominiere jemandes
+    p5.js-Arbeit oder deine eigene, um hier vorgestellt zu werden! Wenn Google in deiner Region nicht verfügbar ist, sende bitte eine E-Mail an chankati@usc.edu, um einzureichen!
+  nominate-project: Ein Projekt nominieren
+  showcase-featuring: Mitwirkende
+  project-tag-art: Kunst
+  project-tag-design: Design
+  project-tag-code: Code
+  project-tag-curriculum: Lehrplan
+  project-tag-documentation: Dokumentation
+  project-tag-game: Spiel
+  project-tag-library: Bibliothek
+  project-tag-organizing: Organisieren
+  project-tag-tool: Werkzeug
+  project-tag-tutorial: Tutorial
+  project-roni: Programmierbare Plotterzeichnungen
+  credit-roni: Roni Cantor
+  description-roni: >-
+    Sinuswellen und lerps, generiert in p5.js, exportiert als SVG, und mit einem
+    Plotter und Stiften gezeichnet.
+  project-phuong: Airi Flies
+  credit-phuong: Phuong Ngo
+  description-phuong: >-
+    In diesem mit p5.play entwickelten Spiel hilfst Du Airi beim Fliegen, indem Du PEW sagst. Es wurde erstellt, um
+    Menschen dazu zu ermutigen, aus ihrer Komfortzone herauszukommen und sich unabhängig von dem, was sie tun und wie sie aussehen oder klingen, selbstbewusster zu fühlen.
+  project-daein: Chillin'
+  credit-daein: Dae In Chung
+  description-daein: >-
+    Ein interaktives typografisches Poster, das den Bewegungssensor eines mobilen Geräts
+    mit p5.js nutzt.
+  project-qianqian: Qtv
+  credit-qianqian: Qianqian Ye
+  description-qianqian: >-
+    Ein Videokanal mit 1-Minuten-Videos auf Mandarin über kreatives Programmieren, Kunst,
+    und Technologie, einschließlich p5.js-Tutorials für Anfänger. Verfügbar auf
+    YouTube, Instagram, Bilibili und TikTok.
+  project-casey-louise: p5.js Shader
+  credit-casey-louise: 'Casey Conchinha, Louise Lessél'
+  description-casey-louise: 'Eine Ressource zum Erlernen des Was, Warum und Wie der Verwendung von Shadern in p5.js.'
+  project-moon-xin: Bewegliche Responsive Poster
+  credit-moon-xin: 'Moon Jang, Xin Xin und Studierende'
+  description-moon-xin: >-
+    Browser-basierte bewegliche Poster, die graphische Systeme, Transformationsmethoden und p5.js nutzen, um die Konnotationen eines Wortes mit weniger als 8
+    Buchstaben anzusprechen. Entworfen von Studierenden für einen Grafikdesignkurs (Visuelle Narrativsysteme) an der Universität von Georgia.
+  created-by: Erstellt von
+  pronouns-female: (sie/ihr)
+  creator-from-roni-cantor: 'Aus Toronto, Kanada'
+  project-links: Projektlinks
+  project-links-text-1-roni-cantor: Beispiel-Sketch im p5.js Web Editor
+  project-links-text-2-roni-cantor: AxiDraw V3 Demo-Video
+  project-q-1-1: Was machst Du gerade?
+  project-q-1-2: Wie hast Du mit p5.js angefangen?
+  project-a-1-1-roni-cantor: >-
+    Ich habe gerade mein Studium am Ryerson University's New Media Programm abgeschlossen. Nach 4
+    Jahren des Programmierens und Arbeitens mit Robotern beschloss ich, eine Pause einzulegen und mit
+    einigen traditionelleren Kunstformen zu spielen – während ich weiterhin programmierte und mit
+    Robotern spielte.
+  project-a-1-2-roni-cantor: 'Ich habe mit p5.js bei '
+  project-a-1-3-roni-cantor: '! begonnen. Nachdem ich viele Jahre '
+  project-a-1-4-roni-cantor: ' benutzt habe, wollte ich etwas Neues ausprobieren.'
+  project-q-2: Wie hast Du p5.js in diesem Projekt verwendet?
+  project-a-2-1-roni-cantor: >-
+    Ich habe p5.js in diesem Projekt verwendet, um die Formeln für die Sinuswelle und lerp (lineare
+    Interpolation) zu generieren und die Visualisierungen im
+  project-a-2-2-roni-cantor: >-
+    anzuzeigen. Danach nutzte ich eine Funktion in meinem Code, die meine programmierte Grafik in eine
+  project-a-2-3-roni-cantor: ' SVG-Datei exportierte. Ich benötigte eine SVG-Datei, um sie dem Plotter zu geben – einem '
+  project-a-2-4-roni-cantor: >-
+    –, damit er verstand, wo er die Linien, die ich programmiert hatte, zeichnen sollte. Diese Informationen sendete ich mit einem Programm namens
+  project-a-2-5-roni-cantor: ' zum Plotter!'
+  project-q-3: Was ist Deine Lieblingsfunktion in p5.js?
+  project-a-3-roni-cantor: ' weil Linien Spaß machen und "lerp" ein lustiges Wort zum Aussprechen ist!'
+  project-q-4: >-
+    Bist Du auf Herausforderungen in diesem Projekt gestoßen? Wenn ja, wie hast Du sie überwunden?
+  project-a-4-roni-cantor: >-
+    Es war mein erstes Mal mit p5.js, Inkscape und einem Plotter! Ich profitierte wirklich von den
+    Menschen um mich herum, die p5 schon benutzt hatten, sowie von Online-Leitfäden und Foren.
+  project-q-5: Was ist eine coole Sache, die wir uns anschauen sollten?
+  project-a-5-roni-cantor: ' auf Instagram – super coole analoge Plotter-Sachen.'
+  project-q-6: Wo können die Leute mehr über Dich erfahren?
+  project-a-6-roni-cantor: ' (Instagram)'
+  project-resources: Projektressourcen
+  creator-from-qianqian: 'Aus Los Angeles, Kalifornien'
+  interview-link-qianqian: Processing Foundation Interview mit Qianqian Ye
+  project-a-1-1-qianqian: Ich bin eine chinesische Künstlerin und Designerin mit Sitz in Los Angeles.
+  project-a-1-2-qianqian: >-
+    Mein Partner hat mich mit p5.js bekannt gemacht, welches ich hauptsächlich durch das Anschauen kostenloser Online-Videotutorials gelernt habe. Mein erstes p5.js-Projekt war das Zeichnen von Formen in verschiedenen Farben.
+  project-a-2-1-qianqian: >-
+    Dieses Projekt begann mit der Idee, meiner Mutter, die in China lebt und kein Englisch spricht, das Programmieren mit p5.js beizubringen. Dieses Projekt war auf mehreren Ebenen schwierig, und ich wollte zunächst die Hauptgründe identifizieren, warum es für jemanden wie meine Mutter schwieriger ist, das Programmieren zu lernen—hauptsächlich wegen des Mangels an kostenlosen Kreativprogrammier-Lernressourcen. Die meisten der kostenlosen Ressourcen für Kreativprogrammierung sind in China nicht verfügbar. Die p5.js-Tutorials auf YouTube sowie die p5.js Twitter- und Instagram-Accounts sind in China aufgrund der Internetzensur nicht zugänglich.
+  project-a-2-2-qianqian: 'Ich habe viel aus YouTube-Videos gelernt, wie das '
+  project-a-2-3-qianqian: >-
+    , aber je mehr ich Coding-Tutorials online ansah, desto mehr wurde mir bewusst, wie schwierig es ist, andere Frauen und Menschen of Color zu finden, die Programmierung lehren, besonders auf Mandarin. Ich wollte anderen chinesischen Frauen helfen, sich mit dem kreativen Codieren zu identifizieren.
+  project-a-2-4-qianqian: >-
+    Ich arbeite daran, die Videokanäle auch für andere chinesische Kreative zu öffnen, die gemeinsam zur Bildungsressource beitragen möchten, wie Interviews und Gasttutorials. Wenn Du Interesse hast, über kreatives Programmieren auf Mandarin zu unterrichten/sprechen, meld dich bei mir!
+  project-a-3-1-qianqian: 'Die '
+  project-a-3-2-qianqian: ' ist meine Lieblingsfunktion. Sie macht webbasiertes kreatives Codieren nahtlos.'
+  project-a-4-1-qianqian: >-
+    In einer zweiten Sprache zu programmieren war schwierig und das Fehlen einer Gemeinschaft machte diesen Prozess noch härter. Ich hoffe, aus meiner Erfahrung als Anfängerin und jemand, der sich einmal als Außenseiter in der Welt des kreativen Codierens und der Videotutorials gefühlt hat, zu sprechen.
+  project-a-4-2-qianqian: >-
+    Ich verbringe viel Zeit mit der Erforschung der neuesten Technologie für meine Videos. Am Ende entschied ich mich, mein Telefon für die Aufnahme und iMovie für die Bearbeitung zu verwenden. Ich hoffe, andere zu ermutigen, dass es nicht viel teures Equipment braucht, um mit dem Erstellen von Lehrvideos zu beginnen.
+  project-a-4-3-qianqian: >-
+    Ein weiteres Problem, auf das ich stieß, war meine eigene Angst, mich online zu zeigen. Zuerst musste ich meine Angst überwinden, Fehler in den Videos zu machen oder negative Kommentare online zu erhalten. Oft sind Frauen und Menschen of Color Ziele für Online-Harassment. Ich hoffe, ein Beispiel für andere Frauen und People of Color zu sein, dass es in Ordnung ist, sich online zu präsentieren und eure Gemeinschaften durch das Teilen eures Wissens zu stärken. Schließlich werden wir in der Lage sein, Online-Harassment zu stoppen, indem wir starke diverse Gemeinschaften schaffen.
+  project-a-5-1-qianqian: 'Ich bin sehr gespannt auf '
+  project-a-5-2-qianqian: ' in LA.'
+  creator-from-phuong: 'Aus Kyiv, Ukraine'
+  project-a-1-1-phuong: 'Ich bin ein kreativer Coder und Designer, ein '
+  link-1-phuong: Spiele Airi Flies!
+  link-2-phuong: Code für AiriFlies auf GitHub
+  link-3-phuong: Mehr Infos im Portfolio von Phuong Ngo
+  project-a-1-2-phuong: ' Empfänger eines Vielfalt-Stipendiums und einfach ein neugieriges Wesen.'
+  project-a-1-3-phuong: >-
+    Ich habe diesen Sommer an der School of Machines in Berlin einen Kurs besucht, der "
+  project-a-1-4-phuong: '," hauptsächlich unterrichtet von '
+  project-a-2-1-phuong: >-
+    Ich habe p5.js verwendet, um am visuellen Teil des Spiels zu arbeiten. Die Animationssprites für Airi und die Geister wurden in einer iPad-App namens
+  project-a-2-2-phuong: ' gezeichnet und dann in '
+  project-a-2-3-phuong: ' Code integriert. Als Referenz habe ich hauptsächlich Beispiele von p5.play verwendet.'
+  project-a-2-4-phuong: 'Für den endlosen Scroll-Hintergrund habe ich einen '
+  p5-sketch-by-chjno-phuong: p5-Skizze von chjno
+  project-a-2-5-phuong: >-
+    gefunden. Ich habe eine Bedingung gesetzt, so dass immer, wenn das Wort "pew" oder ein Mausklick erkannt wurde, die Scrollgeschwindigkeit wechselte, um eine Illusion von Airi zu erzeugen, die nach oben fliegt. Wenn der Benutzer nichts macht, ist die Scrollgeschwindigkeit negativ, was so aussieht, als würde Airi nach unten fallen.
+  project-a-2-6-phuong: 'Für die Spracherkennung habe ich '
+  project-a-2-7-phuong: ' verwendet (derzeit gibt es eine Beta-Version, die noch nicht öffentlich verfügbar ist, aber das wird sie sehr bald sein!). Ich habe etwa 120 Proben meiner Mitschüler hinzugefügt, die das Wort "pew" mit unterschiedlichen Betonungen sagen, und 80 Proben von Hintergrundgeräuschen, um es zu trainieren. Dann habe ich das Modell in das Spiel integriert mit '
+  project-a-3-1-phuong: >-
+    Ich liebe wirklich, wie einfach du HTML-Blöcke und -Klassen erstellen, manipulieren und löschen kannst mit der
+  project-a-3-2-phuong: ' über '
+  project-a-3-3-phuong: ' usw. Aber meine Lieblingsfunktion ist '
+  project-a-3-4-phuong: ', denn hier erschaffst du Magie.'
+  project-a-4-1-phuong: >-
+    Es gab viele Herausforderungen, einfach weil p5.js für mich etwas Neues war. Ich habe nicht viel mit JavaScript im Allgemeinen zuvor gearbeitet. Das Lesen der Dokumentation und die Suche nach ähnlichen Beispielen halfen sehr.
+  project-a-5-1-phuong: 'Schau dir die '
+  school-of-machines-phuong: Kurse der School of Machines
+  project-a-5-2-phuong: >-
+    an! Sie versuchen hart, die kreativsten Menschen der Welt zu verbinden, und sie machen das bisher gut. ❤️
+  pronouns-male: (er/ihn)
+  creator-from-chung: 'Aus Baltimore, Maryland'
+  link-1-casey-louise: Leitfaden zu p5.js Shadern
+  link-2-casey-louise: Glitch-Sammlung von p5.js Shader-Beispielen
+  link-1-chung: Sieh dir Chillin' an
+  link-2-chung: Code für Chillin' auf GitHub
+  link-3-chung: Mehr Infos im Portfolio von Dae In Chung
+  project-a-1-1-chung: >-
+    Ich bin Grafikdesigner und Dozent am Maryland Institute College of Art, wo ich hauptsächlich Programmierung (mit p5.js und Processing, natürlich) und Motion Graphics unterrichte.
+  project-a-1-2-chung: 'Ich benutze '
+  project-a-1-3-chung: ' schon seit einiger Zeit, und als p5.js erschien, begann ich es ohne zu zögern zu verwenden, weil es einfach war, vorhandenen Processing-Code zu konvertieren und Projekte online zu teilen.'
+  project-a-2-1-chung: >-
+    Diesen Sommer habe ich mir die Herausforderung gestellt, typografische Poster mit Codierung zu erstellen, und das ist eines der Poster, die ich gemacht habe. Ich wusste bis vor kurzem nicht, dass ich Bewegungssensordaten mit p5.js verwenden könnte. Ich habe mir auch Videos von
+  dan-shiffman-matterjs-tutorial: Dan Shiffmans matter.js Tutorial-Videos
+  project-a-2-2-chung: ' angesehen, also dachte ich, warum nicht beides kombinieren und das Gelernte üben?'
+  project-a-3-1-chung: >-
+    Es gibt viele Dinge, die ich an p5.js liebe, wie die Online-Community und die Anfängerfreundlichkeit. Was ich im Moment wirklich mag, ist die
+  project-a-3-2-chung: >-
+    , mit der ich nicht nur online für mich selbst arbeiten, sondern auch URLs schnell im Präsentationsmodus teilen kann. Für dieses Projekt im Besonderen musste ich viel auf meinem Telefon testen, und das war viel einfacher und schneller als das Committing zu GitHub.
+  project-a-4-1-chung: 'Ich hatte einige Schwierigkeiten mit dem Umgang mit Schriften, Alpha-Kanal und Z-Tiefe im '
+  project-a-4-2-chung: ' Modus. Ich bin immer noch nicht mit all meinen Entscheidungen zufrieden. Aber generell war es hilfreich, im Forum zu suchen und nicht zu vergessen, Probleme in kleinere zu zerlegen und Schritt für Schritt zu iterieren. Außerdem hatte ich Probleme damit, direkt aus p5.js Videodateien zu rendern. Screen Recording war keine Option wegen der intermittierenden Frame Rate Drops (mein Laptop ist ziemlich langsam). Nach einiger Recherche entschied ich mich, einige Grundlagen von '
+  project-a-4-3-chung: ' zu lernen und ein Werkzeug für mich selbst zu bauen.'
+  project-a-5-1-chung: >-
+    Wie oben erwähnt, wenn du Rahmen und Videodateien aus p5.js Skizzen rendern möchtest, schau dir mein
+  project-a-5-2-chung: ' an und lass mich wissen, was du denkst.'
+  creator-from-casey-louise: 'Aus New York, New York'
+  project-a-1-1-casey-louise: >-
+    Casey: Ich bin Student an der NYU ITP und interessiere mich für Computergrafik und interaktive Räume, physisch und digital.
+  project-a-1-2-casey-louise: >-
+    Louise: Ich bin Student an der NYU ITP und interessiere mich für Computergrafik und interaktive Räume basierend auf Sensortechnologien.
+  project-a-1-3-casey-louise: >-
+    Casey: Ich habe 2018 im ersten Semester an der ITP mit p5.js begonnen zu lernen, obwohl ich seit 2012 in
+  project-a-1-4-casey-louise: ' herumgespielt hatte. Mein Freund Pedro hat mich während meines Grafikdesignstudiums auf Processing aufmerksam gemacht, und es hat mich umgehauen. Die Idee, meine eigenen Werkzeuge zum Erstellen von Grafiken und interaktiver Kunst zu schaffen, weckte mein Interesse, aber als ich es tatsächlich versuchte, war ich angefixt. An das erste Projekt, an das ich mich erinnere, war ein Auge, das dir über den Bildschirm folgte, und es war traurig, wenn man es allein ließ.'
+  project-a-1-5-casey-louise: >-
+    Louise: Ich habe zunächst p5.js gelernt, um eine Webseite, die ich erstellte, spielerischer zu gestalten. Ich bin C#-Programmierer, also war das ein guter Übergang zu JavaScript für mich.
+  project-a-2-1-casey-louise: >-
+    Casey: Ich habe das Lernen von Shadern lange aufgeschoben und war auch neugierig, ob ich sie in p5.js verwenden könnte. Dann hörte ich von einem Grant für Open-Source-, Storytelling- und Lernressourcenprojekte an der ITP namens
+  project-a-2-2-casey-louise: >-
+    . Da ich nicht viel über p5.js + Shader-Dokumentation fand, beschloss ich, herauszufinden, wie sie in p5.js implementiert sind, und eine Ressource für andere zu erstellen, um zu lernen. Als ich Louise von dem Projekt erzählte, war sie sofort begeistert davon, Shader in p5.js zu lernen und zu lehren. Sie hat sich großartig darum gekümmert, dass das Projekt eine Lernressource ist und nicht nur eine Sammlung von Beispielen.
+  project-a-3-1-casey-louise: 'Casey: Zählt '
+  project-a-3-2-casey-louise: ' als eine Funktion? Ich liebe auch die Möglichkeit, meine Programme im Web zu teilen, so dass die Leute keine spezielle Software installieren müssen oder nach NYC kommen müssen, um meine Arbeit zu sehen.'
+  project-a-3-3-casey-louise: 'Louise: Meine Lieblingsfunktion ist '
+  project-a-3-4-casey-louise: ' und '
+  project-a-3-5-casey-louise: ' zur Transformation des Koordinatensystems, um generative Visualisierungen zu erstellen.'
+  project-a-4-1-casey-louise: >-
+    Casey: Der Beginn des Projekts (herauszufinden, wie die Dinge funktionieren) bestand darin, großartige Leute zu kontaktieren, Fragen zu stellen und um Erlaubnis zu bitten, ihre Beispiele in unserem Projekt zu verwenden.
+  adam-ferris-repo-casey-louise: Der GitHub-Repo von Adam Ferriss
+  project-a-4-2-casey-louise: ' hat uns die Grundlagen vermittelt, um zu verstehen, wie Shader in p5.js funktionieren und gab uns einen Rahmen aus zugänglichen Beispielen, auf dem wir aufbauen konnten. Bei einigen spezifischen p5.js-bezogenen Problemen, mit denen wir konfrontiert waren, haben wir uns an '
+  project-a-4-3-casey-louise: ' und '
+  project-a-4-4-casey-louise: ' (die an der '
+  webgl-casey-louise: WebGL-Implementierung in p5.js
+  project-a-4-5-casey-louise: ') gearbeitet haben, gewandt, und sie waren super hilfreich.'
+  project-a-4-6-casey-louise: >-
+    Louise: Die Lernkurve, um Shader in p5 zu bekommen, war ziemlich steil. Glücklicherweise gab es einige sehr gut dokumentierte Beispiele auf GitHub von Adam Ferriss. Unser Ziel war es, dies so zu tun, dass ein kompletter Anfänger verstehen kann, wie man es implementiert, also war es genauso eine technische Herausforderung wie eine Herausforderung, Code Fremden und Anfängern beizubringen. Hier ließen wir uns von der Art und Weise inspirieren, wie das
+  openframeworks-book-casey-louise: openFrameworks-Buch
+  project-a-4-7-casey-louise: ' geschrieben ist. Ein spaßiger "Hey, es ist nicht schwer und du kannst es auch tun"-Ansatz ist es, woran wir glauben.'
+  project-a-5-1-casey-louise: 'Schau dir den '
+  project-a-5-2-casey-louise: ' an, um die erstaunlichen Grant-Projekte unserer Kollegen zu erforschen!'
+  pronouns-nonbinary: (sie/ihnen)
+  creator-from-moon: 'Aus Athens, Georgia'
+  posters-by: Poster von
+  project-a-1-1-moon: >-
+    Moon: Ich bin Grafikdesigner, bildender Künstler und Designpädagoge. Diesen Sommer unterrichtete ich einen Grafikdesign-Kurs im Cortona-Programm der University of Georgia in Italien, in dem ich einige Grundlagen von p5.js einführte. Diesen Herbst plane ich zu unterrichten und digitale Plattformen an der UGA zu studieren.
+  project-a-1-2-moon: 'Mein ehemaliger Kollege, '
+  project-a-1-3-moon: ', lud mich zu '
+  project-a-1-4-moon: ' in '
+  pcd-la-moon: LA im Januar 2019
+  project-a-1-5-moon: >-
+    ein. Sie halfen mir mit den Werkzeugen und Logiken von p5.js. Es war eine hervorragende Lehr- und Lernerfahrung.
+  project-a-2-1-moon: 'Wir folgten Grundlagenvideos, '
+  codetrain-moon: Daniels Videos auf YouTube
+  project-a-2-2-moon: ', und '
+  p5-reference-moon: Referenzen auf der p5.js Webseite
+  project-a-2-3-moon: .
+  project-a-3-1-moon: 'Meine Lieblingsfunktion hängt mit '
+  project-a-3-2-moon: ' und '
+  project-a-3-3-moon: ': '
+  project-a-3-4-moon: >-
+    zusammen. Ich konnte dieses Werkzeug nutzen und lehren, um verschiedene Ideen über Zeit in Bewegung zu visualisieren.
+  project-a-4-1-moon: >-
+    Für mich als Anfängerin war es eine Herausforderung, die Gesamtstruktur von p5.js und generell die Funktionsweise von Code zu verstehen. Ich musste die Grundlagen von p5.js ein paar Mal wiederholen und dann zeichnete ich ein Diagramm, um die Struktur und den Code von p5.js so zu memorieren und zu lehren, wie ich es verstanden hatte, mit starken Einschränkungen, die ich mir selbst auferlegte. Es war eine hervorragende Lehr- und Lernerfahrung.
+  project-a-5-1-moon: 'Schau Dir das '
+  project-a-5-2-moon: ' in Mailand, Italien an.'
+teach:
+  teach-title2: Lehre
+  teach-intro1: >-
+    Jede Lehre hat ihre eigenen einzigartigen Ziele, Botschaften, Bedingungen und
+    Umgebungen.
+  teach-intro2: >-
+    Durch das Dokumentieren und Teilen von p5-Workshops, Klassen und Materialien hoffen wir,
+    die p5.js Lernenden- und Lehrenden-Gemeinschaften weltweit besser zu verbinden.
+  teach-intro3: Teile oder empfehle
+  teach-intro4: 'auch Deine eigenen Lehrerfahrungen!'
+  teach-heading: p5 Lehrressourcen
+  teach-search-filter: Suchfilter
+  teach-filter1: 'Diversität & Inklusion : '
+  teach-filter1-label1: Geschlecht
+  teach-filter1-label2: Rasse & Ethnizität
+  teach-filter1-label3: Sprache
+  teach-filter1-label4: Neuro-Typ
+  teach-filter1-label5: Fähigkeit
+  teach-filter1-label6: Klasse
+  teach-filter1-label7: Religion
+  teach-filter1-label8: (Sub-)Kultur
+  teach-filter1-label9: Politische Meinung
+  teach-filter1-label10: Alter
+  teach-filter1-label11: Fähigkeitsstufe
+  teach-filter1-label12: Beruf
+  teach-filter1-label13: '#noCodeSnobs'
+  teach-filter1-label14: '#newKidLove'
+  teach-filter1-label15: '#unassumeCore'
+  teach-filter1-label16: '#BlackLivesMatter'
+  teach-filter2: 'Veranstaltungsort : '
+  teach-filter2-label1: Afrika
+  teach-filter2-label2: Asien
+  teach-filter2-label3: Europa
+  teach-filter2-label4: Nordamerika
+  teach-filter2-label5: Ozeanien
+  teach-filter2-label6: Südamerika
+  teach-filter2-label7: 'Virtuell-Online '
+  teach-filter3: 'Jahr : '
+  teach-filter4: 'Schwierigkeitsstufe : '
+  teach-filter4-label1: Grundlegend
+  teach-filter4-label2: Mittel
+  teach-filter4-label3: Fortgeschritten
+  teach-case-subtitle1: Veranstaltungsort & Datum
+  teach-case-subtitle2: Teilnehmer
+  teach-case-subtitle3: Schwierigkeitsstufe
+  teach-case-subtitle4: Ziele
+  teach-case-subtitle5: Methode & Materialien
+  teach-case1-title: Einführung in die Programmierung von Videospielen in der Oberschule mit p5.js
+  teach-case1-lead-name: Emanuele Bolognesi
+  teach-case1-image-alt: Ein Gruppenfoto von 25 Schülern mit ihrem Lehrer
+  teach-case1-content1: '📍 Oberschule Russell-Newton, Scandicci (FI), Italien. '
+  teach-case1-content1-1: '02/06/2022 ~ 04/10/2022 jeden Samstag 10:00-11:00'
+  teach-case1-content2: 25 Schüler (15-16 Jahre alt) eines italienischen Gymnasiums. 11 Mädchen und 14 Jungen
+  teach-case1-content3: ' Grundlegend'
+  teach-case1-content4: 10. Klässler in einfacher Videospielprogrammierung mit JavaScript und p5.js einführen
+  teach-case1-content5: 'Methode: p5.js Web-Editor'
+  teach-case1-content5-1: Die
+  teach-case1-content5-2: Arbeiten
+  teach-case1-content5-3: der Schüler
+  teach-case2-title: Fraktale Implementierungen
+  teach-case2-lead-name: Mariana
+  teach-case2-content1: 'Mars'
+  teach-case2-content1-1: '06.02.2022 15:00~15:30'
+  teach-case2-content2: 15
+  teach-case2-content3: ' Fortgeschritten'
+  teach-case2-content4: Einführung in das Thema Fraktale und deren Umsetzung mit p5js
+  teach-case2-content5: 'Einfach '
+  teach-case3-title: Einführung in Computational Media mit p5.js
+  teach-case3-lead-name: Barry Voeten
+  teach-case3-content1: 'Schule'
+  teach-case3-content1-1: 'gesamter Kurs'
+  teach-case3-content2: Niederländische Schulkinder, Alter 14-15
+  teach-case3-content3: ' Grundlegend,  Mittel,  Fortgeschritten'
+  teach-case3-content4: Bildung
+  teach-case3-content5: 'Lehrplan'
+  teach-case4-title: Calculadora de IMC
+  teach-case4-lead-name: Dayana 
+  teach-case4-content1: 'Youtube'
+  teach-case4-content1-1: '00h: 30min'
+  teach-case4-content2: Abonnenten des Youtube-Kanals, es gab 18 Ansichten.
+  teach-case4-content3: ' Grundlegend, Anfänger'
+  teach-case4-content4: Menschen zu unterstützen, die mit dem Programmieren beginnen.
+  teach-case4-content5: 'p5.js Web-Editor , Tutorial auf Youtube'
+  teach-case5-title: Taller de Creative Coding
+  teach-case5-lead-name: Federico Santana
+  teach-case5-image-alt: Screenshot des Lehrers, der online im p5.js Web-Editor unterrichtet
+  teach-case5-content1: 'https://www.twitch.tv/snowflakeFede'
+  teach-case5-content1-1: 'jeden Samstag 19:00-20:30 Uhr (Zeitzone: GMT-3)'
+  teach-case5-content2: Ich bin allein, aber ich lade gerne Leute ein, um live zu programmieren, wenn ich kann.
+  teach-case5-content3: ' Grundlegend'
+  teach-case5-content4: Das Ziel ist, mehr Menschen über kreatives Schaffen zu lehren und sie gleichzeitig der Welt der Mathematik näher zu bringen, alles auf Spanisch. Der Kurs ist stark von "The Coding Train" inspiriert, aber mit einem Ansatz, der sowohl Mathematik als auch kreatives Schaffen insgesamt näher bringt.
+  teach-case5-content5: 'Nur eine Sammlung von p5js, wo ich Beispiele hochlade, die live gemacht werden, hier:'
+  teach-case6-title: '50+ CODING CLUB: MEIN ERSTES CODE-KUNSTWERK MIT HANDY(🖐) UND FAMILIE(👩‍👧‍👦)'
+  teach-case6-lead-name: Inhwa Yeom
+  teach-case6-image-alt: Foto aus dem Unterricht
+  teach-case6-content1: 'Kulturzentrum Asien, Gwangju, Südkorea'
+  teach-case6-content1-1: '27/11/2020~ 12/2020 jeden Freitag und Samstag 2:00-4:00'
+  teach-case6-content2: Menschen, die sich selbst als Senioren identifizieren (Durchschnittsalter = 62,54), und ihre Begleitpersonen aller Altersgruppen.
+  teach-case6-content3: ' Grundlegend'
+  teach-case6-content4: p5 für 50+ zielt darauf ab, die digitale Kompetenz und die Rechte von Menschen über 50 zu stärken
+  teach-case6-content5: 'p5-Editor, p5for50+ Web-App, p5js.org, Druck von Code-Ergebnissen'
+  teach-case7-title: Einführung in p5js
+  teach-case7-lead-name: Bérenger Recoules a.k.a b2renger
+  teach-case7-image-alt: Beispielbild
+  teach-case7-content1: L'École de Design Nantes Atlantique - Frankreich
+  teach-case7-content1-1: von 2018 und laufend
+  teach-case7-content2: Studierende der école de design Nantes Atlantique
+  teach-case7-content3: ' Grundlegend'
+  teach-case7-content4: Kennenlernen von p5js und seinen Funktionen (dom, audio, webgl etc.)
+  teach-case7-content5: 'github readme : dies ist ein Text-Tutorial zum Lesen auf Französisch.'
+  teach-case8-title: Ich fange einen neuen an - 
+  teach-case8-lead-name: Brinder Soin
+  teach-case8-content1: 'New Jersey'
+  teach-case8-content1-1: '12/28 - 12/30'
+  teach-case8-content2: Etwa 100 Schüler der Klassen 7, 8 und 9 aus verschiedenen Schulen und Orten.
+  teach-case8-content3: ' Grundlegend,  Mittel,  Fortgeschritten'
+  teach-case8-content4: Kinder in der Zeit von Covid sicher und lernend halten und STEM-Bildung fördern
+  teach-case8-content5: 'Von Lehrern erstellte Notizen und Arbeitsblätter sowie IDE p5 Web-Editor'
+  teach-case9-title: Programación Aplicada al Arte Visual e Interactivo
+  teach-case9-lead-name: Sebastián Zavatarelli
+  teach-case9-image-alt: Eine Zoom-Klasse, die den p5.js Web-Editor teilt
+  teach-case9-content1: 'Buenos Aires, Argentinien. Plataforma ZOOM'
+  teach-case9-content1-1: '15/09/2020 ~ 14/10/2020 jeden Mittwoch 18:30-21:00 Uhr)'
+  teach-case9-content2: Ungefähr 10 Personen. Die Mehrheit Frauen.
+  teach-case9-content3: ' Grundlegend,  Mittel'
+  teach-case9-content4: Der Kurs richtet sich an Künstler, die beginnen möchten, aktuelle technologische Werkzeuge für die Entwicklung ihrer Werke zu nutzen. Er kann auch von denen genutzt werden, die mit der Programmierung von Computern durch eine einfache, visuelle, zugängliche und unterhaltsame Programmierumgebung beginnen möchten.
+  teach-case9-content5: 'p5.js Web-Editor. Online über die Plattform ZOOM und Material auf Moodle hochgeladen'
+  teach-case10-title: Malen mit Code
+  teach-case10-lead-name: Andreas Refsgaard
+  teach-case10-content1: 'Kopenhagen, Dänemark'
+  teach-case10-content1-1: '22/02/2020'
+  teach-case10-content2: Teilnehmer waren Leute . Eine breite Palette von Personen aus 
+  teach-case10-content3: ' Mittel'
+  teach-case10-content4: Kreative, Designer, Künstler und andere Personen, die normalerweise keinen Code verwenden, in p5.js einführen
+  teach-case10-content5: 'Website, p5.js Editor'
+  teach-case11-title: Signing Coders
+  teach-case11-lead-name: Taeyoon Choi
+  teach-case11-content1: 'BRIC, New York City.  USA
+  Seoul Museum of Art, Seoul, Südkorea.'
+  teach-case11-content1-1: '5 Sitzungen, jede 2~3 Stunden'
+  teach-case11-content2: Gehörlose und Schwerhörige Studierende im Alter von 10~50 Jahren, die in NYC leben.
+  teach-case11-content3: ' Grundlegend'
+  teach-case11-content4: Gehörlosen und Schwerhörigen Studierenden das Erlernen der Computerprogrammierung durch spielerische Übungen erleichtern. Ein ASL-Tutorial zu grundlegenden Programmierkonzepten erstellen.
+  teach-case11-content5: 'Wir haben den p5.js Web-Editor und Code-Beispiele auf der Website verwendet. 
+  Wir haben auch Würfel, Spielkarten und verschiedene Papierwerkzeuge verwendet, um den Studierenden beim Erlernen der Programmierkonzepte zu helfen. '
+  teach-case12-title: Serie von Workshops zu Digitalem Weben & Physischer Computerarbeit
+  teach-case12-lead-name: Qianqian Ye
+  teach-case12-image-alt: Foto aus dem Unterricht
+  teach-case12-content1: 'Women’s Center for Creative Work, Los Angeles, CA, US'
+  teach-case12-content1-1: '19/10/2019 ~ 02/11/2019, jeden Samstag 15-18 Uhr'
+  teach-case12-content2: 15 Frauen und nicht-binäre Künstler, Designer, Maker, Programmierer. 
+  teach-case12-content3: ' Grundlegend'
+  teach-case12-content4: Im Verlauf von drei Workshops werden wir Muster mit p5.js, einer Open-Source-Grafikbibliothek, zeichnen und erstellen; wir werden computergestützte Konzepte lernen und anwenden, um Muster zu transformieren und schließlich ein Webmuster mit elektronischen Mikrocontrollern zum Leben erwecken.
+  teach-case12-content5: 'Materialien: Folien, p5.js Web-Editor, Stift und Papier, um Muster zu zeichnen, physisches Webmusterwerkzeug
+  Methoden: Kleingruppensitzung'
+  teach-case12-content5-1: "Folien, die wir für den Workshop verwendet haben:"
+  teach-case13-title: p5.js à l'Ubuntu Party!
+  teach-case13-lead-name: Basile Pesin
+  teach-case13-content1: '2020 Ubuntu Party '
+  teach-case13-content1-1: Cité des Sciences et de l''Industrie, Paris, Frankreich
+  teach-case13-content2: 'Jedes Alter, einschließlich Kinder und Eltern, junge und ältere Erwachsene.'
+  teach-case13-content3: Fortgeschritten
+  teach-case13-content4: >-
+    Einem neuen Publikum Programmierung anhand von unterhaltsamen und überzeugenden
+    Beispielen näherbringen.
+  teach-case13-content5: >-
+    Methode: persönlicher Workshop, 1 Stunde pro Sitzung, mit unterschiedlichen Teilnehmenden
+    jedes Mal. Die Studierenden verwendeten (Ubuntu-)Maschinen mit dem p5.js Web-Editor. Ich unterrichtete mit einem Videoprojektor sowie einer Tafel.
+  teach-case13-content5-1: >-
+    Materialien: Die Übungen, die ich gab, waren durch Links im p5.js Web-Editor zugänglich
+    verfügbar in
+  teach-case14-title: >-
+    Das Ding herstellen, das das Ding herstellt: Generative Kunst & Design
+    mit p5.js erkunden
+  teach-case14-lead-name: Priti Pandurangan & Ajith Ranka
+  teach-case14-image-alt: Eine Gruppe von Teilnehmenden, die zusammenarbeiten, um einige Designs mit dem p5.js Web-Editor auf ihren Laptops zu erstellen.
+  teach-case14-content1: 'National Institute of Design, Bangalore'
+  teach-case14-content1-1: '2020 8. Februar, 14:30-16:00 Uhr'
+  teach-case14-content2: >-
+    Unsere Teilnehmenden umfassten Kunst-/Designstudierende & Profis, Begeisterte
+    für kreatives Programmieren. Wir hatten etwa 50 Teilnehmende.
+  teach-case14-content3: 'Priti: Mittel & Ajith: Fortgeschritten'
+  teach-case14-content4: >-
+    Generative Kunst &#x0026; Design erkunden und einige klassische Werke
+    mit p5.js neu erstellen.
+  teach-case14-content5: 'Methoden: Persönlich, kollaborativ, praxisnaher Workshop.'
+  teach-case14-content5-1: 'Materialien: '
+  teach-case14-content5-2: 'Kursseite '
+  teach-case14-content5-3: 'verlinkt zu Skizzen im p5-Editor, '
+  teach-case14-content5-4: 'interaktiver Referenzleitfaden '
+  teach-case14-content5-5: zu den Grundlagen von p5
+  teach-case15-title: CC Fest (Creative Coding Festival)
+  teach-case15-lead-name: Saber
+  teach-case15-speech: 'Ich liebe p5.js. Es bedeutet so viel für mich, meine Schüler und diese Gemeinschaft.'
+  teach-case15-content1: ' New York, Los Angeles, San Francisco, Virtuell-Online '
+  teach-case15-content1-1: ' Zweimal im Jahr in NYC seit vier Jahren; einmal im Jahr in LA seit drei Jahren; einmal im Jahr in SF seit zwei Jahren; jetzt virtuell'
+  teach-case15-content2: >-
+    Unsere Teilnehmenden umfassten Kunst-/Designstudierende & Profis, Begeisterte
+    für kreatives Programmieren. Wir hatten etwa 50 Teilnehmende.
+  teach-case15-content3: Mittel
+  teach-case15-content4: >-
+    Eine Lehrer- und Schülergemeinschaft um p5 für Mittel- und Oberschulen
+    aufbauen.
+  teach-case15-content5: >-
+    Ein halbtägiger Workshop, geleitet von freiwilligen Lehrkräften. Wir sahen viele verschiedene
+    Methoden und Materialien. Die meisten verwendeten irgendeine Art von Folien oder Dokumentation, manchmal
+    Live-Coding mit einem Editor, mit Arbeitszeit für die Teilnehmenden zum Remixen.
+  teach-case15-content5-1: CC Fest Lektionen Seite
+  teach-case15-content5-2: ' für Lehrmaterialien'
+  teach-case15-content5-3: Mehr Fotos
+  teach-case16-title: Taller Introducción a la Programación Creativa con p5.js
+  teach-case16-lead-name: Aarón Montoya-Moraga
+  teach-case16-image-alt: Eine Gruppe von 20 Personen sitzt an einem großen gemeinsamen Tisch mit ihren Laptops und blickt auf einen projizierten Bildschirm.
+  teach-case16-speech: 'p5.js ist mein glücklicher Ort'
+  teach-case16-content1: ' PlusCode Medienkunstfestival, Buenos Aires, Argentinien & Virtuell-Online '
+  teach-case16-content1-1: ' 14. November 2018, 3 Stunden'
+  teach-case16-content2: >-
+      Ich hatte etwa 16 Teilnehmer im Workshop und ein Team, das 3 Personen vom
+      PlusCode Festival und eine Person vor Ort umfasste.
+  teach-case16-content3: 'Elementar, Mittelstufe, Fortgeschritten'
+  teach-case16-content4: >-
+      Einführung für Anfänger und Künstler in die grafische Webprogrammierung und Open
+      Source, unter Verwendung von p5.js, auf Spanisch :)
+  teach-case16-content5: 'Ich habe das Material aus diesem '
+  teach-case16-content5-1: GitHub-Repo
+  teach-case16-content5-2: ', wir haben den p5.js Web-Editor benutzt, wir hatten einen dreistündigen Workshop'
+  teach-case16-content5-3: '+CODE Elektronik-Kunstfestival 2018, Argentinien'
+  teach-case16-content5-4: ', Mittel'
+  teach-case17-title: Einführung in das generative Zeichnen
+  teach-case17-lead-name: Adam Herst
+  teach-case17-speech: >-
+      Meine größte Unsicherheit bei der Entwicklung des Workshops war, ob er
+      Kunst an Programmierer vermitteln oder Programmieren an Künstler lehren sollte.
+  teach-case17-content1: Inter/Access
+  teach-case17-content1-1: ' (von Künstlern geführtes Zentrum), Toronto, Ontario, Kanada'
+  teach-case17-content1-2: Präsenz mit einem eigenständigen Arbeitsbuch für die Fernarbeit
+  teach-case17-content1-3: ' 12. Februar 2020, 19-21 Uhr'
+  teach-case17-content2: 15 Künstler
+  teach-case17-content3: Elementar
+  teach-case17-content4: >-
+      p5.js Künstlern mit wenig oder keiner Programmiererfahrung vorstellen und
+      eine Möglichkeit aufzeigen, wie eine analoge Praxis in eine digitale Form übertragen werden kann.
+  teach-case17-content5: >-
+      Ein gedrucktes Arbeitsbuch mit Aktivitäten, die den p5.js Web-Editor nutzen, um
+      zu zeigen, wie man eine physische Zeichnung in eine digitale übersetzt.
+  teach-case17-content5-1: 'Processing Community Day 2019: Generatives Zeichnen bei Inter/Access'
+  teach-case17-content5-2: Einführungsbrief zum generativen Zeichnen PDF
+  teach-case17-content5-3: Einführungsbroschüre zum generativen Zeichnen PDF
+  teach-case18-title: 'Offene Vorlesung, Kreatives Programmieren: 2020'
+  teach-case18-lead-name: Shunsuke Takawo
+  teach-case18-image-alt: Ein Tisch, auf dem ein Laptop, einige Blätter Papier, bunte Stifte und zwei Automaten liegen, die etwas mit einem Stift auf einem Blatt zeichnen.
+  teach-case18-speech: >-
+      Ich liebe p5.js, weil es so einfach ist, Code in p5.js zu lesen und zu schreiben. Programmieren im Alltagsleben!
+  teach-case18-content1: ' Kunsthochschule Kyoto, Kyoto, Japan & Virtuell-Online '
+  teach-case18-content1-1: ' 16.-18. März 2020, 13-19 Uhr'
+  teach-case18-content2: 'Studenten der Kunsthochschule Kyoto und jeder, der möchte.'
+  teach-case18-content3: Elementar
+  teach-case18-content4: Programmieren als Werkzeug für künstlerischen Ausdruck machen.
+  teach-case18-content5: 'Dropbox Paper, p5.js Web-Editor.'
+  teach-case18-content5-1: Lehrplan
+  teach-case18-content5-2: Tag 1
+  teach-case18-content5-3: Tag 2
+  teach-case18-content5-4: Tag 3
+  teach-case18-content5-5: ', YouTube'
+  teach-case19-title: Kreatives Programmieren für statische Grafiken
+  teach-case19-lead-name: Shunsuke Takawo
+  teach-case19-speech: >-
+      Programmieren in p5.js macht viel Spaß. Wenn Du noch nicht angefangen hast, ermutige ich
+      Dich, es zu versuchen!
+  teach-case19-content1: ' FabCafe MTRL, Tokio, Japan'
+  teach-case19-content1-1: ' 15. September 2019, 16-19 Uhr '
+  teach-case19-content2: Jeder, der das Programmieren in p5.js ausprobieren möchte.
+  teach-case19-content3: Mittelstufe
+  teach-case19-content4: Aus der Perspektive des Grafikdesigns codieren.
+  teach-case19-content5: 'Dropbox Paper, p5.js Web-Editor.'
+  teach-case19-content5-1: Lehrplan & Material
+  teach-case20-title: Generative Typografie
+  teach-case20-lead-name: Dae In Chung
+  teach-case20-image-alt: Ein Bild mit schwarzem Hintergrund zeigt den Buchstaben 'b' in 5 verschiedenen Stilen zusammen mit einem Menü mit verschiedenen Stiloptionen zur Auswahl.
+  teach-case20-content1: ' Baltimore, Maryland, USA & Virtuell-Online '
+  teach-case20-content1-1: ' 21. Januar - 8. Mai 2019, jeden Mittwoch, 16-22 Uhr'
+  teach-case20-content2: 14 Bachelor- und Masterstudenten, die wenig bis keine Erfahrung im Programmieren hatten.
+  teach-case20-content3: Elementar
+  teach-case20-content4: Experimentieren mit typografischen Formen und Strukturen durch Berechnung.
+  teach-case20-content5: 'Methoden: Online-/Offline-Vorlesungen und Kritiken.'
+  teach-case20-content5-1: 'Materialien: p5js Online-Editor, Github, YouTube-Tutorials.'
+  teach-case20-content5-2: Arbeiten der Teilnehmer
+  teach-case21-title: Maschinelles Lernen für das Web
+  teach-case21-lead-name: Yining Shi
+  teach-case21-image-alt: Eine Gruppe von 16 Personen sitzt um Tische mit ihren Laptops, Handys und einigen anderen Zubehörteilen, die auf einen großen Fernsehbildschirm blicken.
+  teach-case21-content1: ' ITP, NYU, 370 Jay St, Brooklyn, NY 11201, USA'
+  teach-case21-content1-1: '9. März - 12. Oktober 2019, jeden Dienstag, 18:30-21:00 Uhr'
+  teach-case21-content2: >-
+      Studenten des Interactive Telecommunications Program, New York University. 16
+      Personen.
+  teach-case21-content3: 'Elementar, Mittelstufe'
+  teach-case21-content4: >-
+      Das Ziel dieses Kurses ist es, gängige Techniken des maschinellen Lernens zu erlernen und zu verstehen und sie anzuwenden, um kreative Ausgaben im Browser mit
+      ml5.js und p5.js zu generieren.
+  teach-case21-content5: >-
+      Dieser Kurs ist eine Mischung aus Vorlesungen, Programmier-Sessions, Gruppendiskussionen und
+      Präsentationen. Ich habe
+  teach-case21-content5-1: GitHub
+  teach-case21-content5-2: ' verwendet, um den Lehrplan und alle Programmiermaterialien zu hosten, Google Slides für Vorlesungen und den p5.js Web-Editor für Live-Programmier-Sessions. Jede Woche gab es ein persönliches Bürogespräch, um über Schwierigkeiten beim Finden einer Idee für die Hausaufgaben oder bei Programmänderungen zu sprechen.'
+  teach-case21-content5-3: 'Methoden: Online-/Offline-Vorlesungen und Kritiken.'
+  teach-case22-title: Einführung in p5.js und JavaScript
+  teach-case22-lead-name: Nico Reski
+  teach-case22-content1: ' Derzeit als Selbststudium im eigenen Tempo mit begleitenden Folien verfügbar, unten verlinkt.'
+  teach-case22-content3: 'Anfänger, Elementar'
+  teach-case22-content4: >-
+      Lernenden (potenziell ohne jegliche Programmiererfahrung) die Grundlagen von p5.js (und JavaScript) vorstellen, um kreatives Programmieren zu fördern und ihnen zu ermöglichen, eigene Projekte in einer sicheren Umgebung zu verfolgen.
+  teach-case22-content5: >-
+      p5.js Quellcode (für das Einführungsprojekt), JavaScript Quellcode
+      (der einige grundlegende JavaScript-Funktionalitäten veranschaulicht), begleitende Folien im
+      .pdf-Format, alles öffentlich auf GitHub gehostet.
+  teach-case22-content5-1: Übersicht
+  teach-case22-content5-2: ' des Workshops und seiner Inhalte (einschließlich aller Links zum Material, gehostet auf GitHub) auf meiner akademischen Webseite.'
+  teach-case23-title: Digitale Weberei & Physical-Computing-Workshop-Serie
+  teach-case23-lead-name: Qianqian Ye & Evelyn Masso
+  teach-case23-image-alt: Dieses Bild ist in zwei Teile geteilt. Der linke Teil zeigt eine Gruppe von 15 Frauen, die auf Stühlen mit ihren Laptops sitzen und einem Präsentator zuhören, der einen Code auf einer projizierten Leinwand erklärt. Der rechte Teil des Bildes zeigt eine Person, die das Weben mit einem physischen Muster und einem Webwerkzeug lernt.
+  teach-case23-content1: ' Womens Center for Creative Work (WCCW), Los Angeles, CA, USA'
+  teach-case23-content1-1: ' 19. Oktober - 2. November 2019, jeden Samstag 15-18 Uhr'
+  teach-case23-content2: '15 Frauen und nicht-binäre Künstler, Designer, Macher, Programmierer. '
+  teach-case23-content3: Elementar
+  teach-case23-content4: >-
+      Im Laufe von drei Workshops werden wir Muster mit
+      p5.js, einer Open-Source-Grafikbibliothek, zeichnen und erstellen; wir werden
+      Rechenkonzepte lernen und anwenden, um Muster zu transformieren und schließlich, wir werden ein
+      Webstück mit elektronischen Mikrocontrollern zum Leben erwecken.
+  teach-case23-content5: 'Methoden: Kleingruppensitzung'
+  teach-case23-content5-1: >-
+      Materialien: Folien, p5.js Web-Editor, Stift und Papier zum Musterzeichnen, physisches
+      Musterwebwerkzeug.
+  teach-case23-content5-2: 'Workshop-Folie #1'
+  teach-case23-content5-3: 'Workshop-Folie #2'
+  teach-case23-content5-4: Workshop-Informationen
+  teach-case23-content5-5: ' auf der WCCW-Website.'
+  teach-case24-title: Signierende Programmierer
+  teach-case24-lead-name: Taeyoon Choi
+  teach-case24-image-alt: Zwei Freiwillige erklären Konzepte mit einem Whiteboard und einem Bildschirm einer Gruppe von gehörlosen und schwerhörigen Schülern, jeder Schüler vor einem Computerbildschirm.
+  teach-case24-speech: >-
+      Ich arbeite an einer neuen Serie von Programmierkursen für behinderte Studierende in Süd
+      Korea. Ich forsche über die Pädagogik und Übersetzung. Ich plane, Workshops im Dezember 2020 abzuhalten. Das Projekt wird von der Open Society
+      Foundation Human Rights Initiative und dem Korea Disability Arts & Culture
+      Center unterstützt.
+  teach-case24-content1: ' WRIC, New York City, USA & Seoul Museum of Art, Seoul, Südkorea.'
+  teach-case24-content1-1: '5 Sitzungen, jede 2~3 Stunden'
+  teach-case24-content2: Gehörlose und schwerhörige Studierende im Alter von 10~50 Jahren, die in NYC leben.
+  teach-case24-content3: Elementar
+  teach-case24-content4: >-
+      Gehörlosen und schwerhörigen Studierenden helfen, das Computerprogrammieren
+      durch spielerische Übungen zu lernen. Ein ASL-Tutorial zu grundlegenden Programmierkonzepten erstellen.
+  teach-case24-content5: >-
+      Wir haben den p5.js Web-Editor und Codebeispiele auf der Website verwendet. Wir haben auch
+      Würfel, Spielkarten und verschiedene Papierwerkzeuge verwendet, um den Studierenden beim Lernen von
+      Programmierkonzepten zu helfen.
+  teach-case24-content5-1: Lehrplan & Material
+  teach-case24-content5-2: Mehr Fotos
+  teach-workshops-heading: Bevorstehende Workshops
+  teach-workshop1-title: CC Fest (Creative Coding Festival)
+  teach-workshop1-time: 'Mai 2023, jeden Sonntag 17-20 Uhr'
+  teach-workshop2-title: 'Das Ding machen, das das Ding macht: Generative Kunst & Design mit p5.js erkunden'
+  teach-workshop2-time: 'März 2023, jeden Samstag 14-18 Uhr'
+  teach-workshop3-title: p5.js à l'Ubuntu Party!
+  teach-workshop3-time: 'Mai 2023, jeden Sonntag 17-20 Uhr'

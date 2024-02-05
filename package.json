@@ -7,7 +7,8 @@
     "es",
     "hi",
     "ko",
-    "zh-Hans"
+    "zh-Hans",
+    "de"
   ],
   "homepage": "https://github.com/processing/p5.js-website",
   "author": {
