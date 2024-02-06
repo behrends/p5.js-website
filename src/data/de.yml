@@ -51,7 +51,7 @@ home:
   p3xh2: Erste Schritte
   p3xp1: 'Mache deine erste Skizze im '
   p3xp2: '. Erfahre mehr über das Skizzieren mit p5.js auf der '
-  p3xp3: Erste-Schritte--Seite
+  p3xp3: Erste-Schritte-Seite
   p3xp4: ' und alles, was möglich ist, in der '
   p3xp5: Referenz
   p3xp6: .
@@ -317,32 +317,32 @@ learn:
   p5js-processing-title: p5.js und Processing
   p5js-processing: >-
     Die wichtigsten Unterschiede zwischen den beiden und wie man von einem zum anderen konvertiert.
-  p5-screen-reader-title: p5 mit einem Bildschirmleser
-  p5-screen-reader: Die Einrichtung von p5, sodass es einfach mit einem Bildschirmleser verwendet werden kann.
+  p5-screen-reader-title: p5 mit einem Screenreader
+  p5-screen-reader: Die Einrichtung von p5, sodass es einfach mit einem Screenreader verwendet werden kann.
   using-local-server-title: Einen lokalen Server verwenden
   accessible-labels-title: Zugängliche Canvas-Beschreibungen schreiben
-  accessible-labels: Das Verwenden von Beschriftungen, um deinen Code für Bildschirmleser zugänglich zu machen.
+  accessible-labels: Das Verwenden von Beschriftungen, um deinen Code für Screenreader zugänglich zu machen.
   accessible-labels-intro: Einführung
   accessible-labels-intro-1: >-
     In diesem Tutorial lernst Du, wie man <a class = "code" href = "https://p5js.org/reference/#/p5/describe">describe()</a>,
     <a class = "code" href = "https://p5js.org/reference/#/p5/describeElement">describeElement()</a>, 
     <a class = "code" href = "https://p5js.org/reference/#/p5/gridOutput">gridOutput()</a>, 
     und <a class = "code" href = "https://p5js.org/reference/#/p5/textOutput">textOutput()</a> verwendet. Diese Funktionen fügen deiner 
-    Leinwand Beschriftungen hinzu, sodass sie für Bildschirmleser und andere assistive Technologien lesbar ist.
+    Leinwand Beschriftungen hinzu, sodass sie für Screenreader und andere assistive Technologien lesbar ist.
   accessible-labels-what-is-labeling: Was ist Beschriftung?
   accessible-labels-what-is-labeling-1: >-
     Wenn du die Funktion <a class = "code" href = "https://p5js.org/reference/#/p5/createCanvas">createCanvas()</a> verwendest, erstellst du 
     ein Canvas-HTML-Element. Dieses Canvas-Element zeigt das durch deinen Code erzeugte Bild als Bitmap (eine Rastergrafik, die aus Pixeln besteht). 
-    Im Gegensatz zu den meisten HTML-Elementen liefert das Canvas keine Beschreibung seines Inhalts für Bildschirmleser. 
+    Im Gegensatz zu den meisten HTML-Elementen liefert das Canvas keine Beschreibung seines Inhalts für Screenreader. 
     Deshalb haben wir die Funktionen <a class = "code" href = "https://p5js.org/reference/#/p5/describe">describe()</a>, 
     <a class = "code" href = "https://p5js.org/reference/#/p5/describeElement">describeElement()</a>, 
     <a class = "code" href = "https://p5js.org/reference/#/p5/gridOutput">gridOutput()</a>, und 
     <a class = "code" href = "https://p5js.org/reference/#/p5/textOutput">textOutput()</a> erstellt. 
-    Diese Funktionen fügen deinem Canvas Beschriftungen hinzu, die den Bildschirmlesern erklären, wie es beschrieben werden soll.
+    Diese Funktionen fügen deinem Canvas Beschriftungen hinzu, die den Screenreadern erklären, wie es beschrieben werden soll.
   accessible-labels-why-labeling-matters: Warum Beschriftung wichtig ist
   accessible-labels-why-labeling-matters-1: >-
-    Bildschirmleser (und Text-zu-Sprache-Software) sind für viele Menschen hilfreich, <a href = "https://www.w3.org/WAI/perspective-videos/speech/" target="_blank" rel="noopener noreferrer">
-    unabhängig von Fähigkeiten oder Kontext</a>. Ein sehbehinderter Mensch, der im Internet sucht, könnte zum Beispiel einen Bildschirmleser verwenden, um 
+    Screenreader (und Text-zu-Sprache-Software) sind für viele Menschen hilfreich, <a href = "https://www.w3.org/WAI/perspective-videos/speech/" target="_blank" rel="noopener noreferrer">
+    unabhängig von Fähigkeiten oder Kontext</a>. Ein sehbehinderter Mensch, der im Internet sucht, könnte zum Beispiel einen Screenreader verwenden, um 
     den Inhalt einer Seite zu verstehen. Wenn der Code einer Site nicht korrekt für assistive Technologien beschriftet ist, 
     kann die Text-zu-Sprache-Software dem Benutzer nicht kommunizieren, was auf der Site steht. Jemand anderes 
     könnte eine Text-zu-Sprache-Software verwenden, weil er Dyslexie hat und es einfacher findet, sich den Inhalt der Site anzuhören, anstatt ihn zu lesen. Es gibt auch Menschen, die diese assistiven Software 
@@ -361,18 +361,18 @@ learn:
     spezifische Gruppierung von Elementen im Canvas. Die Parameter dieser Funktion beinhalten: <span class = "code">name</span>, den Titel für die Beschriftung; 
     <span class = "code">text</span>, die Beschriftung selbst; und <span class = "code">display</span>, ein optionaler Parameter, um die Sichtbarkeit der Beschriftung einzustellen.
   accessible-labels-available-labels-li-3: >-
-    <a class = "code" href = "https://p5js.org/reference/#/p5/textOutput">textOutput()</a> generiert eine Liste, die die Größe des Canvas, die Farbe, 
-    sowie die Farbe, Position und den Bereich jedes visuellen Elements innerhalb des Canvas beschreibt. Der einzige Parameter dieser Funktion ist 
+    <a class = "code" href = "https://p5js.org/reference/#/p5/textOutput">textOutput()</a> generiert eine Liste, die die Größe der Canvas, die Farbe, 
+    sowie die Farbe, Position und den Bereich jedes visuellen Elements innerhalb der Canvas beschreibt. Der einzige Parameter dieser Funktion ist 
     <span class = "code">display</span>, ein optionaler Parameter, um die Sichtbarkeit der Beschriftung einzustellen.
   accessible-labels-available-labels-li-4: >-
     <a class = "code" href = "https://p5js.org/reference/#/p5/gridOutput">gridOutput()</a>, ähnlich wie <a class = "code" href = "https://p5js.org/reference/#/p5/textOutput">textOutput()</a>, 
-    generiert eine Liste der Eigenschaften und Elemente des Canvas. Zusätzlich zu dieser Liste erstellt diese Funktion auch eine HTML-Tabelle, die die 
-    räumliche Position jeder Form innerhalb des Canvas aufzeichnet. Der einzige Parameter dieser Funktion ist <span class = "code">display</span>, ein optionaler Parameter 
+    generiert eine Liste der Eigenschaften und Elemente der Canvas. Zusätzlich zu dieser Liste erstellt diese Funktion auch eine HTML-Tabelle, die die 
+    räumliche Position jeder Form innerhalb der Canvas aufzeichnet. Der einzige Parameter dieser Funktion ist <span class = "code">display</span>, ein optionaler Parameter 
     zur Einstellung der Sichtbarkeit der Beschriftung.
   accessible-labels-prerequisites: Voraussetzungen
   accessible-labels-prerequisites-1: >-
     Der Code deines Projekts sollte fast fertig sein, bevor du mit der Beschriftung beginnst. Um klare und effektive 
-    Beschriftungen zu schreiben, solltest du ein klares Verständnis darüber haben, welche visuellen Elemente dein Code innerhalb des Canvas 
+    Beschriftungen zu schreiben, solltest du ein klares Verständnis darüber haben, welche visuellen Elemente dein Code innerhalb der Canvas 
     erstellt.
   accessible-labels-prerequisites-2: >-
     Wenn du zum Beispiel mit dem Schreiben deiner Beschriftungen beginnst, bevor du ein klares Verständnis des resultierenden 
@@ -386,14 +386,14 @@ learn:
     Unabhängig davon, wie kompliziert dein Projekt sein mag, biete immer eine kurze Beschreibung deines Canvas in 
     <a class = "code" href = "https://p5js.org/reference/#/p5/setup">setup()</a> mithilfe der 
     <a class = "code" href = "https://p5js.org/reference/#/p5/describe">describe()</a>-Funktion an. Wenn du keine Beschriftungen in deinem Code anbietest, 
-    werden Bildschirmleser dein Canvas als leeres HTML-Element beschreiben.
+    werden Screenreader dein Canvas als leeres HTML-Element beschreiben.
   accessible-labels-steps-for-labeling-step-1-3: >-
     Platziere diese Beschriftung im <a class = "code" href = "https://p5js.org/reference/#/p5/setup">setup()</a>-Teil deines Codes, 
     und gib eine 1-3 Sätze lange Beschreibung deines Canvas im <span class = "code">text</span>-Parameter an. Diese Beschreibung sollte nur Details über 
     die visuellen Elemente deines Canvas liefern.
   accessible-labels-steps-for-labeling-step-1-4: >-
     Wie zuvor erwähnt, musst du deine Beschreibung nicht mit „Ein p5-Canvas-Element...“ oder Ähnlichem beginnen, da der 
-    Bildschirmleser den Elementtyp vor dem Lesen deiner Beschriftung deklarieren wird.
+    Screenreader den Elementtyp vor dem Lesen deiner Beschriftung deklarieren wird.
   accessible-labels-steps-for-labeling-step-1-5: >-
     Zusammen mit der <a class = "code" href = "https://p5js.org/reference/#/p5/describe">describe()</a>-Beschriftung nutze entweder die 
     <a class = "code" href = "https://p5js.org/reference/#/p5/describeElement">describeElement()</a>, 
@@ -411,7 +411,7 @@ learn:
   accessible-labels-steps-for-labeling-step-1-7: >-
     Verwende nicht sowohl die <a class = "code" href = "https://p5js.org/reference/#/p5/textOutput">textOutput()</a>- als auch die 
     <a class = "code" href = "https://p5js.org/reference/#/p5/gridOutput">gridOutput()</a>-Funktion, um das gleiche Canvas zu beschreiben. Die Verwendung beider wird 
-    dazu führen, dass ähnliche Beschreibungen zweimal erscheinen, was für Bildschirmleser verwirrend ist. Das Gleiche gilt für 
+    dazu führen, dass ähnliche Beschreibungen zweimal erscheinen, was für Screenreader verwirrend ist. Das Gleiche gilt für 
     die Verwendung von <a class = "code" href = "https://p5js.org/reference/#/p5/textOutput">textOutput()</a> oder 
     <a class = "code" href = "https://p5js.org/reference/#/p5/gridOutput">gridOutput()</a> mit 
     <a class = "code" href = "https://p5js.org/reference/#/p5/describeElement">describeElement()</a>-Beschriftungen. Es ist am besten, eine Funktion zu wählen, um 
@@ -420,11 +420,11 @@ learn:
   accessible-labels-steps-for-labeling-step-1-complex-1: >-
     Verwende vanilla ARIA-Beschriftungen und maßgeschneiderte Fallback-Beschriftungen anstelle von p5's Beschriftungsfunktionen, wenn dein Canvas:
   accessible-labels-steps-for-labeling-step-1-complex-li-1: >-
-    Inhalte hat, die sich umfangreich über externe interaktive Elemente (Elemente außerhalb des Canvas) ändern
+    Inhalte hat, die sich umfangreich über externe interaktive Elemente (Elemente außerhalb der Canvas) ändern
   accessible-labels-steps-for-labeling-step-1-complex-li-2: >-
     Mit DOM-Elementen interagiert, die außerhalb des Canvas-Codes geschrieben wurden
   accessible-labels-steps-for-labeling-step-1-complex-li-3: >-
-    Die Aufmerksamkeit des Benutzers erfordert, wenn sich der visuelle Inhalt des Canvas ändert
+    Die Aufmerksamkeit des Benutzers erfordert, wenn sich der visuelle Inhalt der Canvas ändert
   accessible-labels-steps-for-labeling-step-1-complex-li-4: >-
     Komplexe Elementlayouts hat, die nicht genau mit den Funktionen <a class = "code" href = "https://p5js.org/reference/#/p5/describe">describe()</a>, 
     <a class = "code" href = "https://p5js.org/reference/#/p5/describeElement">describeElement()</a>, 
@@ -460,7 +460,7 @@ learn:
     Wenn ein Canvas-Element animiert und/oder interaktiv ist, repräsentiere seinen aktuellen Zustand oder Eigenschaften im Label. Solange du die Funktionen innerhalb der <a class = "code" href = "https://p5js.org/reference/#/p5/draw">draw()</a>-Funktion platzierst, werden sie automatisch mit den neuen Informationen des Shapes aktualisiert (ausgenommen <a class = "code" href = "https://p5js.org/reference/#/p5/textOutput">textOutput()</a> und <a class = "code" href = "https://p5js.org/reference/#/p5/gridOutput">gridOutput()</a>, die auch aktualisiert werden, wenn sie in <a class = "code" href = "https://p5js.org/reference/#/p5/setup">setup()</a> aufgeführt sind). Wenn du <a class = "code" href = "https://p5js.org/reference/#/p5/describeElement">describeElement()</a> verwendest, nutze Template-Strings, um die Beschreibung des Elements zu aktualisieren:
   accessible-labels-steps-for-labeling-step-2-do-donts: Beschriftungen, was man tun und lassen sollte
   accessible-labels-steps-for-labeling-step-2-do-donts-1: >-
-    <i>Verwende</i> Screenreader-Beschriftungen nicht als Möglichkeit, deinen Code zu kommentieren. Beschriftungen sollten nur die resultierenden visuellen Elemente innerhalb eines Canvas zusammenfassen. Wenn du Screenreader-Beschriftungen übermäßig verwendest, könntest du eher die Interpretation des Canvas durch den Screenreader erschweren, als ihm zu helfen.
+    <i>Verwende</i> Screenreader-Beschriftungen nicht als Möglichkeit, deinen Code zu kommentieren. Beschriftungen sollten nur die resultierenden visuellen Elemente innerhalb eines Canvas zusammenfassen. Wenn du Screenreader-Beschriftungen übermäßig verwendest, könntest du eher die Interpretation der Canvas durch den Screenreader erschweren, als ihm zu helfen.
   accessible-labels-steps-for-labeling-step-2-do-donts-2: >-
     <i>Stelle sicher</i>, dass deine Beschriftungsbeschreibungen kurz und genau sind. Verwende vollständige Sätze für deine Beschriftungen und schreibe im Präsens, wenn du Elemente beschreibst.
   accessible-labels-steps-for-labeling-step-3: 3. Teste deine Beschriftungen
@@ -492,8 +492,8 @@ learn:
   nodejs-and-socketio-title: node.js und socket.io
   nodejs-and-socketio: 'Einen node.js Server mit p5.js verwenden, Kommunikation über socket.io.'
   programming-topics-title: Programmierthemen
-  beyond-the-canvas-title: Jenseits des Canvas
-  beyond-the-canvas: Elemente auf der Seite jenseits des Canvas erstellen und manipulieren.
+  beyond-the-canvas-title: Jenseits der Canvas
+  beyond-the-canvas: Elemente auf der Seite jenseits der Canvas erstellen und manipulieren.
   getting-started-in-webgl-other-tutorials-title: Weitere Tutorials
   getting-started-in-webgl-other-tutorials-p: >-
     Dieses Tutorial ist Teil einer Reihe über die Grundlagen der Verwendung von WebGL in p5.js. Schau dir jedes dieser anderen Tutorials unten an.
@@ -646,7 +646,7 @@ learn:
   getting-started-in-webgl-coords-and-transform-glossary-term6-definition: Ein Punkt im 3D-Raum, mit einer X-, Y-, Z-Position.
   getting-started-in-webgl-coords-and-transform-glossary-term7-title: Face
   getting-started-in-webgl-coords-and-transform-glossary-term7-definition: Eine Sammlung von drei Punkten, die eine feste Oberfläche erzeugen.
-  getting-started-in-webgl-custom-geometry-title: Erstellen von benutzerdefinierten Geometrien in WebGL
+  getting-started-in-webgl-custom-geometry-title: Benutzerdefinierte Geometrien in WebGL
   getting-started-in-webgl-custom-geometry: Erstellen von benutzerdefinierten Geometrien in WebGL
   getting-started-in-webgl-custom-geometry-p1x1: >-
     p5.js hat eine Reihe von Grundformen, wie <a class="code">box()</a> oder <a class="code">sphere()</a>, aber p5.js
@@ -1669,7 +1669,7 @@ community:
   output9-1: ' Ein Zine geleitet von Olivia Ross.'
   output10: >-
     Ein komplettes Überarbeiten der p5.js-Webseite für Zugänglichkeit. Einschließlich Updates für
-    Bildschirmleser-Zugänglichkeit und Verbesserungen der Start-, Download-, Einstiegs- und Referenzseiten. Mit Beiträgen von Claire Kearney-Volpe,
+    Screenreader-Zugänglichkeit und Verbesserungen der Start-, Download-, Einstiegs- und Referenzseiten. Mit Beiträgen von Claire Kearney-Volpe,
     Sina Bahram, Kate Hollenbach, Olivia Ross, Luis Morales-Navarro, Lauren
     McCarthy und Evelyn Masso.
   output11: >-
