@@ -1324,7 +1324,7 @@ libraries:
     Geometrie mit p5.js.
   CO2Budget.js: >-
     Diese Bibliothek eröffnet die Idee des CO2-Countdowns kreativen Gemeinschaften von
-    Codern, Designern und Künstlern, die mit p5*js und JavaScript verbunden sind.
+    Codenden, Designer/innen und Kunstschaffenden, die mit p5*js und JavaScript verbunden sind.
   p5.createloop: Erstelle Animationsloops mit Rauschen und GIF-Exporten in einer einzigen Codezeile.
   p5.dimensions: >-
     p5.dimensions erweitert die Vektorfunktionen von p5.js, um in beliebiger Anzahl von
@@ -1507,13 +1507,12 @@ libraries:
     reiche dieses Formular ein!
 community:
   community-title: Community
-  community-statement-title: p5.js Gemeinschaftserklärung
+  community-statement-title: p5.js Community Erklärung
   community-statement1: >-
     p5.js ist eine Gemeinschaft, die daran interessiert ist, die Schaffung von Kunst und Design
     mit Technologie zu erkunden.
   community-statement2: >-
-    Wir sind eine Gemeinschaft von Personen und solidarisieren uns mit Menschen jeder Geschlechts-
-    identität und -ausdruck, sexueller Orientierung, Rasse, Ethnizität, Sprache, Neuro-Typ, Größe, Fähigkeit, Klasse, Religion, Kultur, Subkultur, politischer Meinung, Alter, Fertigkeitslevel, Beruf und Hintergrund. Wir erkennen an, dass nicht jeder die Zeit, finanziellen Mittel oder Kapazität hat, aktiv teilzunehmen, jedoch erkennen und ermutigen wir Beteiligung aller Art. Wir erleichtern und fördern Zugang und Ermächtigung. Wir sind alle Lernende.
+    Wir sind eine Gemeinschaft von Personen und solidarisieren uns mit Menschen jeder Geschlechtsidentität und -ausdruck, sexueller Orientierung, Rasse, Ethnizität, Sprache, Neurotyp, Größe, Fähigkeit, Klasse, Religion, Kultur, Subkultur, politischer Meinung, Alter, Fähigkeitslevel, Beruf und Hintergrund. Wir erkennen an, dass nicht jeder die Zeit, finanziellen Mittel oder Kapazität hat, aktiv teilzunehmen, jedoch erkennen und ermutigen wir Beteiligung aller Art. Wir erleichtern und fördern Zugang und Ermächtigung. Wir sind alle Lernende.
   community-statement3: >-
     Wir mögen diese Hashtags: #noCodeSnobs (weil wir Gemeinschaft über Effizienz stellen), #newKidLove (weil wir alle irgendwo angefangen haben), #unassumeCore (weil wir kein Wissen voraussetzen), und #BlackLivesMatter (weil natürlich).
   in-practice-title: 'In der Praxis:'
@@ -1558,20 +1557,19 @@ community:
   document4: ' Hinzufügen von Dokumentation'
   document5: ', und Erstellen von Tutorials wird benötigt.'
   teach-title: Lehren.
-  teach1: ' Halte einen Workshop, einen Kurs, bringe es einem Freund oder einem Mitarbeiter bei! Tagge @p5xjs auf Twitter und wir werden unser Bestes tun, um zu teilen, was du machst.'
+  teach1: ' Halte einen Workshop, einen Kurs, bringe es einem Freund, einer Freundin oder einem Mitarbeitenden bei! Tagge @p5xjs auf Twitter und wir werden unser Bestes tun, um zu teilen, was du machst.'
   create-title: Kreieren.
-  create1: ' p5.js sucht nach Designern, Künstlern, Codern, Programmierern, um Eure kreativen und erstaunlichen Werke auf der Startseite zu präsentieren und andere Menschen zu inspirieren. Reiche deine Arbeit ein bei '
+  create1: ' p5.js sucht nach Designer/innen, Kunstschaffenden, Codenden, Programmier/innen, um eure kreativen und erstaunlichen Werke auf der Startseite zu präsentieren und andere Menschen zu inspirieren. Reiche deine Arbeit ein bei '
   create2: hello@p5js.org
   create3: .
   donate-title: Spenden.
-  donate1: ' p5.js ist kostenlos und Open Source und wurde von Künstlern gemacht. Unterstütze die Entwicklung von p5.js durch eine Spende an die '
+  donate1: ' p5.js ist kostenlos und Open Source und wurde von Kunstschaffenden gemacht. Unterstütze die Entwicklung von p5.js durch eine Spende an die '
   donate2: Processing Foundation
   donate3: .
   contributors-conference-title: p5.js Mitwirkendenkonferenz
   contributors-conference1: 'Obwohl die meiste Arbeit online stattfindet, treffen wir uns auch IRL. Wir hatten zwei Mitwirkendenkonferenzen an der '
   contributors-conference2: >-
-    Carnegie Mellon University in Pittsburgh, PA. Künstler, Designer,
-    Entwickler, Pädagogen und versammelten sich, um das p5.js Projekt voranzutreiben.
+    Carnegie Mellon University in Pittsburgh, PA. Kunstschaffende, Designer/innen, Entwickler/innen, Pädagogen/innen und versammelten sich, um das p5.js Projekt voranzutreiben.
   participants-title: Teilnehmende
   support-title: Unterstützung
   support1: Unsere Mitwirkendenkonferenz fand an der
@@ -1754,7 +1752,7 @@ community:
   2022-p5js-access-day-asl-support: Live ASL-Unterstützung
 books:
   books-title: Bücher
-  book-1-title: Einstieg in p5.js
+  book-1-title: Getting Started with p5.js
   book-1-authors: 'Lauren McCarthy, Casey Reas und Ben Fry. Illustrationen von Taeyoon Choi.'
   book-1-publisher: 'Veröffentlicht Oktober 2015, Maker Media. '
   book-1-pages: '246 Seiten. '
@@ -1765,7 +1763,7 @@ books:
     mit JavaScript und HTML.
   book-1-order-a: Druck/E-Book bei O’Reilly bestellen
   book-1-order-b: Bei Amazon bestellen
-  book-2-title: Einführung in p5.js (Spanische Ausgabe)
+  book-2-title: Getting Started with p5.js (Spanische Ausgabe)
   book-2-authors: >-
     Lauren McCarthy, Casey Reas und Ben Fry. Übersetzt von Aarón
     Montoya-Moraga. Illustrationen von Taeyoon Choi.
@@ -1784,7 +1782,7 @@ books:
   book-3-pages: '255 Seiten. '
   book-3-type: Taschenbuch.
   book-3-description: >-
-    Durch die Nutzung einfacher Sprachen wie JavaScript in p5.js können Künstler und Macher
+    Durch die Nutzung einfacher Sprachen wie JavaScript in p5.js können Kunstschaffende und Macher
     alles von interaktiver Typografie und Textilien bis zu 3D-gedruckten
     Möbeln bis zu komplexen und eleganten Infografiken erstellen.
   book-3-order-a: Bei Princeton Architectural Press bestellen
@@ -1795,12 +1793,12 @@ books:
   book-4-pages: '256 Seiten. '
   book-4-type: Hardcover.
   book-4-description: >-
-    Durch die Nutzung einfacher Sprachen wie JavaScript in p5.js können Künstler und Macher
+    Durch die Nutzung einfacher Sprachen wie JavaScript in p5.js können Kunstschaffenden und Macher
     alles von interaktiver Typografie und Textilien bis zu 3D-gedruckten
     Möbeln bis zu komplexen und eleganten Infografiken erstellen.
   book-4-order-a: Bei Verlag Hermann Schmidt bestellen
   book-4-order-b: Bei Amazon bestellen
-  book-5-title: JavaScript lernen mit p5.js
+  book-5-title: Learn JavaScript with p5.js
   book-5-authors: Engin Arslan.
   book-5-publisher: 'Veröffentlicht 2018, Apress. '
   book-5-pages: '217 Seiten. '
@@ -1813,7 +1811,7 @@ books:
     Roboter oder generative Kunst.
   book-5-order-a: Bei Apress bestellen
   book-5-order-b: Bei Amazon bestellen
-  book-6-title: 'Ästhetische Programmierung: Ein Handbuch der Softwarestudien'
+  book-6-title: "Aesthetic Programming: A Handbook of Software Studies"
   book-6-authors: 'Winnie Soon, Geoff Cox. '
   book-6-publisher: 'Veröffentlicht  2020, Open Humanities Press. '
   book-6-pages: '298 Seiten. '
@@ -2206,7 +2204,7 @@ teach:
   teach-case9-content1-1: '15/09/2020 ~ 14/10/2020 jeden Mittwoch 18:30-21:00 Uhr)'
   teach-case9-content2: Ungefähr 10 Personen. Die Mehrheit Frauen.
   teach-case9-content3: ' Grundlegend,  Mittel'
-  teach-case9-content4: Der Kurs richtet sich an Künstler, die beginnen möchten, aktuelle technologische Werkzeuge für die Entwicklung ihrer Werke zu nutzen. Er kann auch von denen genutzt werden, die mit der Programmierung von Computern durch eine einfache, visuelle, zugängliche und unterhaltsame Programmierumgebung beginnen möchten.
+  teach-case9-content4: Der Kurs richtet sich an Kunstschaffende, die beginnen möchten, aktuelle technologische Werkzeuge für die Entwicklung ihrer Werke zu nutzen. Er kann auch von denen genutzt werden, die mit der Programmierung von Computern durch eine einfache, visuelle, zugängliche und unterhaltsame Programmierumgebung beginnen möchten.
   teach-case9-content5: 'p5.js Web-Editor. Online über die Plattform ZOOM und Material auf Moodle hochgeladen'
   teach-case10-title: Malen mit Code
   teach-case10-lead-name: Andreas Refsgaard
@@ -2214,7 +2212,7 @@ teach:
   teach-case10-content1-1: '22/02/2020'
   teach-case10-content2: Teilnehmer waren Leute . Eine breite Palette von Personen aus
   teach-case10-content3: ' Mittel'
-  teach-case10-content4: Kreative, Designer, Künstler und andere Personen, die normalerweise keinen Code verwenden, in p5.js einführen
+  teach-case10-content4: Kreative, Designer/innen, Kunstschaffenden und andere Personen, die normalerweise keinen Code verwenden, in p5.js einführen
   teach-case10-content5: 'Website, p5.js Editor'
   teach-case11-title: Signing Coders
   teach-case11-lead-name: Taeyoon Choi
@@ -2230,7 +2228,7 @@ teach:
   teach-case12-image-alt: Foto aus dem Unterricht
   teach-case12-content1: 'Women’s Center for Creative Work, Los Angeles, CA, US'
   teach-case12-content1-1: '19/10/2019 ~ 02/11/2019, jeden Samstag 15-18 Uhr'
-  teach-case12-content2: 15 Frauen und nicht-binäre Künstler, Designer, Maker, Programmierer. 
+  teach-case12-content2: 15 Frauen und nicht-binäre Kunstschaffenden, Designer/innen, Maker, Programmierer/innen. 
   teach-case12-content3: ' Grundlegend'
   teach-case12-content4: Im Verlauf von drei Workshops werden wir Muster mit p5.js, einer Open-Source-Grafikbibliothek, zeichnen und erstellen; wir werden computergestützte Konzepte lernen und anwenden, um Muster zu transformieren und schließlich ein Webmuster mit elektronischen Mikrocontrollern zum Leben erwecken.
   teach-case12-content5: 'Materialien: Folien, p5.js Web-Editor, Stift und Papier, um Muster zu zeichnen, physisches Webmusterwerkzeug Methoden: Kleingruppensitzung'
@@ -2297,7 +2295,7 @@ teach:
     PlusCode Festival und eine Person vor Ort umfasste.
   teach-case16-content3: 'Elementar, Mittelstufe, Fortgeschritten'
   teach-case16-content4: >-
-    Einführung für Anfänger und Künstler in die grafische Webprogrammierung und Open
+    Einführung für Anfänger/innen und Kunstschaffenden in die grafische Webprogrammierung und Open
     Source, unter Verwendung von p5.js, auf Spanisch :)
   teach-case16-content5: 'Ich habe das Material aus diesem '
   teach-case16-content5-1: GitHub-Repo
@@ -2308,15 +2306,15 @@ teach:
   teach-case17-lead-name: Adam Herst
   teach-case17-speech: >-
     Meine größte Unsicherheit bei der Entwicklung des Workshops war, ob er
-    Kunst an Programmierer vermitteln oder Programmieren an Künstler lehren sollte.
+    Kunst an Programmierer/innen vermitteln oder Programmieren an Kunstschaffenden lehren sollte.
   teach-case17-content1: Inter/Access
-  teach-case17-content1-1: ' (von Künstlern geführtes Zentrum), Toronto, Ontario, Kanada'
+  teach-case17-content1-1: ' (von Kunstschaffenden geführtes Zentrum), Toronto, Ontario, Kanada'
   teach-case17-content1-2: Präsenz mit einem eigenständigen Arbeitsbuch für die Fernarbeit
   teach-case17-content1-3: ' 12. Februar 2020, 19-21 Uhr'
-  teach-case17-content2: 15 Künstler
+  teach-case17-content2: 15 Kunstschaffende
   teach-case17-content3: Elementar
   teach-case17-content4: >-
-    p5.js Künstlern mit wenig oder keiner Programmiererfahrung vorstellen und
+    p5.js Kunstschaffenden mit wenig oder keiner Programmiererfahrung vorstellen und
     eine Möglichkeit aufzeigen, wie eine analoge Praxis in eine digitale Form übertragen werden kann.
   teach-case17-content5: >-
     Ein gedrucktes Arbeitsbuch mit Aktivitäten, die den p5.js Web-Editor nutzen, um
@@ -2399,7 +2397,7 @@ teach:
   teach-case23-image-alt: Dieses Bild ist in zwei Teile geteilt. Der linke Teil zeigt eine Gruppe von 15 Frauen, die auf Stühlen mit ihren Laptops sitzen und einem Präsentator zuhören, der einen Code auf einer projizierten Leinwand erklärt. Der rechte Teil des Bildes zeigt eine Person, die das Weben mit einem physischen Muster und einem Webwerkzeug lernt.
   teach-case23-content1: ' Womens Center for Creative Work (WCCW), Los Angeles, CA, USA'
   teach-case23-content1-1: ' 19. Oktober - 2. November 2019, jeden Samstag 15-18 Uhr'
-  teach-case23-content2: '15 Frauen und nicht-binäre Künstler, Designer, Macher, Programmierer. '
+  teach-case23-content2: '15 Frauen und nicht-binäre Kunstschaffenden, Designer/innen, Macher, Programmierer/innen. '
   teach-case23-content3: Elementar
   teach-case23-content4: >-
     Im Laufe von drei Workshops werden wir Muster mit
