@@ -131,7 +131,7 @@
       ],
       "returns": "Zahl: der Alpha-Wert.",
       "params": {
-        "color": "p5.Color|Number[]|String: <a href=\"#/p5.Color\">p5.Color</a>-Objekt, Array von  Farbkomponenten oder CSS-Farbstring."
+        "color": "p5.Color|Number[]|String: <a href=\"#/p5.Color\">p5.Color</a>-Objekt, Array von Farbkomponenten oder CSS-Farbstring."
       }
     },
     "blue": {
